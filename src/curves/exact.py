@@ -50,6 +50,20 @@ def fraction_decimal(value: Fraction, digits: int = 20) -> str:
         return format(Decimal(value.numerator) / Decimal(value.denominator), f".{int(digits)}f")
 
 
+def _decimal_bound(value: Fraction, *, upper: bool, digits: int = 20) -> str:
+    """Round a rational outwards using integer arithmetic only."""
+    scale = 10**digits
+    quotient = -((-value.numerator*scale)//value.denominator) if upper else (value.numerator*scale)//value.denominator
+    sign = "-" if quotient < 0 else ""
+    whole, fractional = divmod(abs(quotient), scale)
+    return f"{sign}{whole}.{fractional:0{digits}d}"
+
+
+def _interval_record(lower: Fraction, upper: Fraction) -> tuple[list[str], list[dict[str, str]]]:
+    return ([_decimal_bound(lower, upper=False), _decimal_bound(upper, upper=True)],
+            [{"numerator":str(x.numerator), "denominator":str(x.denominator)} for x in (lower,upper)])
+
+
 def exact_circle_control(*, radius: Fraction | int | float = 1, terms: int = 12) -> dict[str, Any]:
     """Exact positive-control record for a circle of the given radius."""
 
@@ -58,15 +72,21 @@ def exact_circle_control(*, radius: Fraction | int | float = 1, terms: int = 12)
         raise ValueError("radius must be positive")
     pi_lo, pi_hi = machin_pi_interval(terms)
     length_lo, length_hi = 2 * radius_fraction * pi_lo, 2 * radius_fraction * pi_hi
+    lengths, lengths_exact = _interval_record(length_lo,length_hi)
+    ropes, ropes_exact = _interval_record(2*pi_lo,2*pi_hi)
+    pis, pis_exact = _interval_record(pi_lo,pi_hi)
     return {
         "construction": "unit circle" if radius_fraction == 1 else "circle",
         "normalization": "radius",
         "radius": str(radius_fraction),
         "thickness": str(radius_fraction),
-        "length_interval": [fraction_decimal(length_lo), fraction_decimal(length_hi)],
-        "ropelength_interval": [fraction_decimal(2 * pi_lo), fraction_decimal(2 * pi_hi)],
+        "length_interval": lengths,
+        "length_rational_endpoints": lengths_exact,
+        "ropelength_interval": ropes,
+        "ropelength_rational_endpoints": ropes_exact,
         "ropelength_exact_expression": "2*pi",
-        "pi_interval": [fraction_decimal(pi_lo), fraction_decimal(pi_hi)],
+        "pi_interval": pis,
+        "pi_rational_endpoints": pis_exact,
         "terms": int(terms),
         "status": "analytic_control; rational arithmetic for pi only",
     }
@@ -81,15 +101,21 @@ def exact_hopf_control(*, circle_radius: Fraction | int | float = 2, terms: int 
     pi_lo, pi_hi = machin_pi_interval(terms)
     length_lo, length_hi = 4 * radius_fraction * pi_lo, 4 * radius_fraction * pi_hi
     thickness = radius_fraction / 2
+    lengths, lengths_exact = _interval_record(length_lo,length_hi)
+    ropes, ropes_exact = _interval_record(8*pi_lo,8*pi_hi)
+    pis, pis_exact = _interval_record(pi_lo,pi_hi)
     return {
         "construction": "round Hopf link",
         "normalization": "radius",
         "circle_radius": str(radius_fraction),
         "thickness": str(thickness),
-        "length_interval": [fraction_decimal(length_lo), fraction_decimal(length_hi)],
-        "ropelength_interval": [fraction_decimal(16 * pi_lo), fraction_decimal(16 * pi_hi)],
-        "ropelength_exact_expression": "16*pi",
-        "pi_interval": [fraction_decimal(pi_lo), fraction_decimal(pi_hi)],
+        "length_interval": lengths,
+        "length_rational_endpoints": lengths_exact,
+        "ropelength_interval": ropes,
+        "ropelength_rational_endpoints": ropes_exact,
+        "ropelength_exact_expression": "8*pi",
+        "pi_interval": pis,
+        "pi_rational_endpoints": pis_exact,
         "linking_number": 1,
         "terms": int(terms),
         "status": "analytic upper-control; rational arithmetic for pi only",

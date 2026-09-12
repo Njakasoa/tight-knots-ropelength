@@ -1,0 +1,82 @@
+{
+  "command": "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python experiments/discover_phase_packing.py --output-dir results/discovery_phase_20260913_v1",
+  "created_utc": "2026-09-12T22:32:31Z",
+  "git": {
+    "commit": "2235217a5e6f1a54afbe38029218faa65fea527d",
+    "dirty": true
+  },
+  "m1_gate_status": "PASS",
+  "manifest_version": 1,
+  "observed_output": "summary_by_population.json",
+  "outputs_sha256": {
+    "pair_T128_a1_2.json": "d0ac64f4c8658994a277df0a229c071b195a12ba7fce5f4b37a65971efcede48",
+    "pair_T128_a1_4.json": "c7c548c7fd915dee48da56997e6bec58151a403110b7691e2f3f6ea1e0411c15",
+    "pair_T128_a3_4.json": "aee0a75948b2778b21875f8ba1e3131315091aa2e3f08812fd443e97ec629a91",
+    "pair_T128_a9_10.json": "4958741d79106639c7cc3f0cb32f067e59fec7a67bf588001a62103d909184dc",
+    "pair_T32_a1_2.json": "4a49aa68626ab170db68322d826626860fbfc5cefb3708eae2a8a5356c7ad7b1",
+    "pair_T32_a1_4.json": "6b2dd22942603d9a9d6de93660c55e2f3a7b877d9999cb45591ca25f714ecf7b",
+    "pair_T32_a3_4.json": "3aa2c31ba5920651c7a64fb459bdd2d59ec0c29676bf3caff942b0edc7308056",
+    "pair_T32_a9_10.json": "e682101c24dd80d75920b9b3f93e6adf0321fef19f3bf24978973e24fec0760e",
+    "pair_T512_a1_2.json": "ff06e797f0a1ac1ce82efc47b0f1342848d31683bbf33208f9a450da9f928ec5",
+    "pair_T512_a1_4.json": "c9a84b95fe72663e8fec536afa8f91a63c01caf9805612f71de6c97ebb8190aa",
+    "pair_T512_a3_4.json": "2b6224af3e2abde1684fce44453b631b4362ec16e6d0e92fa519887c81ea8aee",
+    "pair_T512_a9_10.json": "09a9c1958d385df335ecd71aa9e23ac643a991ed4e46c90bd1c141c4be098ba8",
+    "pair_T8_a1_2.json": "d7e9c39a8c8993acc6cfd640debd1893d0510339d0530c9751c22f637153ec74",
+    "pair_T8_a1_4.json": "387368dfa0ce296d71ba4afc847c5241b29f00b92d3b5e4745da4267c151daf8",
+    "pair_T8_a3_4.json": "bfc1e15a294d83c252c0d502d5acdf23a932a98edcae7e39078244bcd1392014",
+    "pair_T8_a9_10.json": "4767481299f2726d28ba5659cd8f80ae6b4a1551709db172f8324e61389e2f6d",
+    "search.json": "6ee72a33e11e8fa600e70ed1c0d8e7f4ad0daf6f49d268313aa4768ca557b6eb",
+    "summary_by_population.json": "5aaedfe16516d360472516a8b7b676b360d3fb5ca23e1fd774fc91e3d8409dcb"
+  },
+  "parameters": {
+    "T": [
+      8,
+      32,
+      128,
+      512
+    ],
+    "a_fractions": [
+      "1_4",
+      "1_2",
+      "3_4",
+      "9_10"
+    ],
+    "certify": true,
+    "de_maxiter": 80,
+    "de_popsize": 8,
+    "delta_lower": 1.001,
+    "delta_upper": 2.2,
+    "grid_points": 10001,
+    "output_digits": 50,
+    "precision_bits": 224,
+    "seed": 7013,
+    "uniform_seed_count": 9
+  },
+  "run_id": "discovery_phase_20260913_v1",
+  "runtime": {
+    "arb_context_precision_at_metadata": 53,
+    "arb_precision_bits": 224,
+    "machine": "x86_64",
+    "packages": {
+      "numpy": "2.5.3",
+      "python-flint": "0.9.0",
+      "scipy": "1.18.1"
+    },
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "python_implementation": "CPython"
+  },
+  "scientific_status": "Machine search of a conservative adjacent-shell lower bound. No full-bundle certificate, closure/isotopy proof, ropelength result, global optimum, or publication novelty claim.",
+  "seeds": null,
+  "source_hashes": {
+    "benchmarks/M1_REVIEW.md": "764dc60aae89d64522669ba06606a5cdf536c2b6b68c2b5e9532a3bb1a7da3f8",
+    "experiments/discover_phase_packing.py": "8db6691f20287b3214b52e992d5ae94c68c9d13fc62b1d7b4708fcab08800537",
+    "proofs/ADVERSARIAL_REVIEW_002.md": "a0959fd8f0064d6e28aee36caa762e31f4e6952ce770895d6058c097331cb3e6",
+    "proofs/THEOREM_002.md": "75560464afe78248a42263d668e0b1193bff762357e3546eb30bf4ca33ca2c02",
+    "src/certification/arb_backend.py": "05bcc541d44e29e06f56dc40ebd09e790155851e37f937b187c691bfc57a21ce",
+    "src/certification/provenance.py": "dbdc12295426b995715fa2cad7235a32e8d78d515961dc3d98f26fe00c0ed66c",
+    "src/certification/shell_family.py": "9dc44eee3eec1224161c1caa036ca3c3475a261dcf7e793eaee55aa30ae9d7af",
+    "src/discovery/phase_search.py": "d643bcd22336d2bc6050b2db96cbf893729048140e2bf364f8a9636e150b4d5d",
+    "tests/test_discovery.py": "f97c3ed8b5061d4e25a77dbb430e00a060bb74b632e8459815ab88f5c3785779"
+  }
+}

@@ -37,8 +37,8 @@ T(Q,Q) toroidal bundles. They have a controlled braid description, an explicit
 length integral and a reported lower/upper coefficient gap about 6.60 to 11.68.
 This is more tractable initially than a new universal lower coefficient or
 proving the exact trefoil minimum. The current independent proof candidate
-releases the common inner-radius constraint; see CLAIM-0001. It remains
-unreviewed and is not added to the established results table.
+releases the common inner-radius constraint; see CLAIM-0001. Its exact geometry has passed independent review; implementation and novelty
+remain under review, so it is not added to the established literature table.
 
 Other torus families introduce closure/puncture multiplicity issues. Alternating
 T(2,q) families have linear rather than 3/4 asymptotic scaling, so their normalized
@@ -58,3 +58,21 @@ Expansion of the exact p=1 ceiling formula gives
 `B=2pi+sqrt(2pi*(7sqrt(3)-12))≈7.1671`; see
 proofs/WEGNER_EXPANSION_AUDIT.md. Use the original expression for finite Q,
 because the asymptotic remainder has not been assigned a sign here.
+
+## Laboratory results under separate validation
+
+Theorems 001 and 002 now have independent mathematical review passes. They give
+exact-integral limsup upper bounds for T(Q,Q), first using shell-specific
+population constraints, then equal-population staggered blocks. Their diagnostic
+coefficients are about 11.4050 and 10.6136, respectively. Executable Arb endpoints now give alpha2 <10.614; the certificate source and
+finite generator still need an independent Astra implementation review. Novelty
+remains provisional.
+These are not inserted as established literature records.
+
+The second construction would reduce the family asymptotic lower/upper gap if its
+remaining checks pass. It does **not** improve a universal lower coefficient.
+Nor should it be called the best universal obstruction: isolated numerical knots
+with reported ratios around 10.02 already lie below this family coefficient, and
+those are a different comparison with their own certification requirements.
+For a physical radius r, the result supplies an existence upper bound r*L for
+contour length, whereas a rigorous lower bound supplies a necessary minimum.

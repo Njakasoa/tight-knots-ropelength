@@ -1,0 +1,120 @@
+{
+  "utc": "2026-09-12T21:46:49.226638+00:00",
+  "sources": [
+    {
+      "name": "tsnnls",
+      "commit": "7cd10b01f7ba13d1fc2a46c68dec55103940db90",
+      "remote": "https://github.com/designbynumbers/tsnnls.git"
+    },
+    {
+      "name": "ridgerunner",
+      "commit": "4ee3199e737dcd3580d8bfc5deb031cd53f5f554",
+      "remote": "https://github.com/designbynumbers/ridgerunner.git"
+    },
+    {
+      "name": "plcurve",
+      "commit": "28c1ab74c02baab71ac77cd851e9163875c137a3",
+      "remote": "https://github.com/designbynumbers/plcurve.git"
+    }
+  ],
+  "toolchain_packages": [
+    {
+      "file": "autoconf_2.71-3_all.deb",
+      "sha256": "cc3f9f7a1e576173fb59c36652c0a67c6426feae752b352404ba92dfcb1b26c9",
+      "bytes": 338946
+    },
+    {
+      "file": "automake_1%3a1.16.5-1.3ubuntu1_all.deb",
+      "sha256": "5ae9a98e73545002cd891f028859941af2a3c760cb6190e635c7ef36953912de",
+      "bytes": 558172
+    },
+    {
+      "file": "gfortran-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1_amd64.deb",
+      "sha256": "82382cb8506616ef7df5b9927694bfaacf97bdfb317b1f995453cc17c96aa071",
+      "bytes": 11408640
+    },
+    {
+      "file": "gfortran-13_13.3.0-6ubuntu2~24.04.1_amd64.deb",
+      "sha256": "23670555cfd600f46307adddedd65eba8fd21928c52a69d16a2e69755ae5c462",
+      "bytes": 13914
+    },
+    {
+      "file": "libgfortran-13-dev_13.3.0-6ubuntu2~24.04.1_amd64.deb",
+      "sha256": "ce0fdf0d9e7eadb33947ca7cdd0fc3477b570603cb721b108c96ebdfbb7cd80a",
+      "bytes": 928110
+    },
+    {
+      "file": "liblapacke-dev_3.12.0-3build1.1_amd64.deb",
+      "sha256": "2151b5104ec0aba3cc8864efda797bdb16a4faa1f7784db64b531631ee521a59",
+      "bytes": 344164
+    },
+    {
+      "file": "liblapacke_3.12.0-3build1.1_amd64.deb",
+      "sha256": "c74c26c0d7f33e554e76ad03c8b65230a67db2548532e4d09fde9678c55b2fac",
+      "bytes": 412456
+    },
+    {
+      "file": "libncurses-dev_6.4+20240113-1ubuntu2.2_amd64.deb",
+      "sha256": "2c32ce182e90e6636ddb037ba2810cace9e1f076b13fac89034277d8ba943c38",
+      "bytes": 384098
+    },
+    {
+      "file": "libncurses6_6.4+20240113-1ubuntu2.2_amd64.deb",
+      "sha256": "59e8527dfd14473393960bfb7c69566f1ad9d576423421dcb8b8dcdbb3e7fca1",
+      "bytes": 111902
+    },
+    {
+      "file": "libncursesw6_6.4+20240113-1ubuntu2.2_amd64.deb",
+      "sha256": "579c9488755d1ddd70f66480cafd2f68776f68314d15d9cf4b5449d0de0fc968",
+      "bytes": 147816
+    },
+    {
+      "file": "libopenblas-pthread-dev_0.3.26+ds-1ubuntu0.1_amd64.deb",
+      "sha256": "01ae4d0433927e4109ae614c047f9df55dc3c8515e6369423f36f5e18d59101e",
+      "bytes": 4898570
+    },
+    {
+      "file": "libopenblas0-pthread_0.3.26+ds-1ubuntu0.1_amd64.deb",
+      "sha256": "7dc3b4384c02aecb87eb8b70fa26c5843a08af242f4638aa4b36922bdc4f5b04",
+      "bytes": 7183128
+    },
+    {
+      "file": "libpkgconf3_1.8.1-2build1_amd64.deb",
+      "sha256": "fc3a57e8f931ec06cb7c51acc56878f1fec247ff02a7adcab26905c2faeb2792",
+      "bytes": 30652
+    },
+    {
+      "file": "libtinfo6_6.4+20240113-1ubuntu2.2_amd64.deb",
+      "sha256": "b67a6df2bdab61d273eabebd208bb6a3fb12618a390a067e1ee305a409ff03d9",
+      "bytes": 108086
+    },
+    {
+      "file": "libtmglib3_3.12.0-3build1.1_amd64.deb",
+      "sha256": "3763470b5c56ade4ebf95310a201648aded35426ac2487ef8bffcd5735918200",
+      "bytes": 141498
+    },
+    {
+      "file": "libtool_2.4.7-7build1_all.deb",
+      "sha256": "9d1d707179675d38e024bb13613b1d99e0d33fa6c45e5f3bcba19340781781d3",
+      "bytes": 166404
+    },
+    {
+      "file": "m4_1.4.19-4build1_amd64.deb",
+      "sha256": "30ea715845a1863abd55d11e47ab91513130bf347852d4cdeae69e9d98fa795c",
+      "bytes": 243640
+    },
+    {
+      "file": "pkgconf-bin_1.8.1-2build1_amd64.deb",
+      "sha256": "7a812f05ee1610154b433e2ad54f6e4163fcbb306b9fb31afe959afb2e5e1545",
+      "bytes": 20730
+    },
+    {
+      "file": "pkgconf_1.8.1-2build1_amd64.deb",
+      "sha256": "834a58031069d97d7cfb8b2f5bfd5effc69cecf7f30cc362071875f1f8dc1828",
+      "bytes": 16790
+    }
+  ],
+  "build_script": "scripts/software/build_current.py",
+  "runtime_wrapper": "scripts/software/ridgerunner-local",
+  "tsnnls_patch": "replace non-POSIX test == with quoted POSIX = in eight test drivers; no numerical code or tolerance change"
+}

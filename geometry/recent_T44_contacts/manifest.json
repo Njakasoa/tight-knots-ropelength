@@ -1,0 +1,9 @@
+{
+  "inspection": "results/recent_T44_20260912T220613Z/inspection.json",
+  "inspection_sha256": "4d32afd8432d31a4690dfc8663a4a44c54d0e41f6301c7ffb6c3c68e81e33041",
+  "script_sha256": "1569e73cf243bab3c4559ddfebdf77f6bf640dbf3522881cb0b06f1c3afb44af",
+  "outputs": {
+    "contacts.pdf": "7b3fc11c36af7ac597ddafc4efbe868f2af5a6f45679de6443405a81975eda53",
+    "contacts.png": "02ea0488a1a5f83f720c3f4b44c20cf811b500489885a7ddbb012bc517f481e9"
+  }
+}

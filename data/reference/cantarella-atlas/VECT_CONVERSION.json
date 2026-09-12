@@ -1,0 +1,66 @@
+[
+  {
+    "input": "data/reference/cantarella-atlas/links/prime/2-9/2_2_1.tsv",
+    "output": "data/reference/cantarella-atlas/links/prime/2-9/2_2_1.vect",
+    "components": 2,
+    "vertices": [
+      101,
+      101
+    ],
+    "sha256": "777fa8aa69ce25cdbb610c58d971a1979c93cd9ad095fa0031e0ffa9daf60fe8"
+  },
+  {
+    "input": "data/reference/cantarella-atlas/knots/prime/3-10/5_1.tsv",
+    "output": "data/reference/cantarella-atlas/knots/prime/3-10/5_1.vect",
+    "components": 1,
+    "vertices": [
+      392
+    ],
+    "sha256": "4eece0d88d24d83709b5bc1782a5597b46907b8a5fc2615bfe4e59fa7067acbf"
+  },
+  {
+    "input": "data/reference/cantarella-atlas/knots/prime/3-10/3_1.tsv",
+    "output": "data/reference/cantarella-atlas/knots/prime/3-10/3_1.vect",
+    "components": 1,
+    "vertices": [
+      2400
+    ],
+    "sha256": "892a10e01a90b3491c2c7f6c7a5e70f3b5f93293c06083240c13136fa11b1482"
+  },
+  {
+    "input": "data/reference/cantarella-atlas/knots/prime/3-10/4_1.tsv",
+    "output": "data/reference/cantarella-atlas/knots/prime/3-10/4_1.vect",
+    "components": 1,
+    "vertices": [
+      400
+    ],
+    "sha256": "76f1a91607f2ce3251fcb5a0b3d50e85f43b113a8b63bbfd8b56d44b963b38d5"
+  },
+  {
+    "input": "data/reference/cantarella-atlas/knots/prime/3-10/6_1.tsv",
+    "output": "data/reference/cantarella-atlas/knots/prime/3-10/6_1.vect",
+    "components": 1,
+    "vertices": [
+      480
+    ],
+    "sha256": "dd8c66edd9d0c02c4cb88a2bc7880e5f463dc767fa61553bfc027f394e3409d3"
+  },
+  {
+    "input": "data/reference/cantarella-atlas/knots/prime/3-10/8_19.tsv",
+    "output": "data/reference/cantarella-atlas/knots/prime/3-10/8_19.vect",
+    "components": 1,
+    "vertices": [
+      489
+    ],
+    "sha256": "0bb6f30b4327905702ab4bc0719352fbb664a76a71065f144fcbcb12dca9dc22"
+  },
+  {
+    "input": "data/reference/cantarella-atlas/knots/prime/3-10/10_124.tsv",
+    "output": "data/reference/cantarella-atlas/knots/prime/3-10/10_124.vect",
+    "components": 1,
+    "vertices": [
+      576
+    ],
+    "sha256": "91bd89ef204449806cc493548411de87498d7165400961c18e7c5ff2aea59cdd"
+  }
+]

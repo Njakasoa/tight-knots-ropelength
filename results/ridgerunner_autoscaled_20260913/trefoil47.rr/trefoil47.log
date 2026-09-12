@@ -1,0 +1,25 @@
+Ridgerunner logfile.
+Ridgerunner 2.3.1
+Built Sep 13 2026, 00:43:43.
+Run began: Sun Sep 13 00:46:06 2026
+Initial filename: trefoil47.vect.
+Command line: /home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/vendor/local-current/bin/ridgerunner trefoil47.vect -a -s 5000 --StopTime=2 --NoPNGOutput --NoOutputFiles --NoLsqrLog 
+Stopping criteria: Max # of steps 5000, Min residual 0, Stop20 -1000, stopTime 120 (sec).
+Process ID: 8.
+------------------------------------------------
+Seeded from dev/random with seed 1659306896.
+Loaded 1 component, 47 vertex plCurve from trefoil47.vect.
+Saved copy of trefoil47.vect to ./trefoil47.rr/trefoil47.vect.
+Curve has thickness 1.54794. Scaling to thickness 0.501.
+Scaled curve has thickness 0.501.
+Rerez'd, autoscaled, eq'd file written to ./trefoil47.rr/trefoil47.atstart.vect.
+ridgerunner: Starting run. Will stop if 
+               step number >= 5000 
+               residual < 0 
+               ropelength decrease over last 20 steps < -1000.
+
+ridgerunner: run complete. Terminated because 
+ridgerunner: reached maximum number of steps (5000).
+--------------------------------------------------
+Run ended: Sun Sep 13 00:46:12 2026
+.

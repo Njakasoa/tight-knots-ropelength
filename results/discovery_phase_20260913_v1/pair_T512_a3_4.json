@@ -1,0 +1,846 @@
+{
+  "arb_certificate": {
+    "attempts": [
+      {
+        "certificate": {
+          "capacity_a": {
+            "arb": "[2068.4782215072385526060492991706083379963679679063 +/- 4.06e-47]",
+            "lower": {
+              "decimal": "2068.4782215072385526060492991706083379963679679063",
+              "denominator": "3291009114642412084309938365114701009965471731267159726697218048",
+              "numerator": "6807380680419648299226856193017898336315517876526139114743506121275"
+            },
+            "midpoint": "2068.4782215072385526060492991706083379963679679063",
+            "radius": "1.1148718659739082035413901326819449866560753119798e-63",
+            "upper": {
+              "decimal": "2068.4782215072385526060492991706083379963679679063",
+              "denominator": "3291009114642412084309938365114701009965471731267159726697218048",
+              "numerator": "6807380680419648299226856193017898336315517876526139114743506121283"
+            }
+          },
+          "capacity_b": {
+            "arb": "[2071.1732106294382327688753577775761324887127434171 +/- 1.72e-47]",
+            "lower": {
+              "decimal": "2071.1732106294382327688753577775761324887127434171",
+              "denominator": "3291009114642412084309938365114701009965471731267159726697218048",
+              "numerator": "6816249914184669599949786663610198511580863359555114302876506481105"
+            },
+            "midpoint": "2071.1732106294382327688753577775761324887127434171",
+            "radius": "1.3523295726218938054273156715402689498222641566807e-63",
+            "upper": {
+              "decimal": "2071.1732106294382327688753577775761324887127434171",
+              "denominator": "1645504557321206042154969182557350504982735865633579863348609024",
+              "numerator": "3408124957092334799974893331805099255790431679777557151438253240557"
+            }
+          },
+          "capacity_floor_a": 2068,
+          "capacity_floor_b": 2071,
+          "capacity_monotonicity_certified": true,
+          "closure_condition": {
+            "passes": true,
+            "statement": "R >= 2*b + 2"
+          },
+          "constraint_margin_squared": {
+            "arb": "[1.2147900905424870167875412046622821749543743708021e-8 +/- 1.72e-58]",
+            "lower": {
+              "decimal": "1.2147900905424870167875412046622821749543743708021e-8",
+              "denominator": "1766847064778384329583297500742918515827483896875618958121606201292619776",
+              "numerator": "21463483057968609230805329155306547402909629261220895429227940847"
+            },
+            "midpoint": "1.2147900905424870167875412046622821749543743708021e-8",
+            "radius": "3.9645677034750092133854385215805484549854903730673e-64",
+            "upper": {
+              "decimal": "1.2147900905424870167875412046622821749543743708021e-8",
+              "denominator": "1766847064778384329583297500742918515827483896875618958121606201292619776",
+              "numerator": "21463483057968609230805329155306547402909629261220895430628897809"
+            }
+          },
+          "d2_lower_bound": {
+            "arb": "[4.0000000121479009054248701678754120466228217495437 +/- 4.38e-50]",
+            "lower": {
+              "decimal": "4.0000000121479009054248701678754120466228217495437",
+              "denominator": "1684996666696914987166688442938726917102321526408785780068975640576",
+              "numerator": "6739986687256832481672095521714213579765780439769845098216362223051"
+            },
+            "midpoint": "4.0000000121479009054248701678754120466228217495437",
+            "radius": "3.9645677034750092133854385215805484549854903730673e-64",
+            "upper": {
+              "decimal": "4.0000000121479009054248701678754120466228217495437",
+              "denominator": "421249166674228746791672110734681729275580381602196445017243910144",
+              "numerator": "1684996671814208120418023880428553394941445109942461274554090556097"
+            }
+          },
+          "expected_population_rule_matches": true,
+          "inputs": {
+            "R": 2050,
+            "T_shells": 512,
+            "a_exact": "30687/40",
+            "b_exact": "76890626061/100000000",
+            "delta_exact": "173126061/100000000",
+            "phase_fraction_exact": "50000001/100000000",
+            "population_N": 2067,
+            "reduced_phase_fraction_exact": "49999999/100000000"
+          },
+          "outer_population_is_at_least_inner": true,
+          "precision_bits": 224,
+          "scope": "Arb finite pair lower-bound and capacity-floor certificate only",
+          "status": "PASS"
+        },
+        "certificate_status": "PASS",
+        "padding_ticks": 1,
+        "phase_fraction_exact": "50000001/100000000",
+        "radial_gap_exact": "173126061/100000000"
+      }
+    ],
+    "raw_optimizer_inputs": {
+      "phase_fraction": 0.5000000000278377,
+      "radial_gap": 1.7312605949931483
+    },
+    "rounding_policy": "phase rounded away from f=1/2 at 8 decimal places; delta rounded upward with the smallest passing padding",
+    "selected_attempt": {
+      "certificate": {
+        "capacity_a": {
+          "arb": "[2068.4782215072385526060492991706083379963679679063 +/- 4.06e-47]",
+          "lower": {
+            "decimal": "2068.4782215072385526060492991706083379963679679063",
+            "denominator": "3291009114642412084309938365114701009965471731267159726697218048",
+            "numerator": "6807380680419648299226856193017898336315517876526139114743506121275"
+          },
+          "midpoint": "2068.4782215072385526060492991706083379963679679063",
+          "radius": "1.1148718659739082035413901326819449866560753119798e-63",
+          "upper": {
+            "decimal": "2068.4782215072385526060492991706083379963679679063",
+            "denominator": "3291009114642412084309938365114701009965471731267159726697218048",
+            "numerator": "6807380680419648299226856193017898336315517876526139114743506121283"
+          }
+        },
+        "capacity_b": {
+          "arb": "[2071.1732106294382327688753577775761324887127434171 +/- 1.72e-47]",
+          "lower": {
+            "decimal": "2071.1732106294382327688753577775761324887127434171",
+            "denominator": "3291009114642412084309938365114701009965471731267159726697218048",
+            "numerator": "6816249914184669599949786663610198511580863359555114302876506481105"
+          },
+          "midpoint": "2071.1732106294382327688753577775761324887127434171",
+          "radius": "1.3523295726218938054273156715402689498222641566807e-63",
+          "upper": {
+            "decimal": "2071.1732106294382327688753577775761324887127434171",
+            "denominator": "1645504557321206042154969182557350504982735865633579863348609024",
+            "numerator": "3408124957092334799974893331805099255790431679777557151438253240557"
+          }
+        },
+        "capacity_floor_a": 2068,
+        "capacity_floor_b": 2071,
+        "capacity_monotonicity_certified": true,
+        "closure_condition": {
+          "passes": true,
+          "statement": "R >= 2*b + 2"
+        },
+        "constraint_margin_squared": {
+          "arb": "[1.2147900905424870167875412046622821749543743708021e-8 +/- 1.72e-58]",
+          "lower": {
+            "decimal": "1.2147900905424870167875412046622821749543743708021e-8",
+            "denominator": "1766847064778384329583297500742918515827483896875618958121606201292619776",
+            "numerator": "21463483057968609230805329155306547402909629261220895429227940847"
+          },
+          "midpoint": "1.2147900905424870167875412046622821749543743708021e-8",
+          "radius": "3.9645677034750092133854385215805484549854903730673e-64",
+          "upper": {
+            "decimal": "1.2147900905424870167875412046622821749543743708021e-8",
+            "denominator": "1766847064778384329583297500742918515827483896875618958121606201292619776",
+            "numerator": "21463483057968609230805329155306547402909629261220895430628897809"
+          }
+        },
+        "d2_lower_bound": {
+          "arb": "[4.0000000121479009054248701678754120466228217495437 +/- 4.38e-50]",
+          "lower": {
+            "decimal": "4.0000000121479009054248701678754120466228217495437",
+            "denominator": "1684996666696914987166688442938726917102321526408785780068975640576",
+            "numerator": "6739986687256832481672095521714213579765780439769845098216362223051"
+          },
+          "midpoint": "4.0000000121479009054248701678754120466228217495437",
+          "radius": "3.9645677034750092133854385215805484549854903730673e-64",
+          "upper": {
+            "decimal": "4.0000000121479009054248701678754120466228217495437",
+            "denominator": "421249166674228746791672110734681729275580381602196445017243910144",
+            "numerator": "1684996671814208120418023880428553394941445109942461274554090556097"
+          }
+        },
+        "expected_population_rule_matches": true,
+        "inputs": {
+          "R": 2050,
+          "T_shells": 512,
+          "a_exact": "30687/40",
+          "b_exact": "76890626061/100000000",
+          "delta_exact": "173126061/100000000",
+          "phase_fraction_exact": "50000001/100000000",
+          "population_N": 2067,
+          "reduced_phase_fraction_exact": "49999999/100000000"
+        },
+        "outer_population_is_at_least_inner": true,
+        "precision_bits": 224,
+        "scope": "Arb finite pair lower-bound and capacity-floor certificate only",
+        "status": "PASS"
+      },
+      "certificate_status": "PASS",
+      "padding_ticks": 1,
+      "phase_fraction_exact": "50000001/100000000",
+      "radial_gap_exact": "173126061/100000000"
+    },
+    "status": "PASS"
+  },
+  "family_metadata": {
+    "Q_per_shell": 2067,
+    "Q_status": "pair-level population; no full-bundle Q is constructed here",
+    "closure": {
+      "condition": "R >= 2*b+2 checked throughout the search range",
+      "major_radius_rule": "R=4*T+2"
+    },
+    "closure_R": "R >= 2*b+2 checked throughout the search range",
+    "component_role": "two adjacent equal-population shells",
+    "family": "adjacent equal-population p=1 toroidal-shell pair",
+    "fixed_constraints": [
+      "p=1 winding",
+      "equal population N on the adjacent pair",
+      "safe same-shell population floor at a",
+      "R=4*T+2",
+      "delta in [1.001,2.2]"
+    ],
+    "objective_and_seeds": "minimize delta subject to the reviewed lower-bound constraint; uniform phase seeds and differential evolution; no half-phase target or reward",
+    "phase": {
+      "free_parameter": "f in [0,1]",
+      "inner_grid": "2*pi*j/N",
+      "outer_grid": "2*pi*j/N+2*pi*f/N"
+    },
+    "pitch": "fixed by the p=1 toroidal parametrization; no pitch parameter varied",
+    "populations": {
+      "inner_N": 2067,
+      "outer_N": 2067,
+      "rule": "N derived at inner shell and reused at b by capacity monotonicity"
+    },
+    "radii": {
+      "finite_pair_values": {
+        "R": 2050,
+        "a": 767.175,
+        "outer_at_delta_upper": 769.375
+      },
+      "inner": "a",
+      "major": "R=4*T+2",
+      "outer": "b=a+delta"
+    },
+    "shell_count": 2,
+    "symmetry": {
+      "phase_grids": "equal N-gon grids",
+      "varied_symmetry_parameter": "relative phase f only"
+    },
+    "target_context": "T(Q,Q) p=1 toroidal-link family",
+    "varied_fields": [
+      "T_shells",
+      "a_fraction",
+      "phase_fraction_f",
+      "radial_gap_delta"
+    ],
+    "winding": "fixed p=1 toroidal winding"
+  },
+  "grid_crosscheck": {
+    "constraint_margin_squared_at_grid_min": 2.922107000813412e-13,
+    "grid_points": 10001,
+    "lower_bound_squared_at_grid_min": 4.000000000000292,
+    "minimal_delta_observed": 1.731260594911021,
+    "monotonicity_probe": {
+      "delta_samples": 17,
+      "passes_on_this_grid": true,
+      "violations_below_minus_1e-10": 0
+    },
+    "optimizer_selected_delta_minus_grid_delta": 8.21274159790164e-11,
+    "optimizer_selected_phase": 0.5000000000278377,
+    "phase_fraction_min_observed": 0.5,
+    "phase_grid_includes_endpoints": true,
+    "upper_endpoint_feasible_for_all_grid_phases": true
+  },
+  "inequalities": {
+    "capacity": "N=floor(pi*a*(R-a)/sqrt(a^2+(R-a)^2))-1",
+    "capacity_reuse_condition": "0 < a <= b <= R/2",
+    "feasibility": "d2_lower >= 4 (equivalently lower distance >= 2)",
+    "lower_bound": "d2_lower=(a-b)^2+2*(S-sqrt(S^2-4*a*b*(R-a)*(R-b)*sin^2(Delta/2)))",
+    "phase_angle": "Delta/2=pi*min(f,1-f)/N",
+    "stable_evaluation": "stable_transverse=8*a*b*(R-a)*(R-b)*sin^2(Delta/2)/(S+sqrt(S^2-4*a*b*(R-a)*(R-b)*sin^2(Delta/2)))"
+  },
+  "optimizer": {
+    "bounds": {
+      "phase_fraction": [
+        0.0,
+        1.0
+      ],
+      "radial_gap_delta": [
+        1.001,
+        2.2
+      ]
+    },
+    "differential_evolution": {
+      "maxiter": 80,
+      "polish": true,
+      "popsize": 8,
+      "termination_error": null
+    },
+    "initial_seeds": [
+      {
+        "method": "SLSQP",
+        "phase_fraction": 0.0,
+        "radial_gap_delta": 2.2
+      },
+      {
+        "method": "SLSQP",
+        "phase_fraction": 0.1111111111111111,
+        "radial_gap_delta": 2.2
+      },
+      {
+        "method": "SLSQP",
+        "phase_fraction": 0.2222222222222222,
+        "radial_gap_delta": 2.2
+      },
+      {
+        "method": "SLSQP",
+        "phase_fraction": 0.3333333333333333,
+        "radial_gap_delta": 2.2
+      },
+      {
+        "method": "SLSQP",
+        "phase_fraction": 0.4444444444444444,
+        "radial_gap_delta": 2.2
+      },
+      {
+        "method": "SLSQP",
+        "phase_fraction": 0.5555555555555556,
+        "radial_gap_delta": 2.2
+      },
+      {
+        "method": "SLSQP",
+        "phase_fraction": 0.6666666666666666,
+        "radial_gap_delta": 2.2
+      },
+      {
+        "method": "SLSQP",
+        "phase_fraction": 0.7777777777777777,
+        "radial_gap_delta": 2.2
+      },
+      {
+        "method": "SLSQP",
+        "phase_fraction": 0.8888888888888888,
+        "radial_gap_delta": 2.2
+      }
+    ],
+    "seed": 10234,
+    "uniform_phase_seed_count": 9
+  },
+  "pair": {
+    "T_shells": 512,
+    "a_fraction_of_admissible_inner_radius": "3/4",
+    "admissible_inner_radius_max_exact": "10229/10",
+    "capacity_at_a": 2068.4782215072387,
+    "capacity_at_b_upper": 2071.9001801500376,
+    "capacity_monotonicity": {
+      "checked_at_upper_endpoint": true,
+      "condition": "0 < a <= b <= R/2",
+      "derivative_sign_argument": "d/dr [r*(R-r)/sqrt(r^2+(R-r)^2)] has sign R-2*r"
+    },
+    "capacity_rule": "N=floor(pi*a*(R-a)/sqrt(a^2+(R-a)^2))-1",
+    "closure_condition_at_delta_upper": {
+      "left_R": 2050.0,
+      "passes": true,
+      "right_2b_plus_2": 1540.75,
+      "statement": "R >= 2*b + 2"
+    },
+    "delta_bounds": [
+      1.001,
+      2.2
+    ],
+    "half_plane_condition_at_delta_upper": {
+      "R_over_2": 1025.0,
+      "b": 769.375,
+      "passes": true,
+      "statement": "b <= R/2"
+    },
+    "inner_radius_a": 767.175,
+    "inner_radius_a_exact": "30687/40",
+    "major_radius_R": 2050,
+    "outer_radius_at_delta_upper": 769.375,
+    "population_N": 2067
+  },
+  "result_status": "finite adjacent-shell pair search",
+  "runtime": {
+    "numpy": "2.5.3",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+  },
+  "schema": "discovery-phase-packing-v1",
+  "scientific_scope": "Pairwise conservative toroidal separation diagnostic. No full-bundle thickness, isotopy, topology, ropelength, or global optimum claim.",
+  "selected": {
+    "bound_components": {
+      "S": 2233304.736724192,
+      "U_ab": 589885.6604719638,
+      "V_hahb": 1643419.076252228,
+      "constraint_margin_squared": 1.7290968656880068e-10,
+      "h_a": 1282.825,
+      "h_b": 1281.093739405007,
+      "lower_bound_distance": 2.000000000043227,
+      "lower_bound_squared": 4.00000000017291,
+      "phase_angle_half": 0.0007599401677346114,
+      "phase_fraction_reduced": 0.49999999997216227,
+      "radial_gap": 1.7312605949931594,
+      "radial_squared": 2.9972632477760683,
+      "radicand": 4987647807658.225,
+      "sine_squared": 5.775089473642804e-07,
+      "stable_transverse_term": 1.0027367523968411
+    },
+    "constraint_margin_squared": 1.7290968656880068e-10,
+    "feasible_with_1e-8_tolerance": true,
+    "feasible_without_tolerance": true,
+    "initial_seed": null,
+    "lower_bound_distance": 2.000000000043227,
+    "lower_bound_squared": 4.00000000017291,
+    "method": "differential_evolution",
+    "objective_value_delta": 1.7312605949931483,
+    "phase_fraction": 0.5000000000278377,
+    "radial_gap_delta": 1.7312605949931483,
+    "result": {
+      "constraint_violation": null,
+      "fun": 1.7312605949931483,
+      "message": "Maximum number of iterations has been exceeded.",
+      "nfev": 1181,
+      "nit": 80,
+      "status": -1,
+      "success": false
+    },
+    "seed": 10234,
+    "selection_reason": "minimum observed radial gap among optimizer trials with margin >= -1e-8"
+  },
+  "trials": [
+    {
+      "bound_components": {
+        "S": 2233304.736724192,
+        "U_ab": 589885.6604719638,
+        "V_hahb": 1643419.076252228,
+        "constraint_margin_squared": 1.7290968656880068e-10,
+        "h_a": 1282.825,
+        "h_b": 1281.093739405007,
+        "lower_bound_distance": 2.000000000043227,
+        "lower_bound_squared": 4.00000000017291,
+        "phase_angle_half": 0.0007599401677346114,
+        "phase_fraction_reduced": 0.49999999997216227,
+        "radial_gap": 1.7312605949931594,
+        "radial_squared": 2.9972632477760683,
+        "radicand": 4987647807658.225,
+        "sine_squared": 5.775089473642804e-07,
+        "stable_transverse_term": 1.0027367523968411
+      },
+      "constraint_margin_squared": 1.7290968656880068e-10,
+      "feasible_with_1e-8_tolerance": true,
+      "feasible_without_tolerance": true,
+      "initial_seed": null,
+      "lower_bound_distance": 2.000000000043227,
+      "lower_bound_squared": 4.00000000017291,
+      "method": "differential_evolution",
+      "objective_value_delta": 1.7312605949931483,
+      "phase_fraction": 0.5000000000278377,
+      "radial_gap_delta": 1.7312605949931483,
+      "result": {
+        "constraint_violation": null,
+        "fun": 1.7312605949931483,
+        "message": "Maximum number of iterations has been exceeded.",
+        "nfev": 1181,
+        "nit": 80,
+        "status": -1,
+        "success": false
+      },
+      "seed": 10234
+    },
+    {
+      "bound_components": {
+        "S": 2233304.7367197843,
+        "U_ab": 589885.6604785207,
+        "V_hahb": 1643419.076241264,
+        "constraint_margin_squared": 4.121147867408581e-13,
+        "h_a": 1282.825,
+        "h_b": 1281.09373939646,
+        "lower_bound_distance": 2.000000000000103,
+        "lower_bound_squared": 4.000000000000412,
+        "phase_angle_half": 0.0007599401564529282,
+        "phase_fraction_reduced": 0.49999999254941785,
+        "radial_gap": 1.7312606035399085,
+        "radial_squared": 2.997263277369368,
+        "radicand": 4987647807638.6045,
+        "sine_squared": 5.775089302174785e-07,
+        "stable_transverse_term": 1.0027367226310437
+      },
+      "constraint_margin_squared": 4.121147867408581e-13,
+      "feasible_with_1e-8_tolerance": true,
+      "feasible_without_tolerance": true,
+      "initial_seed": {
+        "method": "SLSQP",
+        "phase_fraction": 0.0,
+        "radial_gap_delta": 2.2
+      },
+      "lower_bound_distance": 2.000000000000103,
+      "lower_bound_squared": 4.000000000000412,
+      "method": "SLSQP",
+      "objective_value_delta": 1.731260603539959,
+      "phase_fraction": 0.49999999254941785,
+      "radial_gap_delta": 1.731260603539959,
+      "result": {
+        "constraint_violation": null,
+        "fun": 1.731260603539959,
+        "message": "Optimization terminated successfully",
+        "nfev": 263,
+        "nit": 42,
+        "status": 0,
+        "success": true
+      },
+      "seed": 0
+    },
+    {
+      "bound_components": {
+        "S": 2233304.7367200386,
+        "U_ab": 589885.6604781429,
+        "V_hahb": 1643419.0762418956,
+        "constraint_margin_squared": -1.556554884984962e-10,
+        "h_a": 1282.825,
+        "h_b": 1281.0937393969525,
+        "lower_bound_distance": 1.999999999961086,
+        "lower_bound_squared": 3.9999999998443445,
+        "phase_angle_half": 0.0007599401570399605,
+        "phase_fraction_reduced": 0.49999999293565384,
+        "radial_gap": 1.7312606030475308,
+        "radial_squared": 2.9972632756645,
+        "radicand": 4987647807639.736,
+        "sine_squared": 5.775089311096971e-07,
+        "stable_transverse_term": 1.0027367241798446
+      },
+      "constraint_margin_squared": -1.556554884984962e-10,
+      "feasible_with_1e-8_tolerance": true,
+      "feasible_without_tolerance": false,
+      "initial_seed": {
+        "method": "SLSQP",
+        "phase_fraction": 0.1111111111111111,
+        "radial_gap_delta": 2.2
+      },
+      "lower_bound_distance": 1.999999999961086,
+      "lower_bound_squared": 3.9999999998443445,
+      "method": "SLSQP",
+      "objective_value_delta": 1.7312606030475215,
+      "phase_fraction": 0.49999999293565384,
+      "radial_gap_delta": 1.7312606030475215,
+      "result": {
+        "constraint_violation": null,
+        "fun": 1.7312606030475215,
+        "message": "Iteration limit reached",
+        "nfev": 3620,
+        "nit": 320,
+        "status": 9,
+        "success": false
+      },
+      "seed": 1
+    },
+    {
+      "bound_components": {
+        "S": 2233304.736722813,
+        "U_ab": 589885.660474015,
+        "V_hahb": 1643419.076248798,
+        "constraint_margin_squared": -7.753797603982093e-13,
+        "h_a": 1282.825,
+        "h_b": 1281.093739402333,
+        "lower_bound_distance": 1.9999999999998062,
+        "lower_bound_squared": 3.9999999999992246,
+        "phase_angle_half": 0.0007599401641598367,
+        "phase_fraction_reduced": 0.4999999976201516,
+        "radial_gap": 1.7312605976669602,
+        "radial_squared": 2.99726325703416,
+        "radicand": 4987647807652.086,
+        "sine_squared": 5.775089419310526e-07,
+        "stable_transverse_term": 1.0027367429650647
+      },
+      "constraint_margin_squared": -7.753797603982093e-13,
+      "feasible_with_1e-8_tolerance": true,
+      "feasible_without_tolerance": false,
+      "initial_seed": {
+        "method": "SLSQP",
+        "phase_fraction": 0.2222222222222222,
+        "radial_gap_delta": 2.2
+      },
+      "lower_bound_distance": 1.9999999999998062,
+      "lower_bound_squared": 3.9999999999992246,
+      "method": "SLSQP",
+      "objective_value_delta": 1.731260597666994,
+      "phase_fraction": 0.4999999976201516,
+      "radial_gap_delta": 1.731260597666994,
+      "result": {
+        "constraint_violation": null,
+        "fun": 1.731260597666994,
+        "message": "Optimization terminated successfully",
+        "nfev": 1128,
+        "nit": 104,
+        "status": 0,
+        "success": true
+      },
+      "seed": 2
+    },
+    {
+      "bound_components": {
+        "S": 2233304.7367349286,
+        "U_ab": 589885.6604559892,
+        "V_hahb": 1643419.0762789396,
+        "constraint_margin_squared": -7.21902773115346e-08,
+        "h_a": 1282.825,
+        "h_b": 1281.0937394258294,
+        "lower_bound_distance": 1.9999999819524306,
+        "lower_bound_squared": 3.9999999278097227,
+        "phase_angle_half": 0.0007599401676403977,
+        "phase_fraction_reduced": 0.4999999999101747,
+        "radial_gap": 1.7312605741705056,
+        "radial_squared": 2.9972631756771886,
+        "radicand": 4987647807706.182,
+        "sine_squared": 5.775089472210869e-07,
+        "stable_transverse_term": 1.002736752132534
+      },
+      "constraint_margin_squared": -7.21902773115346e-08,
+      "feasible_with_1e-8_tolerance": false,
+      "feasible_without_tolerance": false,
+      "initial_seed": {
+        "method": "SLSQP",
+        "phase_fraction": 0.3333333333333333,
+        "radial_gap_delta": 2.2
+      },
+      "lower_bound_distance": 1.9999999819524306,
+      "lower_bound_squared": 3.9999999278097227,
+      "method": "SLSQP",
+      "objective_value_delta": 1.7312605741704916,
+      "phase_fraction": 0.4999999999101747,
+      "radial_gap_delta": 1.7312605741704916,
+      "result": {
+        "constraint_violation": null,
+        "fun": 1.7312605741704916,
+        "message": "Iteration limit reached",
+        "nfev": 4003,
+        "nit": 320,
+        "status": 9,
+        "success": false
+      },
+      "seed": 3
+    },
+    {
+      "bound_components": {
+        "S": 2233304.736725639,
+        "U_ab": 589885.6604698107,
+        "V_hahb": 1643419.0762558284,
+        "constraint_margin_squared": -1.51507983936483e-08,
+        "h_a": 1282.825,
+        "h_b": 1281.0937394078135,
+        "lower_bound_distance": 1.9999999962123003,
+        "lower_bound_squared": 3.9999999848492016,
+        "phase_angle_half": 0.0007599401656111737,
+        "phase_fraction_reduced": 0.49999999857505384,
+        "radial_gap": 1.7312605921865725,
+        "radial_squared": 2.9972632380582014,
+        "radicand": 4987647807664.701,
+        "sine_squared": 5.775089441369105e-07,
+        "stable_transverse_term": 1.0027367467910002
+      },
+      "constraint_margin_squared": -1.51507983936483e-08,
+      "feasible_with_1e-8_tolerance": false,
+      "feasible_without_tolerance": false,
+      "initial_seed": {
+        "method": "SLSQP",
+        "phase_fraction": 0.4444444444444444,
+        "radial_gap_delta": 2.2
+      },
+      "lower_bound_distance": 1.9999999962123003,
+      "lower_bound_squared": 3.9999999848492016,
+      "method": "SLSQP",
+      "objective_value_delta": 1.7312605921865374,
+      "phase_fraction": 0.49999999857505384,
+      "radial_gap_delta": 1.7312605921865374,
+      "result": {
+        "constraint_violation": null,
+        "fun": 1.7312605921865374,
+        "message": "Iteration limit reached",
+        "nfev": 3989,
+        "nit": 320,
+        "status": 9,
+        "success": false
+      },
+      "seed": 4
+    },
+    {
+      "bound_components": {
+        "S": 2233304.73672305,
+        "U_ab": 589885.6604736628,
+        "V_hahb": 1643419.076249387,
+        "constraint_margin_squared": -3.034315909644647e-09,
+        "h_a": 1282.825,
+        "h_b": 1281.0937394027924,
+        "lower_bound_distance": 1.999999999241421,
+        "lower_bound_squared": 3.999999996965684,
+        "phase_angle_half": 0.000759940163613083,
+        "phase_fraction_reduced": 0.49999999726041694,
+        "radial_gap": 1.7312605972076653,
+        "radial_squared": 2.997263255443842,
+        "radicand": 4987647807653.148,
+        "sine_squared": 5.775089411000528e-07,
+        "stable_transverse_term": 1.0027367415218422
+      },
+      "constraint_margin_squared": -3.034315909644647e-09,
+      "feasible_with_1e-8_tolerance": true,
+      "feasible_without_tolerance": false,
+      "initial_seed": {
+        "method": "SLSQP",
+        "phase_fraction": 0.5555555555555556,
+        "radial_gap_delta": 2.2
+      },
+      "lower_bound_distance": 1.999999999241421,
+      "lower_bound_squared": 3.999999996965684,
+      "method": "SLSQP",
+      "objective_value_delta": 1.7312605972076298,
+      "phase_fraction": 0.49999999726041694,
+      "radial_gap_delta": 1.7312605972076298,
+      "result": {
+        "constraint_violation": null,
+        "fun": 1.7312605972076298,
+        "message": "Iteration limit reached",
+        "nfev": 3952,
+        "nit": 320,
+        "status": 9,
+        "success": false
+      },
+      "seed": 5
+    },
+    {
+      "bound_components": {
+        "S": 2233304.7367347875,
+        "U_ab": 589885.6604561995,
+        "V_hahb": 1643419.076278588,
+        "constraint_margin_squared": -7.112770905592924e-08,
+        "h_a": 1282.825,
+        "h_b": 1281.0937394255552,
+        "lower_bound_distance": 1.9999999822180727,
+        "lower_bound_squared": 3.999999928872291,
+        "phase_angle_half": 0.0007599401676831772,
+        "phase_fraction_reduced": 0.49999999993832134,
+        "radial_gap": 1.7312605744447183,
+        "radial_squared": 2.9972631766266558,
+        "radicand": 4987647807705.551,
+        "sine_squared": 5.775089472861065e-07,
+        "stable_transverse_term": 1.0027367522456354
+      },
+      "constraint_margin_squared": -7.112770905592924e-08,
+      "feasible_with_1e-8_tolerance": false,
+      "feasible_without_tolerance": false,
+      "initial_seed": {
+        "method": "SLSQP",
+        "phase_fraction": 0.6666666666666666,
+        "radial_gap_delta": 2.2
+      },
+      "lower_bound_distance": 1.9999999822180727,
+      "lower_bound_squared": 3.999999928872291,
+      "method": "SLSQP",
+      "objective_value_delta": 1.7312605744447251,
+      "phase_fraction": 0.49999999993832134,
+      "radial_gap_delta": 1.7312605744447251,
+      "result": {
+        "constraint_violation": null,
+        "fun": 1.7312605744447251,
+        "message": "Iteration limit reached",
+        "nfev": 3995,
+        "nit": 320,
+        "status": 9,
+        "success": false
+      },
+      "seed": 6
+    },
+    {
+      "bound_components": {
+        "S": 2233304.7367530875,
+        "U_ab": 589885.6604289734,
+        "V_hahb": 1643419.076324114,
+        "constraint_margin_squared": -1.94327270719441e-07,
+        "h_a": 1282.825,
+        "h_b": 1281.0937394610442,
+        "lower_bound_distance": 1.9999999514181817,
+        "lower_bound_squared": 3.9999998056727293,
+        "phase_angle_half": 0.0007599401675726635,
+        "phase_fraction_reduced": 0.49999999986560917,
+        "radial_gap": 1.7312605389557802,
+        "radial_squared": 2.9972630537454585,
+        "radicand": 4987647807787.291,
+        "sine_squared": 5.775089471181389e-07,
+        "stable_transverse_term": 1.0027367519272705
+      },
+      "constraint_margin_squared": -1.94327270719441e-07,
+      "feasible_with_1e-8_tolerance": false,
+      "feasible_without_tolerance": false,
+      "initial_seed": {
+        "method": "SLSQP",
+        "phase_fraction": 0.7777777777777777,
+        "radial_gap_delta": 2.2
+      },
+      "lower_bound_distance": 1.9999999514181817,
+      "lower_bound_squared": 3.9999998056727293,
+      "method": "SLSQP",
+      "objective_value_delta": 1.7312605389557907,
+      "phase_fraction": 0.49999999986560917,
+      "radial_gap_delta": 1.7312605389557907,
+      "result": {
+        "constraint_violation": null,
+        "fun": 1.7312605389557907,
+        "message": "Iteration limit reached",
+        "nfev": 3970,
+        "nit": 320,
+        "status": 9,
+        "success": false
+      },
+      "seed": 7
+    },
+    {
+      "bound_components": {
+        "S": 2233304.736757473,
+        "U_ab": 589885.660422449,
+        "V_hahb": 1643419.0763350239,
+        "constraint_margin_squared": -2.2469999105823035e-07,
+        "h_a": 1282.825,
+        "h_b": 1281.0937394695486,
+        "lower_bound_distance": 1.9999999438250013,
+        "lower_bound_squared": 3.999999775300009,
+        "phase_angle_half": 0.0007599401672241029,
+        "phase_fraction_reduced": 0.49999999963627495,
+        "radial_gap": 1.7312605304514364,
+        "radial_squared": 2.997263024298989,
+        "radicand": 4987647807806.882,
+        "sine_squared": 5.775089465883688e-07,
+        "stable_transverse_term": 1.0027367510010203
+      },
+      "constraint_margin_squared": -2.2469999105823035e-07,
+      "feasible_with_1e-8_tolerance": false,
+      "feasible_without_tolerance": false,
+      "initial_seed": {
+        "method": "SLSQP",
+        "phase_fraction": 0.8888888888888888,
+        "radial_gap_delta": 2.2
+      },
+      "lower_bound_distance": 1.9999999438250013,
+      "lower_bound_squared": 3.999999775300009,
+      "method": "SLSQP",
+      "objective_value_delta": 1.7312605304514033,
+      "phase_fraction": 0.49999999963627495,
+      "radial_gap_delta": 1.7312605304514033,
+      "result": {
+        "constraint_violation": null,
+        "fun": 1.7312605304514033,
+        "message": "Iteration limit reached",
+        "nfev": 3527,
+        "nit": 320,
+        "status": 9,
+        "success": false
+      },
+      "seed": 8
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "command": "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python experiments/run_shell_family.py --T 1 2 4 8 9 16 25 --include-staggered --geometry-samples 32 --output-dir results/finite_shell_family_staggered_20260913_v4",
+  "created_utc": "2026-09-12T21:49:11Z",
+  "git": {
+    "commit": "50a8560143c15b5bf5c554b839306fb15be76464",
+    "dirty": true
+  },
+  "manifest_version": 1,
+  "output_manifest_hash_file": "manifest.sha256",
+  "outputs_sha256": {
+    "geometry/shell_T1.json": "f6a97188dafa595d233a098f388b191dae8265a3ba649db5d1d8db3afb08fb5a",
+    "geometry/shell_T16.json": "a5aa5a5f5dad8a91eb81058cf54b82a2c7a595b03ae24d3eb6a5acbb2f96cdc9",
+    "geometry/shell_T2.json": "ceaa40c24c66d2adb3ef8df2bc60f6302d6ede67e6bad4e2421cddd70bf2f8ab",
+    "geometry/shell_T25.json": "7bc2a08a619ea6bcd22c443552573af0236a7c59fe789939688906b7d1e28679",
+    "geometry/shell_T4.json": "116452be5da7dc1b06af661e94ce8693bcf579dcfae300e06ef28264836495d2",
+    "geometry/shell_T8.json": "74b0530e9c7f41fa1f1150283439bd063b5421d4dc8f42e22440b81295c3200d",
+    "geometry/shell_T9.json": "9264e651a593a344b0e39b8d8800dba80fcc76393af32fa1080aa2ec2ee6b1fa",
+    "geometry/staggered_T1.json": "c0545ba3d1667b10ee6ca0d324a88f96f66316b36492f741bb489f68d3e4686d",
+    "geometry/staggered_T16.json": "4070b2c7fad972088d604cf00f2be328f95ec9f5f35ca5e805b98e10ee2510d9",
+    "geometry/staggered_T2.json": "7935969898d68b95dfff62e5db3f5aa0c51cb4b426fbc70e9ee515864070e919",
+    "geometry/staggered_T25.json": "1c62b92330a11e9e72192153e395d1854104c60613a5de26103fcfb10a1f0b24",
+    "geometry/staggered_T4.json": "4665d20853a7150ee387e0225e2a7bc28bde8f4e54f302cd93782bb927b731b5",
+    "geometry/staggered_T8.json": "5fead327a6f2aaed2c3a739d9c4bc1d77f915a23502aca3ddc9815283e001134",
+    "geometry/staggered_T9.json": "e7b4eedceacc233f88a6d901f4474cf3bf031b92e67483bdf4923317a3dea41f",
+    "shell_T1.json": "d4b7c3e827580323350666777b4164341795a3d5a3c015b0a34f3db6470ca16f",
+    "shell_T16.json": "905c8c5e7c481dc376921fe9e2364beb7426e48c43714d28c3cc99573a6bcb5a",
+    "shell_T2.json": "ca8226a0b4e3395f09e2fa8b67a7cb9d44f557eeba424199a9fd224775bb7de0",
+    "shell_T25.json": "d7883871344fb1a1e4c58c7f7636036cc0be6ba2837d01605e02c1e90db0d99e",
+    "shell_T4.json": "f2cbf7859511ddaef52d6ead2c3ab6d43ede47b1e46580df0614b8cb6ec5531e",
+    "shell_T8.json": "da1aec670e2215fe63ee8deb4d336e4916271c81f4d5bc79a944fd1d433a1931",
+    "shell_T9.json": "9b02e2613626c3b8a84b258bb5a37c41f60e8bc8188c3ce3318b661aa3da6dda",
+    "shell_family.json": "94de24251e19b05267a8cf07e980c4521e5b4230aed87317d77e10ec4bd81a03",
+    "staggered_T1.json": "816dfd16edcd03b2075c30ebda46d6d034eeceec6f93a53d26d7b40ba73c1edf",
+    "staggered_T16.json": "0800f5c282645daedb23264864895287db5e6491def4caa4880951a384eed5be",
+    "staggered_T2.json": "2a79cdc4d23f8a9edb4397ae0e74b5cccb06d54a1bd48b453c7275ae480c50b3",
+    "staggered_T25.json": "32ad731f6b887498c59dda92fe4113b4469dc100705d49e2c18dfd26dc70ff5c",
+    "staggered_T4.json": "db02a5e5131f3a762016f8744e10e938fe40f93f773d672a050fb5b2e68ee470",
+    "staggered_T8.json": "7370b7d2bd498e07ac2051276a44644d7011cd85565de835b8c96bfcb95e88de",
+    "staggered_T9.json": "194b9298619bad8fa12b349571e7cca32ab6358474c50d4c48d1f5f5a45e2eba"
+  },
+  "parameters": {
+    "T": [
+      1,
+      2,
+      4,
+      8,
+      9,
+      16,
+      25
+    ],
+    "geometry_samples": 32,
+    "include_staggered": true,
+    "length_cells": 512,
+    "output_digits": 60,
+    "precision_bits": 192,
+    "seeds": null
+  },
+  "run_id": "finite_shell_family_staggered_20260913_v4",
+  "runtime": {
+    "arb_context_precision_at_metadata": 53,
+    "arb_precision_bits": 192,
+    "machine": "x86_64",
+    "packages": {
+      "numpy": "2.5.3",
+      "python-flint": "0.9.0",
+      "scipy": "1.18.1"
+    },
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "python_implementation": "CPython"
+  },
+  "scientific_status": "finite reproduction; shell-specific rule is an analytic sufficient rule, not an occupancy optimum; staggered block candidate is reviewed mathematically but its finite coefficient remains conditional",
+  "seeds": null,
+  "source_hashes": {
+    "NORMALIZATION.md": "5eb2396d60018418e7b161b3e1d02d37e1612ccd07bc1efc8937cd637f921b96",
+    "claims/CLAIM-0001.md": "91b2fdd1739122b8dc3ee90acdd102b8bb282b62bb8aad507df0c63010c5b680",
+    "claims/CLAIM-0002.md": "17614b4dcd75dce15ce26639a95ecfe7b421655789acb415010ad2796c30286e",
+    "experiments/run_shell_family.py": "76aef8e6bb16b60eb4fbbeb7a91c3d99613cc60d9fb99007d5f06fce7dcf6563",
+    "proofs/ADVERSARIAL_REVIEW_001.md": "6a21db866b041ca4b4a78449f7e4c33ebdf8b7c44dffce9037d1549e88777607",
+    "proofs/ADVERSARIAL_REVIEW_002.md": "a0959fd8f0064d6e28aee36caa762e31f4e6952ce770895d6058c097331cb3e6",
+    "proofs/THEOREM_002.md": "75560464afe78248a42263d668e0b1193bff762357e3546eb30bf4ca33ca2c02",
+    "proofs/TOROIDAL_SHELL_SEPARATION.md": "6626fc1e920b80d790786c863f378026376ba71e6a6e8776f89b3e8fe0ad336a",
+    "src/certification/ARB_API_NOTES.md": "d9d68c5ac7f4f3c9c7b76a6109089e8f365f8e263dd1e83cbf3e3643d5df8f95",
+    "src/certification/arb_backend.py": "05bcc541d44e29e06f56dc40ebd09e790155851e37f937b187c691bfc57a21ce",
+    "src/certification/integrals.py": "d3d3a421757f34dca8ab085facf9b01adb538cf6f4039fda1303efdecaf9c574",
+    "src/certification/provenance.py": "dbdc12295426b995715fa2cad7235a32e8d78d515961dc3d98f26fe00c0ed66c",
+    "src/certification/shell_family.py": "9dc44eee3eec1224161c1caa036ca3c3475a261dcf7e793eaee55aa30ae9d7af"
+  }
+}

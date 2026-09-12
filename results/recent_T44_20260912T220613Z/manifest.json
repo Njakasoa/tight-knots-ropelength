@@ -1,0 +1,32 @@
+{
+  "inspection_sha256": "4d32afd8432d31a4690dfc8663a4a44c54d0e41f6301c7ffb6c3c68e81e33041",
+  "script_sha256": "ebca09d9701da74ed60b9c0205eedb101baef80c7a495d8b363a094779619dd9",
+  "source_hashes": {
+    "src/__init__.py": "d98c3f970fa684b5cb4202968fc2c7999dbab69d069ebdec360759fee1be22e2",
+    "src/certification/__init__.py": "bbc66735bd425d57e90f6ec339f6d4d650b7b65522b4b61d3122328576b2aedd",
+    "src/certification/arb_backend.py": "05bcc541d44e29e06f56dc40ebd09e790155851e37f937b187c691bfc57a21ce",
+    "src/certification/integrals.py": "89f40af090c0d1a3b42772df991e6e1f21f98fbcd1ee465a65e91aec3bc5df62",
+    "src/certification/provenance.py": "dbdc12295426b995715fa2cad7235a32e8d78d515961dc3d98f26fe00c0ed66c",
+    "src/certification/shell_family.py": "9dc44eee3eec1224161c1caa036ca3c3475a261dcf7e793eaee55aa30ae9d7af",
+    "src/contacts/__init__.py": "52a85e6be0e540e40dfde59dafbab24b3f390a57360adbb5e317f89a0ce36e78",
+    "src/contacts/extract.py": "b2b6bd7a71387da83524d641e9f8abf3a8abf2f4899a9d73bd7653f2688ff154",
+    "src/contacts/graph.py": "75458c07816e18e7a28c7764c01cc37fd2f430c00e4d6c75f3f89181daef4cfb",
+    "src/curves/__init__.py": "ac3db46a149a1de70e9abe0065f61a144050ffd9436f333cbdae291328cebc1a",
+    "src/curves/analytic.py": "4fb94840cc05f72d92777491c3a2602fe7bb60b72c5657eb2785cbcebe4de3da",
+    "src/curves/base.py": "8a6d5c1174ba3ded3a882c0343879490bd5431197f1f0b3998ec26276b36c18c",
+    "src/curves/circle.py": "96d4940560bd84974edb1d520778f03e3d17dc502efc58ec43b6cf044e95cbe4",
+    "src/curves/exact.py": "198bb7317ccb2b4f2ecd84ca1e2b06045f28ced1ec3bc5dcbaca783bde3096da",
+    "src/curves/generators.py": "e06e892d4ee361afe3f9a84f9492d2beece261048052a9aff6516709f751717e",
+    "src/curves/torus.py": "6d39fb2ff311143ea3265740f449580277f4ea7b9c285ace1977bfdb02a6d284",
+    "src/curves/vect.py": "e284f633bea8620553533d865ae9d4431f6ed0f4281af2f432abbdc1745c5677",
+    "src/thickness/__init__.py": "a493a66ba135293625f7723aa45521ed1c013a4b5e750ad8ec8730df9b47c676",
+    "src/thickness/engine.py": "b651ac249337a43104723cfc00d57a503baec2322da8b20be740e4dbdc92da58",
+    "src/thickness/polygon.py": "b017dbe6945a6c9a55af8f13048ed932f5e0632bc8c5c287bc4e3c883e142366",
+    "src/thickness/smooth.py": "3ad8b5b183dfb3b94bead670383cd1d41390be20398fd60459e421fd296eaadb",
+    "src/topology/__init__.py": "e3a9342605883753f5d87ec805fec398c119d562fbf2183047315b36700183f8",
+    "src/topology/check.py": "b6906406b313ad0e21b6e3401cea40fb41753650c62e919d10064f0f8bad97f5",
+    "src/topology/invariants.py": "eb0f237d70fc85964240fc08d4be7f30d5e78cc9ffeea5da788879b2ac750080",
+    "src/topology/projection.py": "27a5e16108918b3717a9a136bc69555785895b64d9a6de77fde32168ad3c8702"
+  },
+  "cli_sha256": "7fc54850258d4ea4c8ff4070aa128e50626e3d2833ec20922bd739b3f91607c2"
+}

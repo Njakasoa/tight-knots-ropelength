@@ -1,0 +1,11 @@
+{
+  "files": {
+    "pytest.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pytest.stdout.txt": "b2a9f8d020814f8f732859ae3c3521c83cca897c4157a279c3b509baa454d27f",
+    "pytest_full.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pytest_full.stdout.txt": "b5a8c8e147a6bc6f8b2ba966cd9b49ca5568f38b4c8b8f392e2a608c03fecb1d",
+    "validation.json": "b7ba670ef3d9750a9c833f5c2b45acc6d2b782f8612252ec3e34e72376a9b55a"
+  },
+  "schema": "independent-validation-manifest-v1",
+  "validation_sha256": "b7ba670ef3d9750a9c833f5c2b45acc6d2b782f8612252ec3e34e72376a9b55a"
+}

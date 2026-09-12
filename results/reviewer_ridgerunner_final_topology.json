@@ -1,0 +1,29 @@
+{
+  "trefoil47": {
+    "input": "results/ridgerunner_autoscaled_20260913/trefoil47.rr/trefoil47.final.vect",
+    "sha256": "544e879142b32674fa7e4c45961d5dfc82d29ffa5ad981ef0119889ef96807d7",
+    "crossing_count": 3,
+    "depth_gap_min": 1.0050735540709475,
+    "view": [
+      0.6187059835428791,
+      -0.5432807909014684,
+      -0.5674935137653239
+    ],
+    "determinant": 3,
+    "passed": true
+  },
+  "trefoil400": {
+    "input": "results/ridgerunner_autoscaled_20260913/trefoil400.rr/trefoil400.final.vect",
+    "sha256": "4b769612a303bf19b8694aff2bac1ab119fe3c55353fede9dfde201922178200",
+    "crossing_count": 3,
+    "depth_gap_min": 1.0069196513503917,
+    "view": [
+      0.4082482904638631,
+      0.8164965809277261,
+      -0.4082482904638631
+    ],
+    "determinant": 3,
+    "passed": true
+  },
+  "helper_sha256": "6175f60a59e0f14af9fa2ff06e602479fa53d3625f6be7f66788b6921cf5bf4f"
+}

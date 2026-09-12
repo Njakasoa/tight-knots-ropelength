@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+labroot=$(CDPATH= cd -- "$(dirname -- "$0")/../.." && pwd)
+export LD_LIBRARY_PATH="$labroot/vendor/toolchain/usr/lib/x86_64-linux-gnu/openblas-pthread:$labroot/vendor/toolchain/usr/lib/x86_64-linux-gnu:$labroot/vendor/local-current/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+export OPENBLAS_NUM_THREADS=1
+exec "$labroot/vendor/local-current/bin/ridgerunner" "$@"

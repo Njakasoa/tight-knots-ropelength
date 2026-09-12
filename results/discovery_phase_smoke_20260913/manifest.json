@@ -1,0 +1,61 @@
+{
+  "command": "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python experiments/discover_phase_packing.py --T 8 --a-fraction 1/2 --de-maxiter 8 --de-popsize 5 --uniform-seeds 5 --grid-points 401 --precision-bits 160 --digits 25 --output-dir results/discovery_phase_smoke_20260913",
+  "created_utc": "2026-09-12T22:29:55Z",
+  "git": {
+    "commit": "2235217a5e6f1a54afbe38029218faa65fea527d",
+    "dirty": true
+  },
+  "m1_gate_status": "PASS",
+  "manifest_version": 1,
+  "observed_output": "summary_by_population.json",
+  "outputs_sha256": {
+    "pair_T8_a1_2.json": "a6b04bb7e8ad3f36d4dd2dec002a9a88d05d63a200ba2f70ccf90c5d9de1e1ae",
+    "search.json": "928810545aa0898513b5b9f584661530dce337135203e8ee42041852e17763f8",
+    "summary_by_population.json": "c43f1db369dc499ef1d4d4308929f7ced5c0989d2aac06f33998bd4ab623ef37"
+  },
+  "parameters": {
+    "T": [
+      8
+    ],
+    "a_fractions": [
+      "1_2"
+    ],
+    "certify": true,
+    "de_maxiter": 8,
+    "de_popsize": 5,
+    "delta_lower": 1.001,
+    "delta_upper": 2.2,
+    "grid_points": 401,
+    "output_digits": 25,
+    "precision_bits": 160,
+    "seed": 7013,
+    "uniform_seed_count": 5
+  },
+  "run_id": "discovery_phase_smoke_20260913",
+  "runtime": {
+    "arb_context_precision_at_metadata": 53,
+    "arb_precision_bits": 160,
+    "machine": "x86_64",
+    "packages": {
+      "numpy": "2.5.3",
+      "python-flint": "0.9.0",
+      "scipy": "1.18.1"
+    },
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "python_implementation": "CPython"
+  },
+  "scientific_status": "Machine search of a conservative adjacent-shell lower bound. No full-bundle certificate, closure/isotopy proof, ropelength result, global optimum, or publication novelty claim.",
+  "seeds": null,
+  "source_hashes": {
+    "benchmarks/M1_REVIEW.md": "764dc60aae89d64522669ba06606a5cdf536c2b6b68c2b5e9532a3bb1a7da3f8",
+    "experiments/discover_phase_packing.py": "8db6691f20287b3214b52e992d5ae94c68c9d13fc62b1d7b4708fcab08800537",
+    "proofs/ADVERSARIAL_REVIEW_002.md": "a0959fd8f0064d6e28aee36caa762e31f4e6952ce770895d6058c097331cb3e6",
+    "proofs/THEOREM_002.md": "75560464afe78248a42263d668e0b1193bff762357e3546eb30bf4ca33ca2c02",
+    "src/certification/arb_backend.py": "05bcc541d44e29e06f56dc40ebd09e790155851e37f937b187c691bfc57a21ce",
+    "src/certification/provenance.py": "dbdc12295426b995715fa2cad7235a32e8d78d515961dc3d98f26fe00c0ed66c",
+    "src/certification/shell_family.py": "9dc44eee3eec1224161c1caa036ca3c3475a261dcf7e793eaee55aa30ae9d7af",
+    "src/discovery/phase_search.py": "6490e0ec51924c0965509c34e915fa36cdf7fa0ea3ef9d6da0be8fd141463fa5",
+    "tests/test_discovery.py": "6d34e3961cab13268d0fe6aba329216fbc329c0715302f53ed10604115da1438"
+  }
+}

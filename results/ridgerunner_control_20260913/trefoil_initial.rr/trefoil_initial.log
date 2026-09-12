@@ -1,0 +1,23 @@
+Ridgerunner logfile.
+Ridgerunner 2.3.1
+Built Sep 13 2026, 00:43:43.
+Run began: Sun Sep 13 00:44:54 2026
+Initial filename: trefoil_initial.vect.
+Command line: /home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/vendor/local-current/bin/ridgerunner trefoil_initial.vect -s 250 --StopTime=2 --NoPNGOutput --NoOutputFiles --NoLsqrLog 
+Stopping criteria: Max # of steps 250, Min residual 0, Stop20 -1000, stopTime 120 (sec).
+Process ID: 8.
+------------------------------------------------
+Seeded from dev/random with seed 2074365266.
+Loaded 1 component, 47 vertex plCurve from trefoil_initial.vect.
+Saved copy of trefoil_initial.vect to ./trefoil_initial.rr/trefoil_initial.vect.
+Rerez'd, autoscaled, eq'd file written to ./trefoil_initial.rr/trefoil_initial.atstart.vect.
+ridgerunner: Starting run. Will stop if 
+               step number >= 250 
+               residual < 0 
+               ropelength decrease over last 20 steps < -1000.
+
+ridgerunner: run complete. Terminated because 
+ridgerunner: reached maximum number of steps (250).
+--------------------------------------------------
+Run ended: Sun Sep 13 00:44:54 2026
+.

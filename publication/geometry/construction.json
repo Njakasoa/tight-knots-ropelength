@@ -1,0 +1,21 @@
+{
+  "family": "T(M,M), up to a common mirror",
+  "thickness": "at least one; radius convention",
+  "integer_parameters": {"T": "T >= 1", "b": "1 <= b <= T"},
+  "delta": "sqrt(3)",
+  "g": "2-sqrt(3)",
+  "r_i": "delta*i+g*ceil(i/b), i=1..T",
+  "R": "2*r_T+2",
+  "first_index": "j(i)=1+b*floor((i-1)/b)",
+  "N_i": "floor(pi*r_j*(R-r_j)/sqrt(r_j^2+(R-r_j)^2))-1",
+  "phase_ij": "2*pi*j/N_i plus offset alternating 0,pi/N_i within each block",
+  "curve": "((R+r_i*cos(t))*cos(t+phase_ij),(R+r_i*cos(t))*sin(t+phase_ij),r_i*sin(t))",
+  "core": "(R*cos(t),R*sin(t),0)",
+  "doubling": "P(x,y,z)=(R+x,-z,y)",
+  "component_count": "M=2*(1+sum_i N_i)",
+  "length": "2*(2*pi*R+sum_i N_i*integral_0^(2*pi) sqrt((R+r_i*cos(t))^2+r_i^2) dt)",
+  "finite_generator": "experiments/run_shell_family.py --include-staggered (original b=floor(sqrt(T)))",
+  "arbitrary_b_search": "experiments/discover_block_sizes.py (floating diagnostics)",
+  "proof": "publication/main.tex; independent full details in proofs/ADVERSARIAL_REVIEW_001.md,002.md,003.md",
+  "scope": "Exact formulas define smooth curves. Finite sampled coordinates alone do not certify smooth reach."
+}

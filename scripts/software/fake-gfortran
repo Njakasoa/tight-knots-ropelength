@@ -1,0 +1,21 @@
+#!/bin/sh
+# Minimal configure-only shim: emits a C object containing the two symbols
+# used by Autoconf's Fortran name-mangling probe. It is not a Fortran compiler.
+out=a.out
+compile=no
+for arg in "$@"; do
+  case "$arg" in
+    -c) compile=yes ;;
+    -o) shift; out=$1 ;;
+    -o*) out=${arg#-o} ;;
+  esac
+done
+if [ "$compile" = yes ]; then
+  tmp=${TMPDIR:-/tmp}/fake-gfortran-$$.c
+  printf 'void foobar_(void) {}\nvoid foo_bar_(void) {}\n' > "$tmp"
+  gcc -c "$tmp" -o "$out"
+  status=$?
+  rm -f "$tmp"
+  exit $status
+fi
+exec gcc "$@"

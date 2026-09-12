@@ -1,0 +1,71 @@
+{
+  "command": [
+    "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/independent/test_independent_validation.py"
+  ],
+  "duration_seconds": 60.777,
+  "external_tools": {
+    "plcurve_commit": "28c1ab74c02baab71ac77cd851e9163875c137a3",
+    "ridgerunner_commit": "4ee3199e737dcd3580d8bfc5deb031cd53f5f554",
+    "ropelength": "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/vendor/deps/libplcurve-10.1.0/build/bin/ropelength",
+    "ropelength_sha256": "7fc54850258d4ea4c8ff4070aa128e50626e3d2833ec20922bd739b3f91607c2"
+  },
+  "full_pytest": {
+    "command": [
+      "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "duration_seconds": 31.151,
+    "returncode": 0,
+    "summary": {
+      "counts": {
+        "passed": 27
+      },
+      "failed_tests": []
+    }
+  },
+  "host": {
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+  },
+  "known_interpretation": "A nonzero return code is retained as evidence. The independent suite must pass before M1 can be called complete; a torus non-coprime period failure is a source blocker rather than a tolerance choice.",
+  "pytest": {
+    "counts": {
+      "passed": 12
+    },
+    "failed_tests": []
+  },
+  "python": "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+  "reference_sha256": {
+    "data/reference/cantarella-atlas/MANIFEST.json": "a3dfe6346f5b8256ec803f7110257a0ec4f08db9ba89a0ab310f0d04a41ece17",
+    "data/reference/trefoil_3.1_plcurve_kl400.vect": "a7c002b1499207bd39a187952d567fe70b86f79b51099cfc6d28f992b990d5fd",
+    "data/reference/trefoil_3.1_ridgerunner.vect": "809cdd9141ee4f118e01301648d7b47daf9a2d7c7683ba42e0f424e50e6405a1",
+    "results/ridgerunner_autoscaled_20260913/trefoil400.rr/trefoil400.final.vect": "4b769612a303bf19b8694aff2bac1ab119fe3c55353fede9dfde201922178200",
+    "results/ridgerunner_autoscaled_20260913/trefoil47.rr/trefoil47.final.vect": "544e879142b32674fa7e4c45961d5dfc82d29ffa5ad981ef0119889ef96807d7"
+  },
+  "returncode": 0,
+  "schema": "independent-validation-v1",
+  "source": {
+    "repository_commit": "2235217a5e6f1a54afbe38029218faa65fea527d",
+    "runner_sha256": "fb897cc54ff3ad4a4b588f24484b5ba3377120a7f747fc6a78146ed91d427d37",
+    "test_sha256": "6175f60a59e0f14af9fa2ff06e602479fa53d3625f6be7f66788b6921cf5bf4f",
+    "working_tree_status": "M NOVELTY_LOG.md\n M ORCHESTRATION_LOG.md\n M README.md\n M RESEARCH_LOG.md\n M STATE_OF_THE_ART.md\n M claims/CLAIM-0002.md\n M experiments/run_controls.py\n M references/RECENT_TORUS_AUDIT.md\n M src/curves/exact.py\n M src/thickness/polygon.py\n M src/topology/projection.py\n?? ENVIRONMENT_AUDIT.md\n?? benchmarks/INITIAL_PARAMETER_SEARCH.md\n?? benchmarks/M1_REVIEW.md\n?? benchmarks/RECENT_CONSTRUCTION_REPRODUCTION.md\n?? benchmarks/TARGET_SELECTION.md\n?? benchmarks/software/\n?? data/\n?? experiments/certify_shell_bound.py\n?? experiments/inspect_recent_link.py\n?? experiments/optimize_torus_controls.py\n?? experiments/plot_recent_contacts.py\n?? experiments/run_ridgerunner_controls.py\n?? experiments/run_shell_family.py\n?? geometry/recent_T44_contacts/\n?? papers/cks-2002.pdf\n?? papers/klotz-2026-v2.pdf\n?? papers/klotz-thompson-2025.pdf\n?? proofs/ADVERSARIAL_REVIEW_002.md\n?? proofs/CERTIFICATE_IMPLEMENTATION_REVIEW.md\n?? proofs/THEOREM_002.md\n?? references/FOCUSED_NOVELTY_AUDIT.md\n?? references/SOFTWARE_DATA.md\n?? results/INDEX.md\n?? results/certificate_shell_20260913/\n?? results/certificate_shell_20260913_N512M1024/\n?? results/certificate_shell_20260913_N512M1024_v2/\n?? results/certificate_shell_20260913_v2/\n?? results/certificate_shell_20260913_v3/\n?? results/certificate_shell_20260913_v4/\n?? results/certificate_shell_N512M1024_noguard/\n?? results/controls/controls_20260912T215004106139Z_bf0e70f4f7.json\n?? results/controls/controls_20260912T215004106139Z_bf0e70f4f7.manifest.json\n?? results/controls/controls_20260912T220505616143Z_f7787de589.json\n?? results/controls/controls_20260912T220505616143Z_f7787de589.manifest.json\n?? results/controls/controls_20260912T220626013170Z_c06ce8d71d.json\n?? results/controls/controls_20260912T220626013170Z_c06ce8d71d.manifest.json\n?? results/finite_shell_family_20260913/\n?? results/finite_shell_family_staggered_20260913/\n?? results/finite_shell_family_staggered_20260913_v2/\n?? results/finite_shell_family_staggered_20260913_v3/\n?? results/finite_shell_family_staggered_20260913_v4/\n?? results/independent/\n?? results/independent_final/\n?? results/recent_T44_20260912T215947Z/\n?? results/recent_T44_20260912T220451Z/\n?? results/recent_T44_20260912T220613Z/\n?? results/reviewer_certificate_check.json\n?? results/reviewer_certificate_check.py\n?? results/reviewer_geometry_regressions.json\n?? results/reviewer_geometry_regressions.py\n?? results/reviewer_m1_probes.json\n?? results/reviewer_ridgerunner_final_topology.json\n?? results/reviewer_ridgerunner_final_topology.py\n?? results/reviewer_segment_faces.json\n?? results/ridgerunner_autoscaled_20260913/\n?? results/ridgerunner_control_20260913/\n?? results/torus_search_20260912T214900Z/\n?? scripts/\n?? src/__init__.py\n?? src/certification/\n?? tests/independent/\n?? tests/test_certification.py\n?? trefoil_3.1_plcurve_kl400.curvature.dat"
+  },
+  "started_utc": "2026-09-12T22:11:57.570220+00:00",
+  "status": "PASS",
+  "versions": {
+    "flint": "0.9.0",
+    "mpmath": "1.3.0",
+    "numpy": "2.5.3",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "pytest": "9.1.1",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "scipy": "1.18.1"
+  },
+  "working_directory": "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab"
+}

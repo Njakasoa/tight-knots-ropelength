@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-09-12T22:05:05.616718Z",
+  "input_hashes": {
+    "control_parameters": "684cc53d196575597c8bc348b4b44d6e4233654e7df0bf6cc9e4cb9760dc57e6",
+    "data/reference/trefoil_3.1_ridgerunner.vect": "809cdd9141ee4f118e01301648d7b47daf9a2d7c7683ba42e0f424e50e6405a1",
+    "source_engine": "35784faf952d23e72521de4b3a343e13045b5d6d7c35a7a309409626761b6e6a"
+  },
+  "output_file": "controls_20260912T220505616143Z_f7787de589.json",
+  "output_sha256": "2097f2880d571dfeddbddc80663e5f0f5c8c2bcc7b401798a520b45ea9fbef07",
+  "schema": "tight-knots-lab/control-run-manifest/v1",
+  "source_commit": "2235217a5e6f1a54afbe38029218faa65fea527d"
+}

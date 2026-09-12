@@ -1,0 +1,41 @@
+{
+  "commands": [
+    {
+      "command": [
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+        "publication/checkers/check_endpoints.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+        "experiments/certify_shell_bound.py",
+        "--N",
+        "512",
+        "--M",
+        "1024",
+        "--output-dir",
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/publication_reproduction_20260912T223709466785Z/shell_certificate"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+        "publication/figures/make_figures.py",
+        "--output-dir",
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/publication_reproduction_20260912T223709466785Z/figures"
+      ],
+      "returncode": 0
+    }
+  ],
+  "success": true,
+  "utc": "20260912T223709466785Z",
+  "source_hashes": {
+    "publication/reproduce.py": "063438bd852f85dfc96cc486ee81fef36f8165bfe2c6167d44ac05d70eaf36a2",
+    "publication/main.tex": "eca1a8900d721683ff06bc2ab9d88b6eb619e395c8a863f5c3a89fcbb941087a",
+    "publication/checkers/check_endpoints.py": "b397a3cba77403704a4ae7e03bc91f4d8e314e8ad375b3ac3219126699a7029f",
+    "publication/figures/make_figures.py": "673e5fb88960af9844779be4dd9c25fe9a5cfc1d22309a275fca3a1f28ee72b3"
+  }
+}

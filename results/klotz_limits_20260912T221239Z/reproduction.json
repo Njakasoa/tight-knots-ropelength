@@ -1,0 +1,58 @@
+{
+  "experiment_id": "klotz_limits_20260912T221239Z",
+  "utc": "20260912T221239Z",
+  "commit": "2235217a5e6f1a54afbe38029218faa65fea527d",
+  "source": "Klotz2026 arXiv2603.02416v2 SecIII",
+  "formula": "e(x)=integral_0^(2pi) sqrt((4+2x*cos(t))^2+4x^2) dt; alpha=integral(n*e)/(sqrt2*q0^(3/2))",
+  "source_pdf_sha256": "da129d57b770370969473b8da3798109eeb3c5901004f2cdf4cfbb1bc92d69e6",
+  "script_sha256": "1f78daaa3c2f79393ac767eff6ad7bae84e39a7cfeaeca933ede1d89cff5db46",
+  "runtime_seconds": 0.01106100399999832,
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "scipy": "1.18.1",
+  "numpy": "2.5.3",
+  "status": "numerical quadrature reproduction; error estimates are not rigorous bounds; finite occupancy clearance proof not implied",
+  "records": [
+    {
+      "model": "constant_increment",
+      "population_density": "n(x)=4x; q0=2",
+      "q0": 2.0,
+      "runs": [
+        {
+          "epsabs_epsrel": 1e-08,
+          "l0": 53.51038563181233,
+          "outer_error_estimate": 5.940846218500921e-13,
+          "max_inner_error_estimate": 1.7501452392553157e-07,
+          "alpha": 13.37759640795308
+        },
+        {
+          "epsabs_epsrel": 1e-11,
+          "l0": 53.51038563181232,
+          "outer_error_estimate": 5.94084621850092e-13,
+          "max_inner_error_estimate": 2.520415553781269e-10,
+          "alpha": 13.377596407953076
+        }
+      ]
+    },
+    {
+      "model": "common_hole_maximum",
+      "population_density": "n(x)=2pi*x/sqrt(1+x^2); q0=2pi*(sqrt2-1)",
+      "q0": 2.6025805691371464,
+      "runs": [
+        {
+          "epsabs_epsrel": 1e-08,
+          "l0": 69.38814238088698,
+          "outer_error_estimate": 7.703631330722935e-13,
+          "max_inner_error_estimate": 1.7501452392553157e-07,
+          "alpha": 11.685949053273115
+        },
+        {
+          "epsabs_epsrel": 1e-11,
+          "l0": 69.38814238088696,
+          "outer_error_estimate": 7.703631330722934e-13,
+          "max_inner_error_estimate": 2.520415553781269e-10,
+          "alpha": 11.685949053273111
+        }
+      ]
+    }
+  ]
+}

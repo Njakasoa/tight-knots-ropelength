@@ -1,0 +1,18 @@
+{
+  "claim_boundary": "Machine search of a conservative adjacent-shell lower bound. No full-bundle certificate, closure/isotopy proof, ropelength result, global optimum, or publication novelty claim.",
+  "observed_by_population": [
+    {
+      "N": 21,
+      "T": 8,
+      "a_fraction": "1/2",
+      "arb_status": "PASS",
+      "delta_min_machine_observed": 1.621583647558422,
+      "fopt_machine_observed": 0.4999999984795328,
+      "grid_delta_min_machine_observed": 1.6215836450924055,
+      "grid_f_machine_observed": 0.5,
+      "optimizer_minus_grid_delta": 2.4660165021117564e-09,
+      "selected_margin_squared": 6.217248937900877e-15
+    }
+  ],
+  "schema": "discovery-phase-summary-v1"
+}

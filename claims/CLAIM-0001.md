@@ -1,19 +1,14 @@
 # CLAIM-0001 — Shell-specific toroidal separation
 
-**Exact statement:** The inequality (S) and integer population rule in
-proofs/TOROIDAL_SHELL_SEPARATION.md suffice for intercomponent clearance 2;
-R>=2r+2, r>=2 also suffice for each component's unit self-thickness.
-**Family:** Concentric p=1 toroidal helices, potential doubled T(Q,Q) family.
-**Convention:** Radius thickness, total component length.
-**Proof level:** Level 4 analytic proof with independent Astra review PASS. Canonical statement: proofs/THEOREM_001.md. Level 5 awaits independent implementation/testing.
-**Numerical evidence:** Exploratory SciPy quadrature alpha_double≈11.40500929.
-This decimal is not yet a certified ropelength bound.
-**Topology verification:** PASS in proofs/ADVERSARIAL_REVIEW_001.md, via zero-framed cluster full-rotation factorization, beyond pairwise linking.
-**Thickness verification:** Analytic argument independently reviewed PASS; executable checks pending.
-**Counterexample search:** Reviewer independently stress-tested same-shell distances through T=100; independent implementation tester pending.
-**Closest literature:** Klotz 2026 arXiv:2603.02416; Klotz–Thompson 2025
-arXiv:2504.00861. Need latest-version and novelty audit.
-**Independent derivation:** Exact toroidal distance identity, harmonic minimization,
-sine concavity, Taylor remainder, and shell-specific inner radius.
-**Novelty status:** POSSIBLY NOVEL, provisional and unaudited; not VERIFIED RESULT.
-**Open objections:** Integral arithmetic certificate; independent implementation/test; prior art; comparison to rigorous vs conditional upper bounds. Analytic topology, thickness and all-Q limsup passed independent review.
+**Exact statement:** The explicit doubled shell family of proofs/THEOREM_001.md proves limsup Rop(T(M,M))/[M(M−1)]^(3/4) ≤ α1, where α1=l0/(√2 q0^(3/2)) is defined there. The audited interval calculation gives α1<11.406.
+**Knot/link family:** All integer M→∞, full-twist T(M,M), up to a common mirror.
+**Ropelength convention:** Tube radius; total length of all components.
+**Proof level:** Level 5: independently reviewed analytic construction and independent implementation/certificate review.
+**Numerical evidence:** α1≈11.4050092899 is diagnostic; the accepted outward upper endpoint is 11.40519894659519 (see certificate rational endpoints for exact comparisons). Finite generators include certified capacity floors and interval lengths.
+**Topology verification:** Zero-framed configuration-space full rotation; matching internal/mutual signs in Hopf doubling; deleting strands preserves full twist. Pairwise linking alone is not the proof.
+**Thickness verification:** Exact harmonic separation bound, curvature ≤11/16 and self-critical chords ≥80/33; all cross-bundle distances ≥2.
+**Counterexample search:** Independent all-pair numerical attacks and finite checks; see proofs/ADVERSARIAL_REVIEW_001.md, proofs/CERTIFICATE_IMPLEMENTATION_REVIEW.md and benchmarks/M1_REVIEW.md.
+**Closest literature:** Klotz 2026, DOI 10.1088/1751-8121/ae862e; Klotz–Thompson 2025, DOI 10.1098/rspa.2025.0319. Toroidal shells and doubling are prior art.
+**Independent derivation:** Independent Astra analytic derivation and separate 224-bit integral implementation in results/reviewer_certificate_check.py.
+**Novelty status:** VERIFIED RESULT mathematically; POSSIBLY NOVEL, provisional, as a publication contribution. See references/FOCUSED_NOVELTY_AUDIT.md.
+**Open objections:** Bounded novelty audit cannot establish priority. This is an asymptotic constructive upper bound, not a finite-M bound with the same constant, an optimum, or a universal lower bound.

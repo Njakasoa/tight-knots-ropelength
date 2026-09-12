@@ -1,0 +1,30 @@
+Summary of tight knot data from Klotz manuscript on T(Q,Q) torus links. 
+Ropelengths are relative to a unit-radius tube, however the associated Cartesian coordinates in the .vect files assume a unit-diameter tube.
+Coefficients are the ratio of ropelength to the three-quarter power of crossing number. Crossing number is Q(Q-1).
+.vect files may be visualized in KnotPlot ("load Tqq.vect") without modification.
+T(2,2) is the Hopf link with trivial ropelength 8pi.
+T(3,3) ropelength comes from the data of Ashton et al. as 6_3_3. Links functional as of June 2026: https://jasoncantarella.com/TightKnot2/best/ropelength_data.txt https://jasoncantarella.com/TightKnot2/best/6_3_3_best.vect
+
+
+Q	Ridgerunner 	Lower Bound 	Ratio		Coefficient
+
+2	25.13272	25.13272	1		14.94400472
+3	50.35		49.69908	1.013127406	13.13405937
+4	77.47		74.26544	1.0431245	12.01536505
+5	109.00		102.8318	1.059944492	11.52492382
+6	144.21		135.39828	1.065103634	11.2502992
+7	181.75		168.21266	1.080477534	11.01634306
+8	228.21		196.53104	1.161165178	11.14767081
+9	274.71		247.45122	1.110158196	11.11412038
+10	332.47		280.3038	1.186105932	11.37812187
+11	381.36		304.57658	1.252098897	11.22769548
+12	440.53		345.09096	1.276561982	11.31214702
+13	492.50		386.17774	1.275319494	11.15739442
+14	538.09		429.61212	1.252501908	10.85928872
+15	643.40		473.4417	1.358984644	11.66316945
+16	702.95		519.58368	1.352910084	11.5283195
+17	814.80		565.96706	1.439659757	12.16534255
+18	886.83		614.64204	1.442839803	12.12130296
+19	920.42		663.43022	1.3873652	11.57354667
+20	994.37		713.3516	1.39394094	11.55341346
+

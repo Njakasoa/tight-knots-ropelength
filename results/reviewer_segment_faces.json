@@ -1,0 +1,7 @@
+{
+  "seed": 917,
+  "cases": 500,
+  "reference": "scipy.optimize.lsq_linear bounded quadratic",
+  "max_absolute_distance_discrepancy": 9.119233146392958e-13,
+  "passed": true
+}

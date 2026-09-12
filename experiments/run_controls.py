@@ -183,8 +183,10 @@ def run_controls(*, resolutions: list[int], scales: list[float], seed: int | Non
         handle.write(payload)
     input_hashes = {
         "control_parameters": _sha256_bytes(json.dumps(data["parameters"], sort_keys=True).encode("utf-8")),
-        "source_engine": _sha256_bytes(b"circle/hopf/torus analytic generators and polygon checker"),
     }
+    for source in sorted((REPOSITORY / "src").rglob("*.py")):
+        input_hashes[str(source.relative_to(REPOSITORY))] = _sha256_file(source)
+    input_hashes["experiments/run_controls.py"] = _sha256_file(Path(__file__))
     reference = REPOSITORY / "data" / "reference" / "trefoil_3.1_ridgerunner.vect"
     if reference.exists():
         input_hashes[str(reference.relative_to(REPOSITORY))] = _sha256_file(reference)

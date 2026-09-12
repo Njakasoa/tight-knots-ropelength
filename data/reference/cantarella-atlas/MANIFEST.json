@@ -1,0 +1,61 @@
+{
+  "repository": "https://github.com/designbynumbers/ropelength-minimizing-knots",
+  "commit": "0d7845435b61d8b7916d2a8b8cf91d03bdf76e2a",
+  "retrieved_utc": "2026-09-12T21:42:11.756605+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/designbynumbers/ropelength-minimizing-knots/0d7845435b61d8b7916d2a8b8cf91d03bdf76e2a/README.md",
+      "bytes": 4196,
+      "sha256": "5e52f1f67c2398cad2dfb00b709acfd5d39972cfa95b8cb635dcad1ef0496643"
+    },
+    {
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/designbynumbers/ropelength-minimizing-knots/0d7845435b61d8b7916d2a8b8cf91d03bdf76e2a/LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "knots/prime/3-10/3_1.tsv",
+      "url": "https://raw.githubusercontent.com/designbynumbers/ropelength-minimizing-knots/0d7845435b61d8b7916d2a8b8cf91d03bdf76e2a/knots/prime/3-10/3_1.tsv",
+      "bytes": 134254,
+      "sha256": "e649e6d41a9d0a76bf6be1a93c6eed483ac3c949b6677f3f59520d0e958e8c3c"
+    },
+    {
+      "path": "knots/prime/3-10/4_1.tsv",
+      "url": "https://raw.githubusercontent.com/designbynumbers/ropelength-minimizing-knots/0d7845435b61d8b7916d2a8b8cf91d03bdf76e2a/knots/prime/3-10/4_1.tsv",
+      "bytes": 23396,
+      "sha256": "099996e1d47c9879be3fe526bf22971e4127f603b6261cd34da036d77c9be7e4"
+    },
+    {
+      "path": "knots/prime/3-10/5_1.tsv",
+      "url": "https://raw.githubusercontent.com/designbynumbers/ropelength-minimizing-knots/0d7845435b61d8b7916d2a8b8cf91d03bdf76e2a/knots/prime/3-10/5_1.tsv",
+      "bytes": 22589,
+      "sha256": "d88ab5312607cdb6493ac4941211f7c90a70b2a49edd6a5e7bc65d40af6eea94"
+    },
+    {
+      "path": "knots/prime/3-10/6_1.tsv",
+      "url": "https://raw.githubusercontent.com/designbynumbers/ropelength-minimizing-knots/0d7845435b61d8b7916d2a8b8cf91d03bdf76e2a/knots/prime/3-10/6_1.tsv",
+      "bytes": 27561,
+      "sha256": "a09e80263d9fdf03c395d9a584cea165799d977aa20319baab7b2aeb9c1ae52d"
+    },
+    {
+      "path": "knots/prime/3-10/8_19.tsv",
+      "url": "https://raw.githubusercontent.com/designbynumbers/ropelength-minimizing-knots/0d7845435b61d8b7916d2a8b8cf91d03bdf76e2a/knots/prime/3-10/8_19.tsv",
+      "bytes": 27722,
+      "sha256": "764bc2fe9a6cb186dc7aaeaf01cd2ab78a0aeb87421e47e5cb0f578f42c1a88b"
+    },
+    {
+      "path": "knots/prime/3-10/10_124.tsv",
+      "url": "https://raw.githubusercontent.com/designbynumbers/ropelength-minimizing-knots/0d7845435b61d8b7916d2a8b8cf91d03bdf76e2a/knots/prime/3-10/10_124.tsv",
+      "bytes": 33017,
+      "sha256": "51e3912df1850cac99c0eba056aa345e520d25b6c97c72398ff35069d1c33ac0"
+    },
+    {
+      "path": "links/prime/2-9/2_2_1.tsv",
+      "url": "https://raw.githubusercontent.com/designbynumbers/ropelength-minimizing-knots/0d7845435b61d8b7916d2a8b8cf91d03bdf76e2a/links/prime/2-9/2_2_1.tsv",
+      "bytes": 12230,
+      "sha256": "7406f57623911741258542fb521fedbeaa04a1899799ecfa6cff97a2394906d2"
+    }
+  ]
+}

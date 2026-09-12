@@ -1,0 +1,279 @@
+{
+  "coefficient_common_hole": {
+    "arb": "[12.5733569189906120300292968750000000000000000000000000000000 +/- 1.24e-4]",
+    "lower": {
+      "decimal": "12.5732338428497314453125000000000000000000000000000000000000",
+      "denominator": "4194304",
+      "numerator": "52735965"
+    },
+    "midpoint": "12.5733569189906120300292968750000000000000000000000000000000",
+    "radius": "0.000123076140880584716796875000000000000000000000000000000000000",
+    "upper": {
+      "decimal": "12.5734799951314926147460937500000000000000000000000000000000",
+      "denominator": "67108864",
+      "numerator": "843791959"
+    }
+  },
+  "coefficient_shell_specific": {
+    "arb": "[12.1174225658178329467773437500000000000000000000000000000000 +/- 1.13e-4]",
+    "lower": {
+      "decimal": "12.1173096001148223876953125000000000000000000000000000000000",
+      "denominator": "33554432",
+      "numerator": "406589441"
+    },
+    "midpoint": "12.1174225658178329467773437500000000000000000000000000000000",
+    "radius": "0.000112965703010559082031250000000000000000000000000000000000000",
+    "upper": {
+      "decimal": "12.1175355315208435058593750000000000000000000000000000000000",
+      "denominator": "16777216",
+      "numerator": "203298511"
+    }
+  },
+  "common_hole_populations": [
+    {
+      "capacity": {
+        "arb": "[5.96075295947766074066013040219221067486268623364590408127807 +/- 3.09e-57]",
+        "lower": {
+          "decimal": "5.96075295947766074066013040219221067486268623364590408127424",
+          "denominator": "196159429230833773869868419475239575503198607639501078528",
+          "numerator": "1169257898317141169885823556483306326076799597654043557383"
+        },
+        "midpoint": "5.96075295947766074066013040219221067486268623364590408127807",
+        "radius": "3.08019997343624564479811545432145024347717291388794025116125e-57",
+        "upper": {
+          "decimal": "5.96075295947766074066013040219221067486268623364590408128189",
+          "denominator": "392318858461667547739736838950479151006397215279002157056",
+          "numerator": "2338515796634282339771647112966612652153599195308087114769"
+        }
+      },
+      "capacity_floor": 5,
+      "floor_certificate": {
+        "downward_rounding": "certified by Arb lower/upper endpoint floors",
+        "statement": "5 <= A_1 < 6"
+      },
+      "hole_radius": 6,
+      "population": 4,
+      "radius": 2,
+      "rule": "N=floor(A_i)-1, A_i=pi*r_i*h_common/sqrt(r_i^2+h_common^2)",
+      "shell": 1
+    },
+    {
+      "capacity": {
+        "arb": "[10.4558523684359794084920273463579952051507695903395202269064 +/- 5.47e-57]",
+        "lower": {
+          "decimal": "10.4558523684359794084920273463579952051507695903395202268987",
+          "denominator": "98079714615416886934934209737619787751599303819750539264",
+          "numerator": "1025507016357131602528916422562169116843625143917643509949"
+        },
+        "midpoint": "10.4558523684359794084920273463579952051507695903395202269064",
+        "radius": "5.45736061663915695598826247326460219235339762646666265448666e-57",
+        "upper": {
+          "decimal": "10.4558523684359794084920273463579952051507695903395202269140",
+          "denominator": "196159429230833773869868419475239575503198607639501078528",
+          "numerator": "2051014032714263205057832845124338233687250287835287019901"
+        }
+      },
+      "capacity_floor": 10,
+      "floor_certificate": {
+        "downward_rounding": "certified by Arb lower/upper endpoint floors",
+        "statement": "10 <= A_2 < 11"
+      },
+      "hole_radius": 6,
+      "population": 9,
+      "radius": 4,
+      "rule": "N=floor(A_i)-1, A_i=pi*r_i*h_common/sqrt(r_i^2+h_common^2)",
+      "shell": 2
+    }
+  ],
+  "comparison_by_shell": [
+    {
+      "h_common": 6,
+      "h_shell_specific": 8,
+      "population_common": 4,
+      "population_gain": 1,
+      "population_shell_specific": 5,
+      "radius": 2,
+      "shell": 1
+    },
+    {
+      "h_common": 6,
+      "h_shell_specific": 6,
+      "population_common": 9,
+      "population_gain": 0,
+      "population_shell_specific": 9,
+      "radius": 4,
+      "shell": 2
+    }
+  ],
+  "family": {
+    "bundle_components_Q_common": 14,
+    "bundle_components_Q_shell_specific": 15,
+    "common_hole_radius": 6,
+    "component_topology": "T(30,30)",
+    "cross_bundle_clearance_lower_bound": "R-4*T=2",
+    "inter_shell_clearance_rule": "radial spacing r_(i+1)-r_i=2",
+    "major_radius_R": 10,
+    "name": "finite shell-specific toroidal bundles",
+    "normalization": "radius-one tube; total centerline length",
+    "outer_minor_radius": 4,
+    "proper_rotation": "P(x,y,z)=(R+x,-z,y), determinant +1",
+    "same_shell_clearance_rule": "N=floor(A)-1 with certified Arb floor",
+    "status": "analytic geometric construction; finite arithmetic reproduction",
+    "t_shells": 2,
+    "topology_label": "T(2Q,2Q) via full-twist cabling proof route; sampled export is not a topology certificate",
+    "total_components_M_common": 28,
+    "total_components_M_shell_specific": 30
+  },
+  "length_common_hole": {
+    "arb": "[1862.89463217606802227397990317412090742544412335940962205653 +/- 0.0183]",
+    "lower": {
+      "decimal": "1862.87640398156630563040804953642559492544412335940962205653",
+      "denominator": "3064991081731777716716694054300618367237478244367204352",
+      "numerator": "5709699564572065056598357094087033935486609028206900091009"
+    },
+    "midpoint": "1862.89463217606802227397990317412090742544412335940962205653",
+    "radius": "0.0182281945017166435718536376953125000000000000000000000000000",
+    "upper": {
+      "decimal": "1862.91286037056973891755175681181621992544412335940962205653",
+      "denominator": "3064991081731777716716694054300618367237478244367204352",
+      "numerator": "5709811303079232724074935736855645437259001743896432679041"
+    }
+  },
+  "length_shell_specific": {
+    "arb": "[1991.09570438472126236286582153215591151808942059719718589666 +/- 0.0186]",
+    "lower": {
+      "decimal": "1991.07715092150299435582579772844497401808942059719718589666",
+      "denominator": "3064991081731777716716694054300618367237478244367204352",
+      "numerator": "6102633710614323500123517322643517177872208449150639382981"
+    },
+    "midpoint": "1991.09570438472126236286582153215591151808942059719718589666",
+    "radius": "0.0185534632182680070400238037109375000000000000000000000000000",
+    "upper": {
+      "decimal": "1991.11425784793953036990584533586684901808942059719718589666",
+      "denominator": "3064991081731777716716694054300618367237478244367204352",
+      "numerator": "6102747443012921960141110061637206291024122351560286511557"
+    }
+  },
+  "parameters": {
+    "angular_cells_for_finite_lengths": 512,
+    "output_digits": 60,
+    "precision_bits": 192,
+    "seeds": null
+  },
+  "phases_common_bundle_1": [
+    {
+      "phase_endpoint_note": "indices describe the deterministic equal-spacing rule; no sampled phase is a certificate",
+      "phase_formula": "2*pi*j/N_i",
+      "phase_indices": [
+        0,
+        3
+      ],
+      "population": 4,
+      "shell": 1
+    },
+    {
+      "phase_endpoint_note": "indices describe the deterministic equal-spacing rule; no sampled phase is a certificate",
+      "phase_formula": "2*pi*j/N_i",
+      "phase_indices": [
+        0,
+        8
+      ],
+      "population": 9,
+      "shell": 2
+    }
+  ],
+  "phases_shell_specific_bundle_1": [
+    {
+      "phase_endpoint_note": "indices describe the deterministic equal-spacing rule; no sampled phase is a certificate",
+      "phase_formula": "2*pi*j/N_i",
+      "phase_indices": [
+        0,
+        4
+      ],
+      "population": 5,
+      "shell": 1
+    },
+    {
+      "phase_endpoint_note": "indices describe the deterministic equal-spacing rule; no sampled phase is a certificate",
+      "phase_formula": "2*pi*j/N_i",
+      "phase_indices": [
+        0,
+        8
+      ],
+      "population": 9,
+      "shell": 2
+    }
+  ],
+  "published_model_references": {
+    "Klotz_11_68": {
+      "coefficient": "11.68",
+      "label": "published-model reference: conditional optimized-shell coefficient under stated no-overlap assumption",
+      "normalization": "radius-one tube",
+      "source": "references/RECENT_TORUS_AUDIT.md, Klotz 2026 Section III.3",
+      "status": "conditional published model; not a certified bound here"
+    },
+    "Klotz_13_38": {
+      "coefficient": "13.38",
+      "label": "published-model reference: reported parameter-free toroidal construction coefficient",
+      "normalization": "radius-one tube",
+      "source": "references/RECENT_TORUS_AUDIT.md, Klotz 2026 Sections III.1 and III.3",
+      "status": "reported model/numerical reference; not this certificate"
+    }
+  },
+  "shell_specific_populations": [
+    {
+      "capacity": {
+        "arb": "[6.09558510278361919521104233766987484087686100190714576209233 +/- 3.79e-57]",
+        "lower": {
+          "decimal": "6.09558510278361919521104233766987484087686100190714576208851",
+          "denominator": "392318858461667547739736838950479151006397215279002157056",
+          "numerator": "2391412989180015930213060400026277756963476721555104587477"
+        },
+        "midpoint": "6.09558510278361919521104233766987484087686100190714576209233",
+        "radius": "3.77689945967395888101505028860970485829768390537530298887109e-57",
+        "upper": {
+          "decimal": "6.09558510278361919521104233766987484087686100190714576209616",
+          "denominator": "49039857307708443467467104868809893875799651909875269632",
+          "numerator": "298926623647501991276632550003284719620434590194388073435"
+        }
+      },
+      "capacity_floor": 6,
+      "floor_certificate": {
+        "downward_rounding": "certified by Arb lower/upper endpoint floors",
+        "statement": "6 <= A_1 < 7"
+      },
+      "hole_radius": 8,
+      "population": 5,
+      "radius": 2,
+      "rule": "N=floor(A_i)-1, A_i=pi*r_i*h_i/sqrt(r_i^2+h_i^2)",
+      "shell": 1
+    },
+    {
+      "capacity": {
+        "arb": "[10.4558523684359794084920273463579952051507695903395202269064 +/- 5.47e-57]",
+        "lower": {
+          "decimal": "10.4558523684359794084920273463579952051507695903395202268987",
+          "denominator": "98079714615416886934934209737619787751599303819750539264",
+          "numerator": "1025507016357131602528916422562169116843625143917643509949"
+        },
+        "midpoint": "10.4558523684359794084920273463579952051507695903395202269064",
+        "radius": "5.45736061663915695598826247326460219235339762646666265448666e-57",
+        "upper": {
+          "decimal": "10.4558523684359794084920273463579952051507695903395202269140",
+          "denominator": "196159429230833773869868419475239575503198607639501078528",
+          "numerator": "2051014032714263205057832845124338233687250287835287019901"
+        }
+      },
+      "capacity_floor": 10,
+      "floor_certificate": {
+        "downward_rounding": "certified by Arb lower/upper endpoint floors",
+        "statement": "10 <= A_2 < 11"
+      },
+      "hole_radius": 6,
+      "population": 9,
+      "radius": 4,
+      "rule": "N=floor(A_i)-1, A_i=pi*r_i*h_i/sqrt(r_i^2+h_i^2)",
+      "shell": 2
+    }
+  ]
+}

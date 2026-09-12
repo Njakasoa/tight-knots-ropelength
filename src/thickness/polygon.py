@@ -247,70 +247,51 @@ def _vertices_adjacent(a: _ComponentData, i: int, b: _ComponentData, j: int) -> 
 
 
 def _segment_closest(a0: np.ndarray, a1: np.ndarray, b0: np.ndarray, b1: np.ndarray, tol: float) -> tuple[float, float, float, float, float]:
-    """Closest points on two segments, returning s,t,d,residual_a,residual_b."""
+    """Minimize squared distance on the parameter rectangle by active faces.
 
-    u = a1 - a0
-    v = b1 - b0
-    w = a0 - b0
-    aa = float(np.dot(u, u))
-    bb = float(np.dot(v, v))
-    ab = float(np.dot(u, v))
-    aw = float(np.dot(u, w))
-    bw = float(np.dot(v, w))
-    eps = max(float(tol), np.finfo(float).eps)
-    if aa <= eps and bb <= eps:
-        s = t = 0.0
-    elif aa <= eps:
-        s = 0.0
-        t = np.clip(bw / bb, 0.0, 1.0)
-    elif bb <= eps:
-        t = 0.0
-        s = np.clip(-aw / aa, 0.0, 1.0)
+    The quadratic minimum lies at an interior stationary point or on a face.
+    Length degeneracy and the dimensionless parallel condition are distinct.
+    Cross-product formulas avoid cancellation in aa*bb-ab**2.
+    """
+    u, v, w = a1-a0, b1-b0, a0-b0
+    aa, bb = float(u@u), float(v@v)
+    length_sq_tol = float(tol)**2
+    choices = []
+    if aa <= length_sq_tol and bb <= length_sq_tol:
+        choices.append((0.0, 0.0))
+    elif aa <= length_sq_tol:
+        choices.append((0.0, float(np.clip((w@v)/bb, 0, 1))))
+    elif bb <= length_sq_tol:
+        choices.append((float(np.clip(-(w@u)/aa, 0, 1)), 0.0))
     else:
-        denominator = aa * bb - ab * ab
-        if denominator <= eps * aa * bb:
-            # Parallel lines: project one endpoint onto the other segment and
-            # test both endpoint choices.  Endpoint candidates are classified
-            # by the vertex/edge loops below.
-            choices = []
-            for ss in (0.0, 1.0):
-                point = a0 + ss * u
-                tt = np.clip(np.dot(point - b0, v) / bb, 0.0, 1.0)
+        cross_uv = np.cross(u, v)
+        denominator = float(cross_uv@cross_uv)
+        if denominator > 0.0:
+            ss = float(np.dot(np.cross(v, w), cross_uv)/denominator)
+            tt = float(np.dot(np.cross(u, w), cross_uv)/denominator)
+            if 0.0 <= ss <= 1.0 and 0.0 <= tt <= 1.0:
                 choices.append((ss, tt))
-            for tt in (0.0, 1.0):
-                point = b0 + tt * v
-                ss = np.clip(np.dot(point - a0, u) / aa, 0.0, 1.0)
-                choices.append((ss, tt))
-            # Add interior representatives.  Parallel opposite edges have a
-            # continuum of equally close pairs; selecting only endpoints would
-            # miss the genuine edge--edge DCSD candidate entirely.
-            t_mid = np.clip(np.dot(a0 + 0.5 * u - b0, v) / bb, 0.0, 1.0)
-            s_mid = np.clip(np.dot(b0 + 0.5 * v - a0, u) / aa, 0.0, 1.0)
-            choices.extend(((0.5, float(t_mid)), (float(s_mid), 0.5)))
-
-            def parallel_key(pair):
-                distance = np.linalg.norm((a0 + pair[0] * u) - (b0 + pair[1] * v))
-                boundary_count = sum(value <= 1e-10 or value >= 1.0 - 1e-10 for value in pair)
-                return float(distance), boundary_count
-
-            s, t = min(choices, key=parallel_key)
-        else:
-            s = (ab * bw - bb * aw) / denominator
-            t = (aa * bw - ab * aw) / denominator
-            # Clamp using the standard segment closest-point active-set
-            # correction.  A short fixed iteration handles all four faces.
-            s = float(np.clip(s, 0.0, 1.0))
-            t = float(np.clip(t, 0.0, 1.0))
-            for _ in range(3):
-                t = float(np.clip(np.dot(a0 + s * u - b0, v) / bb, 0.0, 1.0))
-                s = float(np.clip(np.dot(b0 + t * v - a0, u) / aa, 0.0, 1.0))
-    point_a = a0 + s * u
-    point_b = b0 + t * v
-    difference = point_a - point_b
+        for ss in (0.0, 1.0):
+            choices.append((ss, float(np.clip(((w+ss*u)@v)/bb, 0, 1))))
+        for tt in (0.0, 1.0):
+            choices.append((float(np.clip(((tt*v-w)@u)/aa, 0, 1)), tt))
+        if denominator == 0.0:
+            # A flat minimum may have interior struts even if an endpoint is
+            # also a minimizer. Include midpoint representatives of overlap.
+            projections = sorted((float((-w)@u/aa), float((v-w)@u/aa)))
+            left, right = max(0.0, projections[0]), min(1.0, projections[1])
+            if left <= right:
+                ss = (left+right)/2
+                choices.insert(0, (ss, float(np.clip(((w+ss*u)@v)/bb, 0, 1))))
+    def distance_squared(pair):
+        delta = w+pair[0]*u-pair[1]*v
+        return float(delta@delta)
+    s, t = min(choices, key=distance_squared)
+    difference = w+s*u-t*v
     distance = float(np.linalg.norm(difference))
-    residual_a = abs(float(np.dot(difference, u / np.linalg.norm(u)))) if aa > eps else 0.0
-    residual_b = abs(float(np.dot(difference, v / np.linalg.norm(v)))) if bb > eps else 0.0
-    return float(s), float(t), distance, residual_a, residual_b
+    ra = abs(float(difference@u))/np.sqrt(aa) if aa > length_sq_tol else 0.0
+    rb = abs(float(difference@v))/np.sqrt(bb) if bb > length_sq_tol else 0.0
+    return float(s), float(t), distance, float(ra), float(rb)
 
 
 def _candidate_sort_key(candidate: DoublyCriticalCandidate):
@@ -439,10 +420,10 @@ def polygon_thickness(
                     edge_start, edge_end = edge_component.edge(edge_index)
                     edge_vector = edge_end - edge_start
                     edge_length_sq = float(np.dot(edge_vector, edge_vector))
-                    if edge_length_sq <= tolerances.degeneracy:
+                    if edge_length_sq <= tolerances.degeneracy**2:
                         continue
                     projection = float(np.dot(point - edge_start, edge_vector) / edge_length_sq)
-                    if projection <= tolerances.endpoint or projection >= 1.0 - tolerances.endpoint:
+                    if projection <= 0.0 or projection >= 1.0:
                         continue
                     closest = edge_start + projection * edge_vector
                     difference = point - closest
@@ -472,7 +453,12 @@ def polygon_thickness(
                     a0, a1 = a.edge(ia)
                     b0, b1 = b.edge(ib)
                     s, t, distance, residual_a, residual_b = _segment_closest(a0, a1, b0, b1, tolerances.degeneracy)
-                    interior = s > tolerances.endpoint and s < 1.0 - tolerances.endpoint and t > tolerances.endpoint and t < 1.0 - tolerances.endpoint
+                    if distance <= tolerances.degeneracy:
+                        degenerate = True
+                        candidates.append(DoublyCriticalCandidate("edge-edge", distance, a.component, ia, float(ia+s), b.component, ib, float(ib+t), True, "zero-distance collision", max(residual_a,residual_b), None, "nonadjacent segment intersection forces zero thickness"))
+                        notes.append(f"nonadjacent edge collision at ({a.component},{ia})/({b.component},{ib})")
+                        continue
+                    interior = 0.0 < s < 1.0 and 0.0 < t < 1.0
                     residual = max(residual_a, residual_b)
                     if not interior:
                         continue

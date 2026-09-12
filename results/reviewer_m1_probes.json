@@ -1,0 +1,242 @@
+{
+  "collision_eps_0.5": {
+    "vertices": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.5,
+        -1.0,
+        0.0
+      ],
+      [
+        0.5,
+        1.0,
+        0.0
+      ]
+    ],
+    "thickness": 0.0,
+    "complete": true,
+    "degenerate": false,
+    "dcsd": 0.0,
+    "notes": []
+  },
+  "collision_eps_5e-09": {
+    "vertices": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        5e-09,
+        -1.0,
+        0.0
+      ],
+      [
+        5e-09,
+        1.0,
+        0.0
+      ]
+    ],
+    "thickness": 3.061616997868383e-17,
+    "complete": true,
+    "degenerate": false,
+    "dcsd": 5e-09,
+    "notes": []
+  },
+  "scaled_crossing": {
+    "vertices": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1e-07,
+        0.0,
+        0.0
+      ],
+      [
+        5e-08,
+        -1e-07,
+        0.0
+      ],
+      [
+        5e-08,
+        1e-07,
+        0.0
+      ]
+    ],
+    "thickness": 1.3196601125010505e-08,
+    "complete": true,
+    "degenerate": false,
+    "dcsd": Infinity
+  },
+  "topology_scale_1": {
+    "name": "sampled geometry",
+    "component_count": 1,
+    "constructive": {},
+    "projection": {
+      "crossings": [
+        {
+          "component_a": 0,
+          "edge_a": 2,
+          "parameter_a": 0.05380683785231529,
+          "component_b": 0,
+          "edge_b": 25,
+          "parameter_b": 0.538377700042895,
+          "planar_parameter_a": 0.5827282169111336,
+          "planar_parameter_b": 0.8421296020589596,
+          "depth_a": 2.841596054860151,
+          "depth_b": 0.8365425991997866,
+          "over": "a",
+          "sign": -1,
+          "transverse": true
+        },
+        {
+          "component_a": 0,
+          "edge_a": 14,
+          "parameter_a": 0.29387587968298695,
+          "component_b": 0,
+          "edge_b": 37,
+          "parameter_b": 0.7760253727284513,
+          "planar_parameter_a": 0.10604222478337504,
+          "planar_parameter_b": 0.24921789096565702,
+          "depth_a": -2.7618371156867196,
+          "depth_b": -0.6851020354522326,
+          "over": "b",
+          "sign": -1,
+          "transverse": true
+        },
+        {
+          "component_a": 0,
+          "edge_a": 21,
+          "parameter_a": 0.45436510707041733,
+          "component_b": 0,
+          "edge_b": 43,
+          "parameter_b": 0.9066401938729364,
+          "planar_parameter_a": 0.8095251393800327,
+          "planar_parameter_b": 0.5187293059009503,
+          "depth_a": 0.5704175080873217,
+          "depth_b": -1.7341125993484021,
+          "over": "a",
+          "sign": -1,
+          "transverse": true
+        }
+      ],
+      "view": [
+        0.3713906763541037,
+        0.5570860145311556,
+        0.7427813527082074
+      ],
+      "component_count": 1,
+      "sample_count": 512,
+      "tolerance": 1e-09,
+      "generic": true,
+      "notes": [],
+      "crossing_count": 3,
+      "ambiguous_crossings": 0,
+      "linking_matrix": [
+        [
+          0.0
+        ]
+      ],
+      "determinant_at_minus_one": 3
+    },
+    "invariants": {
+      "projection_determinant_at_minus_one": 3
+    },
+    "sampled_type_certified": false,
+    "notes": [
+      "projection is a sampled generic check; it does not certify the analytic isotopy"
+    ]
+  },
+  "topology_scale_1e-05": {
+    "name": "sampled geometry",
+    "component_count": 1,
+    "constructive": {},
+    "projection": {
+      "crossings": [],
+      "view": [
+        0.3713906763541037,
+        0.5570860145311556,
+        0.7427813527082074
+      ],
+      "component_count": 1,
+      "sample_count": 512,
+      "tolerance": 1e-09,
+      "generic": true,
+      "notes": [
+        "no proper crossings for this projection"
+      ],
+      "crossing_count": 0,
+      "ambiguous_crossings": 0,
+      "linking_matrix": [
+        [
+          0.0
+        ]
+      ],
+      "determinant_at_minus_one": null
+    },
+    "invariants": {},
+    "sampled_type_certified": false,
+    "notes": [
+      "projection is a sampled generic check; it does not certify the analytic isotopy",
+      "diagram determinant unavailable for this sampled projection"
+    ]
+  },
+  "certificate_hash_mismatches": {},
+  "certificate_output_hash_matches": true,
+  "near_endpoint_collision": {
+    "vertices": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        -1.0,
+        0.0
+      ],
+      [
+        5e-09,
+        -1.0,
+        0.0
+      ],
+      [
+        5e-09,
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "thickness": 2.5e-09,
+    "minrad": 0.20710678222208143,
+    "dcsd": 5e-09,
+    "complete": true,
+    "degenerate": false
+  }
+}

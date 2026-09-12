@@ -1,0 +1,11 @@
+{
+  "outputs_match": true,
+  "manifest_matches": true,
+  "test_recorded": "6175f60a59e0f14af9fa2ff06e602479fa53d3625f6be7f66788b6921cf5bf4f",
+  "test_current": "6175f60a59e0f14af9fa2ff06e602479fa53d3625f6be7f66788b6921cf5bf4f",
+  "runner_recorded": "fb897cc54ff3ad4a4b588f24484b5ba3377120a7f747fc6a78146ed91d427d37",
+  "runner_current": "fb897cc54ff3ad4a4b588f24484b5ba3377120a7f747fc6a78146ed91d427d37",
+  "reviewed_geometry_sources_match": true,
+  "source_tests_same": true,
+  "runner_same": true
+}

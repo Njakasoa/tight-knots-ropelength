@@ -1,0 +1,137 @@
+{
+  "alpha": {
+    "arb": "[11.4052131921052932739257812500 +/- 0.0120]",
+    "lower": {
+      "decimal": "11.3932822346687316894531250000",
+      "denominator": "16777216",
+      "numerator": "191147557"
+    },
+    "midpoint": "11.4052131921052932739257812500",
+    "radius": "0.0119309574365615844726562500000",
+    "upper": {
+      "decimal": "11.4171441495418548583984375000",
+      "denominator": "33554432",
+      "numerator": "383095787"
+    }
+  },
+  "alpha_exact_expression": "l0/(sqrt(2)*q0^(3/2))",
+  "alpha_upper_decimal": "11.4171441495418548583984375000",
+  "alpha_upper_lt_11_407": false,
+  "arb_backend_validation": {
+    "backend": "python-flint Arb",
+    "checks": {
+      "arb_transcendental_api": true,
+      "directed_lower_upper": true,
+      "exact_fmpq_endpoints": true,
+      "no_python_float_in_core_helpers": true
+    },
+    "flint_version": "0.9.0",
+    "precision_bits_at_validation": 128
+  },
+  "claim_boundary": "This certifies the displayed integral arithmetic only; topology, geometry and global optimality retain the proof-note labels.",
+  "created_utc": "2026-09-12T21:38:22Z",
+  "denominator": {
+    "arb": "[6.38668983262874732416915195947 +/- 4.03e-30]",
+    "lower": {
+      "decimal": "6.38668983262874732416915195947",
+      "denominator": "21267647932558653966460912964485513216",
+      "numerator": "135829870814800153760170232331195734877"
+    },
+    "midpoint": "6.38668983262874732416915195947",
+    "radius": "4.72801148286054721881978549590e-37",
+    "upper": {
+      "decimal": "6.38668983262874732416915195947",
+      "denominator": "10633823966279326983230456482242756608",
+      "numerator": "67914935407400076880085116165597867449"
+    }
+  },
+  "discretization_error": {
+    "arb": "[0.0761989785353976471680941759032 +/- 6.15e-33]",
+    "lower": {
+      "decimal": "0.0761989785353976471680941759032",
+      "denominator": "680564733841876926926749214863536422912",
+      "numerator": "51858337545965792678120115859003138883"
+    },
+    "midpoint": "0.0761989785353976471680941759032",
+    "radius": "1.80727633040753616909407496984e-39",
+    "upper": {
+      "decimal": "0.0761989785353976471680941759032",
+      "denominator": "1361129467683753853853498429727072845824",
+      "numerator": "103716675091931585356240231718006277771"
+    }
+  },
+  "l0": {
+    "arb": "[72.8415591042695348270528815828 +/- 0.0762]",
+    "lower": {
+      "decimal": "72.7653601255707224019163154206",
+      "denominator": "1329227995784915872903807060280344576",
+      "numerator": "96721753802280005729123027401473227261"
+    },
+    "midpoint": "72.8415591042695348270528815828",
+    "radius": "0.0761989786988124251365661621094",
+    "upper": {
+      "decimal": "72.9177580829683472521894477449",
+      "denominator": "1329227995784915872903807060280344576",
+      "numerator": "96924325433753365602373272193113487869"
+    }
+  },
+  "method": {
+    "arithmetic": "python-flint Arb balls for every node and operation",
+    "derivative_bounds": {
+      "abs_f_tt": "60",
+      "abs_f_xx": "600"
+    },
+    "error_formula": "(2*pi)/24 * (600/N^2 + 60*(2*pi/M)^2)",
+    "m_cells": 128,
+    "midpoint_nodes": "exact rational x nodes and Arb pi-rational t nodes",
+    "n_cells": 64,
+    "precision_bits": 128,
+    "quadrature": "tensor composite midpoint rule",
+    "t_interval": [
+      "0",
+      "2*pi"
+    ],
+    "x_interval": [
+      "0",
+      "1"
+    ]
+  },
+  "midpoint_sum": {
+    "arb": "[72.8415591042695348270528815828 +/- 4.65e-29]",
+    "lower": {
+      "decimal": "72.8415591042695348270528815828",
+      "denominator": "1329227995784915872903807060280344576",
+      "numerator": "96823039618016685665748149797293356357"
+    },
+    "midpoint": "72.8415591042695348270528815828",
+    "radius": "9.08745582247865408945467123693e-34",
+    "upper": {
+      "decimal": "72.8415591042695348270528815828",
+      "denominator": "1329227995784915872903807060280344576",
+      "numerator": "96823039618016685665748149797293358773"
+    }
+  },
+  "q0": {
+    "arb": "[2.73216685427905547137446683808 +/- 3.62e-30]",
+    "lower": {
+      "decimal": "2.73216685427905547137446683808",
+      "denominator": "42535295865117307932921825928971026432",
+      "numerator": "116213525499626470593732988761327547877"
+    },
+    "midpoint": "2.73216685427905547137446683808",
+    "radius": "1.08546600945122042984183302598e-37",
+    "upper": {
+      "decimal": "2.73216685427905547137446683808",
+      "denominator": "42535295865117307932921825928971026432",
+      "numerator": "116213525499626470593732988761327547887"
+    }
+  },
+  "q0_exact_expression": "pi*(3*asinh(1)/sqrt(2)-1)",
+  "result_status": "rigorous_integral_certificate_for_shell_candidate",
+  "run_id": "cert_probe",
+  "threshold_check": {
+    "passed": false,
+    "requested": "alpha_upper < 11.407",
+    "upper_endpoint_decimal": "11.4171441495418548583984375000"
+  }
+}

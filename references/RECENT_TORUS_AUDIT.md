@@ -11,7 +11,7 @@
 | Amit Dawadi, Animesh Biswas, Julien Chopin, and Arshad Kudrolli, “Bundling architecture in elastic filaments with applied twist,” *Physical Review E* **112**, 015416 (2025), [DOI](https://doi.org/10.1103/d782-cbmc), [arXiv record/full-text links](https://arxiv.org/abs/2501.04650) | X-ray/optical observations and neo-Hookean model for real silicone multifilament bundles: contact, radial instability, migration, and torque. | Peer-reviewed physical-filament study; not a ropelength minimization theorem. |
 | Shiheng Yan *et al.*, “Rigidity Criteria for Chainmail Consisting of Tessellations of Torus Knots,” *Physical Review Letters* **135**, 088201 (2025), [author PDF](https://www.daraio.caltech.edu/publications/202508_Yan.pdf), [DOI](https://doi.org/10.1103/8w3q-4x8m) | 3-D printed torus-knot particles and tessellated chainmail; modified Maxwell and crease-line criteria. | Peer-reviewed physical realization of torus-knot particles, but it studies rigid-body fabrics rather than thick-link ropelength. |
 
-Shell downloads were attempted with `curl` into `tight-knots-lab/papers/`; this environment could not resolve `arxiv.org` (DNS failure), so no local PDF was obtained. The linked primary HTML/PDF/DOI records are the reproducible source locations.
+Initial sandbox DNS failed. Subsequent authorized public downloads succeeded; local PDFs and SHA-256 hashes are recorded in `papers/DOWNLOAD_MANIFEST.json`. The linked primary records remain the bibliographic sources.
 
 ## 2. Klotz–Thompson 2025: exact construction data
 
@@ -47,7 +47,7 @@ R_o=2\sqrt{\frac{1}{\phi_N^2-\phi_N\sin(\phi_N+2\pi/N)}},
 H_o=4\pi\sqrt{\frac{\sin(\phi_N+2\pi/N)}{\phi_N^2\sin(\phi_N+2\pi/N)-\phi_N^3}}.
 \]
 
-For large \(N\), the Taylor reduction \(\phi_N\simeq\pi/N\) gives
+For large \(N\), the Taylor reduction \(\phi_N\simeq-\pi/N\) gives
 
 \[
 R_o\simeq\frac{\sqrt2}{\pi}N,\qquad H_o\simeq\sqrt{8}\,N,
@@ -153,11 +153,11 @@ L_{T(pQ,Q)}\ge Q\left[2\pi+\sqrt{4\pi\left(\sqrt{12}(p(Q-1)-1)+(2-\sqrt3)\left\l
 For (p=1), its large-(Q) coefficient is
 
 \[
-\alpha_w>\sqrt{8\pi\sqrt3}+\frac{2\pi+\sqrt{2\pi(7\sqrt3-12)}}{\sqrt Q}
+\alpha_w(Q)=\sqrt{8\pi\sqrt3}+\frac{2\pi+\sqrt{2\pi(7\sqrt3-12)}}{\sqrt Q}+O(Q^{-1})
 \simeq6.60+\frac{7.17}{\sqrt Q}.
 \]
 
-The symbolic correction above is the expansion of the exact bound in Eq. (6) after dropping the ceiling term as in the paper’s Eq. (8). The paper prints the decimal \(7.61\) beside that expression; direct evaluation of the printed symbolic expression gives \(2\pi+\sqrt{2\pi(7\sqrt3-12)}=7.1671\ldots\), so the decimal is a source inconsistency and should not be reproduced as an independently derived constant.
+The symbolic correction above is an asymptotic expansion, not a finite-Q lower inequality with the remainder discarded. Use the exact ceiling expression for finite Q; see `proofs/WEGNER_EXPANSION_AUDIT.md`. The paper prints the decimal \(7.61\) beside that expression; direct evaluation of the printed symbolic expression gives \(2\pi+\sqrt{2\pi(7\sqrt3-12)}=7.1671\ldots\), so the decimal is a source inconsistency and should not be reproduced as an independently derived constant.
 
 This uses close-packed disks with packing fraction (sigma=\pi/\sqrt{12}). The author warns that the Wegner bound may not be attained for finite (N), that numerical hull values are often about 5% larger, and—crucially—that the cone-puncture hypothesis in the Cantarella et al. theorem is not guaranteed for (p>1). Treat the Wegner expression as a rigorously stated disk-packing inequality, but the resulting (T(pQ,Q)) lower-bound interpretation as conditional when that topological/geometric hypothesis is absent. All constants above are for radius (a=1); multiply by (a) for physical tube radius (a).
 
