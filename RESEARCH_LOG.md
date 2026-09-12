@@ -8,3 +8,35 @@ Read available local and shared continuity. Started three actual Luna agents.
 System Python initially has no scientific dependencies. Sandbox DNS failed;
 explicitly authorized public Git download succeeded with reviewed network access.
 Scientific principle: no sample-based distance estimate is a thickness certificate.
+
+## 2026-09-12 21:10 UTC — analytic candidate
+
+Derived exact toroidal same-shell squared-distance lower bound and integer
+population rule in proofs/TOROIDAL_SHELL_SEPARATION.md. This differs from a
+cylindrical approximation: all toroidal point pairs are bounded. The obvious
+release is to use each shell's h_i=R-r_i, instead of the outer shell's common h.
+Proof candidate includes curvature and same-component DCSD estimates, cross-shell
+spacing, two-torus triangle bound and full-twist braid topology route.
+
+Exploratory SciPy quadratures (deterministic, default quad tolerances, no seed)
+give q0≈2.732166854279056, l0≈72.8402568726584 and formal doubled
+coefficient≈11.405009289871446. These are scratch calculations, not accepted
+experiment records or certified bounds. Worker must persist a reproducible run
+and tester/reviewer must check the proof. No improvement claim is accepted yet.
+
+An initial ratio R/T sweep (4,4.05,4.1,4.2,4.5,5,6,8) gives formal alpha
+(11.4050,11.5061,11.6079,11.8138,12.4471,13.5434,15.8342,20.6089).
+This suggests the minimal admissible major-radius ratio 4 within this class;
+it is not a monotonicity or optimality proof. M2 remains gated by M1 review.
+
+## 2026-09-12 21:18 UTC — independent review in progress
+
+Astra reviewer independently reports the geometric inequalities hold and
+reproduces the candidate integral coefficient. This is interim evidence, not a
+completed milestone or novelty decision. The derivative constants for a rigorous
+midpoint enclosure were also checked independently. A dedicated certificate
+implementation remains required.
+
+Primary PDF downloads succeeded via reviewed network access after the initial
+sandbox DNS failure: Klotz 2026 v2, Klotz–Thompson 2025, CKS 2002. Their
+URLs, byte counts and SHA-256 hashes are stored in papers/DOWNLOAD_MANIFEST.json.

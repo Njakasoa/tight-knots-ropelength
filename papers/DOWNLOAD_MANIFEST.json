@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-12T21:18:07.274484+00:00",
+  "records": [
+    {
+      "file": "klotz-2026-v2.pdf",
+      "url": "https://arxiv.org/pdf/2603.02416v2",
+      "sha256": "da129d57b770370969473b8da3798109eeb3c5901004f2cdf4cfbb1bc92d69e6",
+      "bytes": 5997412
+    },
+    {
+      "file": "klotz-thompson-2025.pdf",
+      "url": "https://arxiv.org/pdf/2504.00861",
+      "sha256": "b8967afc256e29d851337ce798454bddef6453550f6120845f9daa74e5547f94",
+      "bytes": 2738927
+    },
+    {
+      "file": "cks-2002.pdf",
+      "url": "https://arxiv.org/pdf/math/0103224",
+      "sha256": "edec2d3d3912d913d9e95ec911cd485cf57e9749ff4dee001febe7c6ac6f9c10",
+      "bytes": 349934
+    }
+  ]
+}

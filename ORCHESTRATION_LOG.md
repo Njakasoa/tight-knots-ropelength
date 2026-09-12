@@ -28,3 +28,18 @@ not independent attestation of backend routing. No unsupported reasoning is clai
 Ownership: frontier owns NORMALIZATION and CLASSICAL_FRONTIER; recent researcher
 owns RECENT_TORUS_AUDIT; explorer owns environment/software audit and dependencies;
 root owns strategy, integration, mathematical synthesis and milestone decisions.
+
+## Second wave
+
+First bibliography wave completed and files integrated. Dispatched:
+
+| Agent | Requested model | Effort | Assignment |
+|---|---|---|---|
+| geometry_worker | gpt-5.6-luna | max | minimal engine, controls, topology, contacts |
+| proof_reviewer | gpt-6-astra | high | independent attack of shell theorem and baseline proofs |
+
+Reviewer effort deliberately raised from the installed low default for the user's
+requested adversarial mathematical review of a possible new theorem. Both spawns
+succeeded. Root owns proof derivation; reviewer writes a separate verdict and cannot
+silently alter the claim it is reviewing. Bibliographic agents are idle and can be
+reused for focused follow-ups later. No M1 or novelty pass has been declared.
