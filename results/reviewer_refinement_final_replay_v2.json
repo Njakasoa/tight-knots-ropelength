@@ -1,0 +1,39 @@
+{
+  "command": [
+    "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+    "experiments/certify_refinement_topology.py",
+    "results/variable_pitch_20260912T224501767133Z",
+    "--verify",
+    "results/topology_path_20260912T231158562188Z"
+  ],
+  "returncode": 0,
+  "stdout": "1729 REPLAY_PASS\n2718 REPLAY_PASS\n3141 REPLAY_PASS\n/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/topology_path_20260912T231158562188Z 12.562738962999902\n",
+  "stderr": "",
+  "source_sha256_before": "0b16a0f951bcad2a0c00b012434181909c268cae399460a4856ef376e287c14a",
+  "source_sha256_after": "0b16a0f951bcad2a0c00b012434181909c268cae399460a4856ef376e287c14a",
+  "source_unchanged": true,
+  "artifact_hashes": [
+    {
+      "seed": 1729,
+      "certificate_sha256": "20a6e12ff88ee087ffc437ee31ea34d1d6063ca1eaade2ea5b3316f5660c721a",
+      "witness_sha256": "c1ff3b6f553649e0bb6205f2153fcb7f78611e40ca950f9fc63156a289b35055",
+      "initial_sha256": "342c6833ec356d3b83a543bc124cefd22b56f120f9c117d750a9fef9179363d6",
+      "final_sha256": "6775a6b498a279a39a5f9a3b53cba3fc289722deb356c7fe948ac9b4d17b3f5a"
+    },
+    {
+      "seed": 2718,
+      "certificate_sha256": "5d0ee61c73523652624b02307f20bc12e9759474306dc6d58c76c4f13daafdc1",
+      "witness_sha256": "62458eeed8407dc3e925f8003980fc176f76b6303184b2695692849361272ab8",
+      "initial_sha256": "f86bd1bc3c1aaa13038fbaa4b6b75d8d8a8d2359eed8d80568baed151aac19c8",
+      "final_sha256": "c1ccf0924832ec83435394ce24c60df8d86caa0fdeb1117f58e9f6e44e34e736"
+    },
+    {
+      "seed": 3141,
+      "certificate_sha256": "880b9aaa896e6f36314b9ffd7d9dcf537ec376a14acc4292e2075346d140c98c",
+      "witness_sha256": "51da94094e4edaca13f4591afc417336105a596d522bfa9580df65a44607f6da",
+      "initial_sha256": "87bac12be0bfc7a85d56eb81bf3c9e905bc0881f7a7ace17b257fe37b52f57f4",
+      "final_sha256": "245b621ee02215090507c1d60cd8fb957c079989492c6a1a5100f6263ad275fe"
+    }
+  ],
+  "runtime_seconds": 12.721799735999411
+}

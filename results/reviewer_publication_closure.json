@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-12T22:47:06.247507+00:00",
+  "verdict": "PASS local mathematical source and contribution scope",
+  "files": {
+    "publication/main.tex": "d34a8e5420b5817a0ab70876caaab1348b6693aa69c293d339e91c00fa91d099",
+    "publication/CONTRIBUTION_REVIEW.md": "afdfa1b26a54b984a0200790e78db471cea624c6ba42573b0467e24d48355dff",
+    "proofs/BOUNDARY_CERTIFICATE_REVIEW.md": "3503d4b1e4ad90e145a89938cee58b2493c9ebc51fa226f44077ffc2716080db",
+    "results/reviewer_boundary_20260913.json": "107b538ad17295e8d6fdb6cdea6a0bd012ce3c58db439c7b216bd50b1fdef852",
+    "publication/PINNED_INPUTS.json": "4bc9b704b31692f3cb5a1fa2debd414f6ec7dd5ec3ae8d2e487b1a5ef2578bfa",
+    "publication/checkers/check_endpoints.py": "b397a3cba77403704a4ae7e03bc91f4d8e314e8ad375b3ac3219126699a7029f"
+  },
+  "boundary_archive_differing_fields": [
+    "runtime_seconds",
+    "experiment_id"
+  ],
+  "endpoint_checker": "PASS rerun",
+  "pdf_compilation": "unchecked"
+}

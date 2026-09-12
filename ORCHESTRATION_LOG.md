@@ -77,3 +77,17 @@ claim, including a224-bit independent implementation and rational endpoint check
 Astra found further small-scale collision/projection errors and an8pi/16pi Hopf
 reporting bug in ordinary controls. Root fixed these and is regenerating the
 controls. Their independence from the analytic shell certificate is explicit.
+
+## Final discovery and publication wave, 2026-09-13
+
+Reused the three existing agents under the user's authorized Astra/Luna workflow:
+Luna focused_novelty implemented freephase search and variablepitch grammar;
+Luna finish_validation independently audited boundaryArb/floors and then the
+newgrammar/regressions; Astra m1_reviewer attacked the exact block expansion,
+performed its focused novelty audit and reviewed the condensed publication.
+Root derived and integrated the block correction, wrote/run bounded multistart
+experiments and contactclustering, maintained ledgers and built the local
+publication reproduction bundle. Effective delegated settings remain those
+recorded at agentcreation; root exactmodel is not independentlyasserted here.
+No additional user-owned tasks, external contacts, payments or paid compute were
+used. Portable publication compilation is a separate local build task.

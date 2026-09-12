@@ -1,0 +1,39 @@
+{
+  "utc": "2026-09-12T22:59:46.265624+00:00",
+  "source_entries": 13,
+  "mismatches": [],
+  "full_pytest": {
+    "command": [
+      "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "counts": {
+      "passed": 65
+    },
+    "duration_seconds": 31.216,
+    "returncode": 0,
+    "stderr_file": "reviewer_m2_20260913.full.stderr.txt",
+    "stdout_file": "reviewer_m2_20260913.full.stdout.txt"
+  },
+  "focused_pytest": {
+    "command": [
+      "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/independent/test_discovery_grammar_independent.py",
+      "tests/test_vect_zero_colors.py"
+    ],
+    "counts": {
+      "passed": 17
+    },
+    "duration_seconds": 0.484,
+    "returncode": 0,
+    "stderr_file": "reviewer_m2_20260913.focused.stderr.txt",
+    "stdout_file": "reviewer_m2_20260913.focused.stdout.txt"
+  },
+  "manifest_sha256": "5dce7efa4c19b4d69914415f21477238d315541afbe64f66ce0604390996a0cb",
+  "evidence_sha256": "b8ad43091d6372dac0d624edcd9aa4c78bc97da89abfcd40e6d36efc4de29cb6"
+}

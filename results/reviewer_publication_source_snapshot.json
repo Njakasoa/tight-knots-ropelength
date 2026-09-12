@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-12T22:40:05.369753+00:00",
+  "files": {
+    "publication/main.tex": "d34a8e5420b5817a0ab70876caaab1348b6693aa69c293d339e91c00fa91d099",
+    "publication/reproduce.py": "063438bd852f85dfc96cc486ee81fef36f8165bfe2c6167d44ac05d70eaf36a2",
+    "publication/checkers/check_endpoints.py": "b397a3cba77403704a4ae7e03bc91f4d8e314e8ad375b3ac3219126699a7029f",
+    "publication/PINNED_INPUTS.json": "4bc9b704b31692f3cb5a1fa2debd414f6ec7dd5ec3ae8d2e487b1a5ef2578bfa",
+    "publication/figures/make_figures.py": "673e5fb88960af9844779be4dd9c25fe9a5cfc1d22309a275fca3a1f28ee72b3",
+    "proofs/ADVERSARIAL_REVIEW_001.md": "6a21db866b041ca4b4a78449f7e4c33ebdf8b7c44dffce9037d1549e88777607",
+    "proofs/ADVERSARIAL_REVIEW_002.md": "a0959fd8f0064d6e28aee36caa762e31f4e6952ce770895d6058c097331cb3e6",
+    "proofs/ADVERSARIAL_REVIEW_003.md": "ec878a2c5f6db5a84ba5889313ddc05ded936bbd0850c2e6b0654ba9931716dc",
+    "proofs/CERTIFICATE_IMPLEMENTATION_REVIEW.md": "370b9b65e989b419f0a4734e90716c4fd2e895f8001a6baec11ba54556c1e734",
+    "references/BOUNDARY_NOVELTY_AUDIT.md": "f5445d94d4c7c1ddfe80eda79af3104a9ea3c4f6097f99b4fd462d7b2e819585",
+    "references/FOCUSED_NOVELTY_AUDIT.md": "8b076503d2147a24bbbf7b64469833f3274d46a81adb9b92f6558bc1e507d341"
+  },
+  "independent_endpoint_checker": "PASS: four input hashes and exact Fraction endpoint inequalities",
+  "latex_compilation": "not performed; no compiler available",
+  "mathematical_source_verdict": "PASS; minor factual/bibliographic corrections communicated separately"
+}

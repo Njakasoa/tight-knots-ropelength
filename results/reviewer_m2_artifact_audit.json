@@ -1,0 +1,140 @@
+{
+  "variable_pitch_20260912T224501767133Z": {
+    "manifest_files": 94,
+    "hash_errors": []
+  },
+  "contact_clusters_20260912T224627301208Z": {
+    "manifest_files": 7,
+    "hash_errors": []
+  },
+  "search": [
+    {
+      "seed": 1729,
+      "trials": 217,
+      "at48": 726.4025991096503,
+      "at96": 723.2656826849686,
+      "final": 702.797074809106,
+      "rr_returncode": 0,
+      "all_trials_inside_bounds": true
+    },
+    {
+      "seed": 2718,
+      "trials": 217,
+      "at48": 730.5478409682653,
+      "at96": 729.2578725435278,
+      "final": 716.108417224441,
+      "rr_returncode": 0,
+      "all_trials_inside_bounds": true
+    },
+    {
+      "seed": 3141,
+      "trials": 217,
+      "at48": 755.8840206253448,
+      "at96": 751.7917783318431,
+      "final": 746.8793338131616,
+      "rr_returncode": 0,
+      "all_trials_inside_bounds": true
+    }
+  ],
+  "contact_checks": [
+    {
+      "seed": 1729,
+      "tol": 0.0001,
+      "count": 31,
+      "symmetric_weights": true,
+      "spectrum_max_error": 0.0
+    },
+    {
+      "seed": 1729,
+      "tol": 0.001,
+      "count": 35,
+      "symmetric_weights": true,
+      "spectrum_max_error": 0.0
+    },
+    {
+      "seed": 2718,
+      "tol": 0.0001,
+      "count": 31,
+      "symmetric_weights": true,
+      "spectrum_max_error": 0.0
+    },
+    {
+      "seed": 2718,
+      "tol": 0.001,
+      "count": 72,
+      "symmetric_weights": true,
+      "spectrum_max_error": 0.0
+    },
+    {
+      "seed": 3141,
+      "tol": 0.0001,
+      "count": 41,
+      "symmetric_weights": true,
+      "spectrum_max_error": 0.0
+    },
+    {
+      "seed": 3141,
+      "tol": 0.001,
+      "count": 56,
+      "symmetric_weights": true,
+      "spectrum_max_error": 0.0
+    }
+  ],
+  "all_comparison_geometries_hash_match": true,
+  "two_projections_all_pairs_abs1": true,
+  "blocks": [
+    [
+      8,
+      1
+    ],
+    [
+      16,
+      2
+    ],
+    [
+      32,
+      2
+    ],
+    [
+      64,
+      4
+    ],
+    [
+      128,
+      5
+    ],
+    [
+      256,
+      7
+    ],
+    [
+      512,
+      9
+    ],
+    [
+      1024,
+      13
+    ]
+  ],
+  "current_source_hashes": {
+    "src/discovery/phase_search.py": "b1c74fc726ee5bd87f1a629243a1f379f763b9142f6fd39fc37ac44d299feaeb",
+    "src/discovery/grammar.py": "df403a5d03fbc997b5e9a6676ef9b7f0d5297a71d41fb4fb416df209058a53ff",
+    "src/curves/circle.py": "96d4940560bd84974edb1d520778f03e3d17dc502efc58ec43b6cf044e95cbe4",
+    "src/curves/__init__.py": "ac3db46a149a1de70e9abe0065f61a144050ffd9436f333cbdae291328cebc1a",
+    "src/curves/generators.py": "e06e892d4ee361afe3f9a84f9492d2beece261048052a9aff6516709f751717e",
+    "src/curves/vect.py": "438e3d85cee81bf99c4d6191a9eaf2554d2682295622c910debb368fb6b0358f",
+    "src/curves/base.py": "8a6d5c1174ba3ded3a882c0343879490bd5431197f1f0b3998ec26276b36c18c",
+    "src/curves/exact.py": "198bb7317ccb2b4f2ecd84ca1e2b06045f28ced1ec3bc5dcbaca783bde3096da",
+    "src/curves/torus.py": "6d39fb2ff311143ea3265740f449580277f4ea7b9c285ace1977bfdb02a6d284",
+    "src/curves/analytic.py": "4fb94840cc05f72d92777491c3a2602fe7bb60b72c5657eb2785cbcebe4de3da",
+    "tests/test_discovery.py": "f97c3ed8b5061d4e25a77dbb430e00a060bb74b632e8459815ab88f5c3785779",
+    "tests/test_discovery_grammar.py": "bc91f9b937e874da23af488ea5157b79e2fa13d08eb814bdc7add661ee639340",
+    "tests/test_engine.py": "1ce3a3539ef4a199784e03eb8ac62a4823ee0a91e48244e302f48e76f921b129",
+    "tests/test_certification.py": "3626ab250b82ac34e332ba07ec429654090eedd955d3e80402d8aa345d1ba559",
+    "tests/test_vect_zero_colors.py": "af45a614b7f8dd5887fd4b9a24f7afb1781699cd7f66f0705e583e9d862183ae",
+    "tests/independent/__init__.py": "08dca09d2d2124aa097fa54d04c8bf23ef6e41cc21bddf5a28602f20dcacf68b",
+    "tests/independent/test_independent_validation.py": "6175f60a59e0f14af9fa2ff06e602479fa53d3625f6be7f66788b6921cf5bf4f",
+    "tests/independent/test_discovery_grammar_independent.py": "9f3855270390e2e3984098eceeca666690f8292c46af2430195be3d5b81e2049",
+    "tests/independent/run_validation.py": "fb897cc54ff3ad4a4b588f24484b5ba3377120a7f747fc6a78146ed91d427d37"
+  }
+}

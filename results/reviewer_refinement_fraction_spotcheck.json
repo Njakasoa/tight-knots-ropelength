@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "complete witness index coverage and deterministic exact-Fraction inequality spot checks; not full replay",
+  "records": [
+    {
+      "seed": 1729,
+      "full_exact_index_coverage": true,
+      "pair_exact_fraction_spotchecks": 97,
+      "corner_exact_fraction_spotchecks": 41,
+      "minimum_spotcheck_axis_gap": 0.28659097622021956,
+      "minimum_spotcheck_Bernstein_coefficient": 5.245505691784093e-05
+    },
+    {
+      "seed": 2718,
+      "full_exact_index_coverage": true,
+      "pair_exact_fraction_spotchecks": 97,
+      "corner_exact_fraction_spotchecks": 41,
+      "minimum_spotcheck_axis_gap": 0.33259631083345703,
+      "minimum_spotcheck_Bernstein_coefficient": 9.481545221552199e-05
+    },
+    {
+      "seed": 3141,
+      "full_exact_index_coverage": true,
+      "pair_exact_fraction_spotchecks": 97,
+      "corner_exact_fraction_spotchecks": 41,
+      "minimum_spotcheck_axis_gap": 0.3623389688876243,
+      "minimum_spotcheck_Bernstein_coefficient": 0.0001403907354116667
+    }
+  ],
+  "script_sha256": "4b1a1f8ca7168ee316a6d1bcf91f6faf6cb76eefbf256da9d7af1a32e2376060"
+}

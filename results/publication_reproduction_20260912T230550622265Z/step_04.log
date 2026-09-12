@@ -1,0 +1,5 @@
+/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/boundary_certificate_20260912T230626Z
+c [0.422808439237996935844421386718750000000000000000000000000000 +/- 2.31e-3]
+beta [3.88348989627440305557240590993651033842226663151422526973989 +/- 0.0213]
+{'d_positive': True, 'c_less_than_one': True, 'beta_below_baseline': True}
+

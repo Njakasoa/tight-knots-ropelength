@@ -3,6 +3,9 @@
 This checks exact stored enclosures and their integrity, not the analytic proof
 or the correctness of Arb. Reproduction and independent reviews address those.
 """
+if not __debug__:
+    raise RuntimeError('proof checker requires assertions; optimized Python is unsupported')
+
 from fractions import Fraction
 from pathlib import Path
 import hashlib,json

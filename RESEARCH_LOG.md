@@ -73,3 +73,65 @@ in results/INDEX.md; old failed records remain explicitly historical.
 The user withdrew prior AGENTS.md instructions during continuation. The original
 research mission, authorized local technical work and active goal remain intact.
 No new permission or external contact is needed for these local corrections.
+
+## 2026-09-13 — Discovery-to-proof and publication candidate integration
+
+M2 exhaustive block enumeration selected a smaller block multiplier; the exact
+uniform expansion F=alpha2[1+a/b+d*b/T+O(b^-2+(b/T)^2+T^-1)] passed Astra
+review. Its fixed-c optimum c*=sqrt(a/d) is strictly below1 by an analytic
+inequality d>a, independently supplied by the reviewer. Boundary Arb code and
+all1024 floors forT1024,b13 passed a second independent implementation; component
+count4,976,348 is certified, while the finite length remains diagnostic.
+
+Focused boundary novelty audit found an important antecedent: Klotz–Thompson
+2025 Eq17–18 already balance reciprocal and linear terms and derive a square-root
+optimizer. Only the geometry-specific expansion/coefficients and discrete-error
+control are possible contributions. Claims0000–0003 now separate verified
+mathematics from provisional novelty; old certificate-ledger bytes are archived
+by SHA and a fresh main certificate binds the updated ledger.
+
+The phase engine completed16 cases with freephase[0,1], independent uniform-grid
+checks and finite-pair Arb certificates. All foundhalfphase; larger populations
+approach gap sqrt3. A broader smooth generator now varies shell count, population,
+radius, periodic pitch, phase, single/double closure and positiveambientscaling.
+Its constructive isotopy passed review, up to a common mirror; thickness is not
+inherited for arbitrary new parameters.
+
+Three bounded DE starts with independent shell pitch modes were refined by300
+actual Ridgerunner steps each. Final numerical values702.797075,716.108417,
+746.879334 are retained alongside every start and trial. Two projected linking
+checks each giveabs1 for all66pairs; independent polygon thickness agrees with
+plCurve within5e-16relative. Finite contact-spectrum clustering distinguishes
+allthree at both testedtolerances; no continuum contact phase is inferred.
+
+Atlas expansion exposed a canonical zero-color VECT parser bug, corrected with
+two regression tests. Six source-labelled small-knot coordinate rows are now
+exported with numerical values, hashes, known lower-source metadata and explicit
+missing certification/contact fields. This does not turn coordinates into
+certified smooth upper bounds or a best-record table.
+
+After exact results survived, publication/main.tex and a reproduction bundle
+were written. The source passed adversarial mathematical review; the default
+reproduction and rationalendpoint checker pass. Publication novelty remains
+POSSIBLY NOVEL. No external submission/contact is authorized or performed.
+
+## 2026-09-13 — Closing the numerical endpoint topology gap
+
+The M2 reviewer correctly rejected two linking projections as a complete
+endpoint topology certificate. A new explicit bridge now certifies every
+initial48-point polygon against its variable-pitch analytic full twist using
+rigorous sample-rounding, interpolation and normal-fiber bounds. After a
+positive homothety/translation, all initial vertices move linearly to their
+stored final vertices. Arb separating-axis tests certify all165024 nonadjacent
+edge pairs over the entire time interval for each seed; quadratic Bernstein
+cross-product tests certify576 adjacent corners. Allthree runs pass with no
+time subdivision needed. Witness arrays retain every exact-binary-rational
+axis and all dyadic cells for independent replay and coverage checks.
+
+This proves the three final polygons are T(12,12), up to common mirror, by an
+explicit alternative isotopy. It does not certify Ridgerunner's actual path,
+its numerical thickness values or any global minimum. Exact VECT decimal
+coordinates, not rounded parsed floats, enter the proof inequalities. The
+math review passes; independent replay/tamper review is recorded separately.
+
+Final independent refinement review PASS: all three analytic reconstructions, full witness replays, complete coverage and eight tamper/input/runtime rejection cases. The hardened checker rejects Python -O and malformed trailing VECT data. The final full publication reproduction passes all seven commands; the PDF compiles cleanly and all seven pages were visually inspected after fixing the abstract clipping. Main M1–M4 deliverables are complete within the explicitly documented scope; follow-up research remains in NEXT.md.

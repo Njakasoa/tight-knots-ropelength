@@ -1,0 +1,40 @@
+{
+  "schema": "independent-m2-grammar-metrics-v1",
+  "configuration": {
+    "major_radius": 8.7,
+    "shell_radii": [0.9, 1.8, 2.6],
+    "shell_populations": [2, 3, 4],
+    "phase_offsets": [0.17, -0.63, 1.11],
+    "pitch_modulations": [0.43, -1.37, 2.15],
+    "closure_mode": "double_hopf",
+    "ambient_axis_scale": [1.23, 0.81, 1.47]
+  },
+  "methods": {
+    "coordinate_reference": "independent implementation of E(u,w), proper P, and diagonal scale",
+    "first_derivative_reference": "five-point central finite difference, h=1e-4",
+    "second_derivative_reference": "five-point central finite difference, h=2.5e-3",
+    "homotopy_grid": [0.0, 0.25, 0.5, 0.75, 1.0]
+  },
+  "metrics": {
+    "coordinate_max_abs_error": 0.0,
+    "first_derivative_max_abs_error": 4.794209473857336e-11,
+    "second_derivative_max_abs_error": 6.202704128099867e-09,
+    "periodic_closure_max_position_error": 3.9968028886505635e-15,
+    "periodic_closure_max_first_derivative_error": 1.4210854715202004e-14,
+    "periodic_closure_max_second_derivative_error": 4.618527782440651e-14,
+    "minimum_beta_homotopy_cross_section_distance": 0.9031194403391734,
+    "minimum_phase_homotopy_cross_section_distance": 0.8178532824791636,
+    "minimum_scale_homotopy_cross_section_distance": 0.8999999999999995,
+    "proper_hopf_identity_scale_sampled_core_distance": ">= R = 8.7",
+    "canonical_atlas_vect_component_count": 1,
+    "canonical_atlas_vect_vertex_count": 2400,
+    "canonical_atlas_tsv_vertex_count": 2400,
+    "canonical_atlas_coordinate_max_abs_error": 0.0
+  },
+  "source_sha256": {
+    "src/discovery/grammar.py": "df403a5d03fbc997b5e9a6676ef9b7f0d5297a71d41fb4fb416df209058a53ff",
+    "tests/independent/test_discovery_grammar_independent.py": "9f3855270390e2e3984098eceeca666690f8292c46af2430195be3d5b81e2049",
+    "tests/test_vect_zero_colors.py": "af45a614b7f8dd5887fd4b9a24f7afb1781699cd7f66f0705e583e9d862183ae"
+  },
+  "claim_boundary": "Finite-difference and sampled cross-section metrics validate implementation behavior; they do not certify reach, thickness, polygonal isotopy, or solver paths."
+}

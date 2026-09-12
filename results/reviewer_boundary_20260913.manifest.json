@@ -1,0 +1,7 @@
+{
+  "review_script_sha256": "66ffcb4b5e6deaf8f7bb46f1ccb9bfc75267a96023c0ca7c9b809b4999752c24",
+  "review_sha256": "107b538ad17295e8d6fdb6cdea6a0bd012ce3c58db439c7b216bd50b1fdef852",
+  "schema": "independent-boundary-review-manifest-v1",
+  "source_boundary_certificate_sha256": "13577c491d2c2810f30aea4c5d99f23235f7db517bf61e70db1a2fa98a99ed7b",
+  "source_boundary_manifest_sha256": "e6ea8a3d4d4853e235f72d9f9e5f86ebb2077cb84d8a5c3e8d464c827e932ee8"
+}

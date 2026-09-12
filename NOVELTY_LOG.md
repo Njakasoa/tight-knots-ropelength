@@ -29,3 +29,18 @@ conclusion study toroidal helix contact restrictions, packing volume fractions,
 and strain–twist coupling; these ideas precede this lab. Full inspection of its
 formulas and the later citing literature remains necessary. Hexagonal packing,
 phase staggering, and toroidal helices themselves are not novelty claims.
+
+## Boundary correction: narrower claim after primary-source attack
+
+Theorem003 exact expansion and unique fixed-c correction optimum passed
+independent mathematics and interval review (Level5). Its coefficients include
+J=∫n'e, with floors/incompleteblocks controlled uniformly. This is VERIFIED
+RESULT for mathematics, POSSIBLY NOVEL for publication. The nearest2025 paper
+already contains reciprocal-linear balancing and a square-root optimum, so
+neither the balance method nor the square-root exponent is a novelty claim.
+See references/BOUNDARY_NOVELTY_AUDIT.md and claims/CLAIM-0003.md.
+
+The M2 phase search rediscovershalfphase staggering and the numerical variable-
+pitch/refinement/contact experiments are not new-theorem claims. The local
+publication candidate states these distinctions and has received internal
+adversarial review, not external peer review.

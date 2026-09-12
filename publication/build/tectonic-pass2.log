@@ -1,0 +1,204 @@
+note: "version 2" Tectonic command-line interface activated
+note: Running TeX ...
+(main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(size11.clo)) (geometry.sty (keyval.sty) (ifvtex.sty (iftex.sty))) (amsmath.sty
+For additional information on amsmath, use the `?' option.
+(amstext.sty (amsgen.sty)) (amsbsy.sty) (amsopn.sty)) (amssymb.sty
+(amsfonts.sty)) (amsthm.sty) (graphicx.sty (graphics.sty (trig.sty)
+(graphics.cfg) (xetex.def))) (booktabs.sty) (hyperref.sty (ltxcmds.sty)
+(pdftexcmds.sty (infwarerr.sty)) (kvsetkeys.sty) (kvdefinekeys.sty)
+(pdfescape.sty) (hycolor.sty) (letltxmacro.sty) (auxhook.sty) (kvoptions.sty)
+(pd1enc.def)note: downloading intcalc.sty
+ (intcalc.sty) (etexcmds.sty) (puenc.def)note: downloading url.sty
+ (url.sty)note: downloading pzdr.tfm
+note: downloading bitset.sty
+ (bitset.stynote: downloading bigintcalc.sty
+
+(bigintcalc.sty)) (atbegshi-ltx.sty))note: downloading hxetex.def
+ (hxetex.defnote: downloading stringenc.sty
+ (stringenc.sty)note: downloading rerunfilecheck.sty
+
+(rerunfilecheck.sty (atveryend-ltx.sty)note: downloading uniquecounter.sty
+ (uniquecounter.sty)))note: downloading l3backend-xetex.def
+
+(l3backend-xetex.def)
+No file main.aux.
+note: downloading ts1cmr.fd
+(ts1cmr.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+note: downloading nameref.sty
+(nameref.stynote: downloading refcount.sty
+ (refcount.sty)note: downloading gettitlestring.sty
+ (gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+note: downloading lmroman17-regular.otf
+note: downloading lmroman12-regular.otf
+note: downloading cmr12.tfm
+note: downloading cmr8.tfm
+note: downloading cmr6.tfm
+note: downloading cmmi12.tfm
+note: downloading cmmi8.tfm
+note: downloading cmmi6.tfm
+note: downloading cmsy8.tfm
+note: downloading cmsy6.tfm
+note: downloading cmex8.tfm
+note: downloading umsa.fd
+(umsa.fd)note: downloading msam10.tfm
+note: downloading msam7.tfm
+note: downloading umsb.fd
+ (umsb.fd)note: downloading msbm10.tfm
+note: downloading msbm7.tfm
+note: downloading lmroman10-bold.otf
+note: downloading msam5.tfm
+note: downloading msbm5.tfm
+
+warning: main.tex:29: Overfull \hbox (118.50117pt too wide) in paragraph at lines 15--29
+Overfull \hbox (118.50117pt too wide) in paragraph at lines 15--29
+[]\TU/lmr/m/n/10 We give explicit unit-thickness representatives of the full-tw
+ist links $\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 M; M\OT1/cmr/m/n
+/10 )$ \TU/lmr/m/n/10 with $[][] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 T\OT1/cmr/
+m/n/10 (\OML/cmm/m/it/10 M; M\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 =\OT1/cmr/m/n/1
+0 [\OML/cmm/m/it/10 M\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 M \OMS/cmsy/m/n/10 ^^@
+note: downloading lmroman12-bold.otf
+
+LaTeX Warning: Citation `cks' on page 1 undefined on input line 35.
+
+
+LaTeX Warning: Citation `kt25' on page 1 undefined on input line 40.
+
+
+LaTeX Warning: Citation `klotz26' on page 1 undefined on input line 40.
+
+
+LaTeX Warning: Citation `ob12' on page 1 undefined on input line 42.
+
+
+LaTeX Warning: Citation `star06' on page 1 undefined on input line 42.
+
+
+LaTeX Warning: Citation `atkinson19' on page 1 undefined on input line 42.
+
+
+LaTeX Warning: Citation `kt25' on page 1 undefined on input line 46.
+
+note: downloading lmroman10-italic.otf
+
+LaTeX Warning: Citation `klotz26' on page 1 undefined on input line 52.
+
+[1]
+
+LaTeX Warning: Reference `same' on page 2 undefined on input line 149.
+
+
+LaTeX Warning: Reference `cross' on page 2 undefined on input line 149.
+
+[2]
+
+LaTeX Warning: Reference `finite' on page 3 undefined on input line 199.
+
+
+warning: main.tex:201: Overfull \hbox (24.69064pt too wide) in paragraph at lines 198--201
+Overfull \hbox (24.69064pt too wide) in paragraph at lines 198--201
+\TU/lmr/m/n/10.95 Let $\OML/cmm/m/it/10.95 L\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/1
+0.95 T; b\OT1/cmr/m/n/10.95 )$ \TU/lmr/m/n/10.95 be the exact total analytic le
+ngth in Proposition [], and $\OML/cmm/m/it/10.95 F\OT1/cmr/m/n/10.95 (\OML/cmm/
+m/it/10.95 T; b\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 L\OT1/cmr/m/n/10.95 (
+\OML/cmm/m/it/10.95 T; b\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 =\OT1/cmr/m/n/1
+0.95 [\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 T; b\OT1/cmr
+/m/n/10.95 )(\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 T; b\
+OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^@
+[3]
+
+LaTeX Warning: Reference `expansion' on page 4 undefined on input line 257.
+
+[4]
+
+LaTeX Warning: Reference `correction' on page 5 undefined on input line 330.
+
+note: downloading lmmono10-regular.otf
+[5] [6] [7] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)
+Output written on main.xdv (7 pages, 152864 bytes).
+Transcript written on main.log.
+note: Rerunning TeX because "main.out" changed ...
+(main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(size11.clo)) (geometry.sty (keyval.sty) (ifvtex.sty (iftex.sty))) (amsmath.sty
+For additional information on amsmath, use the `?' option.
+(amstext.sty (amsgen.sty)) (amsbsy.sty) (amsopn.sty)) (amssymb.sty
+(amsfonts.sty)) (amsthm.sty) (graphicx.sty (graphics.sty (trig.sty)
+(graphics.cfg) (xetex.def))) (booktabs.sty) (hyperref.sty (ltxcmds.sty)
+(pdftexcmds.sty (infwarerr.sty)) (kvsetkeys.sty) (kvdefinekeys.sty)
+(pdfescape.sty) (hycolor.sty) (letltxmacro.sty) (auxhook.sty) (kvoptions.sty)
+(pd1enc.def) (intcalc.sty) (etexcmds.sty) (puenc.def) (url.sty) (bitset.sty
+(bigintcalc.sty)) (atbegshi-ltx.sty)) (hxetex.def (stringenc.sty)
+(rerunfilecheck.sty (atveryend-ltx.sty) (uniquecounter.sty)))
+(l3backend-xetex.def) (main.aux) (ts1cmr.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(nameref.sty (refcount.sty) (gettitlestring.sty)) (main.out) (main.out)
+(umsa.fd) (umsb.fd)
+warning: main.tex:29: Overfull \hbox (118.50117pt too wide) in paragraph at lines 15--29
+Overfull \hbox (118.50117pt too wide) in paragraph at lines 15--29
+[]\TU/lmr/m/n/10 We give explicit unit-thickness representatives of the full-tw
+ist links $\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 M; M\OT1/cmr/m/n
+/10 )$ \TU/lmr/m/n/10 with $[][] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 T\OT1/cmr/
+m/n/10 (\OML/cmm/m/it/10 M; M\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 =\OT1/cmr/m/n/1
+0 [\OML/cmm/m/it/10 M\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 M \OMS/cmsy/m/n/10 ^^@
+[1] [2]
+warning: main.tex:201: Overfull \hbox (18.27396pt too wide) in paragraph at lines 198--201
+Overfull \hbox (18.27396pt too wide) in paragraph at lines 198--201
+\TU/lmr/m/n/10.95 Let $\OML/cmm/m/it/10.95 L\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/1
+0.95 T; b\OT1/cmr/m/n/10.95 )$ \TU/lmr/m/n/10.95 be the exact total analytic le
+ngth in Proposition []3[], and $\OML/cmm/m/it/10.95 F\OT1/cmr/m/n/10.95 (\OML/c
+mm/m/it/10.95 T; b\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 L\OT1/cmr/m/n/10.9
+5 (\OML/cmm/m/it/10.95 T; b\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 =\OT1/cmr/m/
+n/10.95 [\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 T; b\OT1/
+cmr/m/n/10.95 )(\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 T;
+ b\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^@
+[3] [4] [5] [6] [7] (main.aux) )
+(see the transcript file for additional information)
+Output written on main.xdv (7 pages, 154860 bytes).
+Transcript written on main.log.
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Running xdvipdfmx ...
+note: downloading pdftex.map
+note: downloading kanjix.map
+note: downloading ckx.map
+note: downloading texglyphlist.txt
+note: downloading pdfglyphlist.txt
+note: downloading glyphlist.txt
+[1note: downloading cmmi10.pfb
+note: downloading cmr10.pfb
+note: downloading cmmi7.pfb
+note: downloading cmsy7.pfb
+note: downloading cmsy10.pfb
+note: downloading cmr7.pfb
+note: downloading cmmi8.pfb
+note: downloading msbm10.pfb
+note: downloading cmr8.pfb
+][2note: downloading cmex10.pfb
+note: downloading cmsy8.pfb
+][3][4][5][6][7]115622 bytes written
+note: Writing `build/main.pdf` (112.912109375 KiB)
+note: Skipped writing 2 intermediate files (use --keep-intermediates to keep them)

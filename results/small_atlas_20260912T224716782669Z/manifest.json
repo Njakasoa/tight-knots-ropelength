@@ -1,0 +1,9 @@
+{
+  "script_sha256": "d817493b263edea1417d2fbfb5735a3bc93a15bd8da60871572887f8ba4721a4",
+  "cli_sha256": "7fc54850258d4ea4c8ff4070aa128e50626e3d2833ec20922bd739b3f91607c2",
+  "outputs": {
+    "atlas.csv": "1a242d020009cc8315103e72d3f402f1ea207fd927feedf29de4795afadbfcc0",
+    "atlas.json": "dc48034b504138c2db0d654978fdd7105a69fe24cd7404e54873f7997429edb2"
+  },
+  "scope": "coordinate atlas, incomplete contact/type/record audit; polygon estimates are not certified smooth upper bounds"
+}

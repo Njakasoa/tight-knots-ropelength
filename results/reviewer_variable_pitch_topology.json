@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-12T22:47:48.130358+00:00",
+  "verdict": "PASS exact smooth isotopy and common-mirror full-twist labels",
+  "excluded": [
+    "polygon isotopy",
+    "numerical solver trajectory topology",
+    "reach and thickness",
+    "ropelength bound"
+  ],
+  "files": {
+    "proofs/VARIABLE_PITCH_TOPOLOGY.md": "260b1a4e061db6f72a6b372ce7c622f239319d5135e2020d222ac018600b68cc",
+    "proofs/VARIABLE_PITCH_TOPOLOGY_REVIEW.md": "d65d2871374a7e30c7c0732deffdd30766c2ffaebe5105a0a2332b3fe7104ce1",
+    "src/discovery/grammar.py": "df403a5d03fbc997b5e9a6676ef9b7f0d5297a71d41fb4fb416df209058a53ff"
+  }
+}

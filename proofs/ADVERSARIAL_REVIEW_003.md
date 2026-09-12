@@ -12,10 +12,12 @@ constant c in b=floor(c sqrt(T)).** The incomplete final block, integer
 population floors, exact outer radius and Hopf doubling all have the asserted
 error orders. No missing first-order contribution was found.
 
-**CONDITIONAL for certified decimal intervals:** the independent numerical
-values below are diagnostics. They corroborate the formulas but do not certify
-rounded endpoints. A separate interval implementation is still needed for any
-rigorous decimal enclosure of c*, d or the correction coefficients.
+**Certified interval follow-up: PASS in the separate
+`BOUNDARY_CERTIFICATE_REVIEW.md`.** The initially missing interval
+implementation and independent higher-precision rectangle audit are complete.
+The floating values below remain diagnostics; their displayed digits are not
+promoted to rigorously rounded endpoints. Exact rational certified enclosures
+are recorded in the separate boundary certificate and its review.
 
 This result optimizes the coefficient of T^(-1/2) among fixed c>0 within the
 specified equal-block staggered construction. It does not identify the exact
@@ -34,7 +36,7 @@ or prove an optimum for ropelength. Publication novelty was not audited here.
 | Normalization and doubling | PASS | d=3n1/(4q0)-J/(2l0); crossing correction is O(T^-2) |
 | Uniform stated asymptotic regime | PASS | b→infinity and b/T→0 |
 | Strict d>0 and unique fixed-c optimum | PASS | Analytic bounds suffice; no numerical positivity assumption |
-| Certified decimals | CONDITIONAL | Independent floating quadrature only in this review |
+| Certified enclosures | PASS in separate review | Boundary interval implementation and independent 224-bit audit completed; digits below remain diagnostic |
 | Global/fixed-M/arbitrary-schedule optimum | NOT CLAIMED | No such conclusion follows from this expansion |
 
 ## 1. Geometry does not select a block size

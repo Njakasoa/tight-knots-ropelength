@@ -1,0 +1,310 @@
+{
+  "boundary_interval_audit": {
+    "all_valid": true,
+    "decimal_parseable": 6,
+    "errors": [],
+    "records": 6
+  },
+  "boundary_manifest_inputs": {
+    "experiments/certify_block_boundary.py": {
+      "actual": "dc7dfdf993df15e3a4a0f2027d235c0901df0cc946bdaa12fef74a6fec0574a0",
+      "exists": true,
+      "expected": "dc7dfdf993df15e3a4a0f2027d235c0901df0cc946bdaa12fef74a6fec0574a0",
+      "matches": true
+    },
+    "proofs/THEOREM_003_CANDIDATE.md": {
+      "actual": "0a9f44f8c42d027cd73f58508e338b1dbd30a4d3c2416667747ac5dcea33c216",
+      "exists": true,
+      "expected": "0a9f44f8c42d027cd73f58508e338b1dbd30a4d3c2416667747ac5dcea33c216",
+      "matches": true
+    },
+    "results/certificate_shell_N512M1024_noguard/certificate.json": {
+      "actual": "513f888d7ee019578cd03a68d0910c682449d62082fac992b4a6b9ee75f3095e",
+      "exists": true,
+      "expected": "513f888d7ee019578cd03a68d0910c682449d62082fac992b4a6b9ee75f3095e",
+      "matches": true
+    },
+    "src/certification/arb_backend.py": {
+      "actual": "05bcc541d44e29e06f56dc40ebd09e790155851e37f937b187c691bfc57a21ce",
+      "exists": true,
+      "expected": "05bcc541d44e29e06f56dc40ebd09e790155851e37f937b187c691bfc57a21ce",
+      "matches": true
+    }
+  },
+  "checks": {
+    "J_positive": true,
+    "a_positive": true,
+    "all_boundary_rational_records_valid": true,
+    "all_shell_rational_records_valid": true,
+    "analytic_gap_positive": true,
+    "baseline_beta_positive": true,
+    "beta_below_baseline_arb": true,
+    "beta_below_baseline_exact_stored": true,
+    "beta_positive": true,
+    "boundary_input_hashes_match": true,
+    "boundary_manifest_has_detached_sha256": false,
+    "boundary_output_hash_matches_manifest": true,
+    "c_less_than_one": true,
+    "c_positive": true,
+    "d_positive": true,
+    "domain_t_coverage": true,
+    "domain_x_coverage": true,
+    "l0_positive": true,
+    "q0_positive": true,
+    "recomputed_intervals_overlap_stored": true,
+    "shell_output_hash_matches_manifest": true
+  },
+  "claim_boundary": "This audits interval arithmetic, domain partitioning, signs, and selected integer floors. It does not reprove Theorem 003's asymptotic expansion, geometric topology, finite total-length certificate, global optimality, or novelty.",
+  "discovery_floor_audit": {
+    "T": 1024,
+    "all_floors_unambiguous": true,
+    "ambiguous_floor_count": 0,
+    "ambiguous_floors": [],
+    "block_size": 13,
+    "component_count_from_arb_floors": 4976348,
+    "components_match_discovery": true,
+    "floor_margin_matches_float_diagnostic": true,
+    "floor_max": 3988,
+    "floor_min": 6,
+    "minimum_exact_floor_margin": {
+      "decimal": "0.005896933508479928",
+      "fraction": "77627447699390804826060340592969752782955239432078063510592047/13164036458569648337239753460458804039861886925068638906788872192",
+      "shell": 170
+    },
+    "outer_radius": {
+      "arb": "[3591.576026305178084766873585446098773521901929701619387025475191163975 +/- 3.19e-64]",
+      "lower": {
+        "denominator": "3291009114642412084309938365114701009965471731267159726697218048",
+        "numerator": "11819909438501516663377161010193366017807237309607051610446279800923"
+      },
+      "midpoint": "3591.576026305178084766873585446098773521901929701619387025475191163975",
+      "radius": "3.179531535008455308916024384971434818078155980057506442650590555260688e-64",
+      "upper": {
+        "denominator": "1645504557321206042154969182557350504982735865633579863348609024",
+        "numerator": "5909954719250758331688580505096683008903618654803525805223139900463"
+      }
+    },
+    "population_sum": 2488173,
+    "precision_bits": 224,
+    "selected_row": {
+      "T": 1024,
+      "block_size": 13,
+      "coefficient": 10.73418028241607,
+      "coefficient_96_nodes": 10.734180282416045,
+      "components": 4976348,
+      "major_radius": 3591.576026305178,
+      "minimum_floor_margin": 0.005896933508438451,
+      "quadrature_change": 2.4868995751603507e-14,
+      "total_length": 119161218242.6552
+    },
+    "source_discovery": "results/discovery_blocks_20260912T221841Z/discovery.json",
+    "source_discovery_sha256": "660afe43a918d481cb2c4562a9da19fbeb9773cbf8d9eb47eb1783b7e1090d26"
+  },
+  "domain_coverage": {
+    "t_cells": 2048,
+    "t_contiguous_0_to_2pi": true,
+    "t_over_pi_normalized_range": [
+      "0",
+      "2"
+    ],
+    "x_cells": 1024,
+    "x_contiguous_0_to_1": true,
+    "x_normalized_range": [
+      "0",
+      "1"
+    ]
+  },
+  "environment": {
+    "flint_precision_after_run": 224,
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+  },
+  "integration": {
+    "M": 2048,
+    "N": 1024,
+    "method": "direct Arb rectangles; t outer loop and x inner loop; no project certificate helper imports",
+    "minimum_computed_dn_lower": "-583127/68719476736",
+    "minimum_computed_speed_radicand_lower": "42493757352140394995759880692495766289/5316911983139663491615228241121378304",
+    "precision_bits": 224,
+    "t_half_width": "[0.00153398078788564122971808758949194476767439912078862588914792216421 +/- 2.86e-69]",
+    "x_half_width": "0.000488281250000000000000000000000000000000000000000000000000000000000"
+  },
+  "interval_overlap_with_stored": {
+    "J": true,
+    "a": true,
+    "baseline_c1_beta": true,
+    "d": true,
+    "optimal_beta": true,
+    "optimal_c": true
+  },
+  "recomputed": {
+    "J": {
+      "arb": "[114.6317164497860082862514687123466584022685949512932577381559650366826 +/- 0.343]",
+      "lower": {
+        "denominator": "26328072917139296674479506920917608079723773850137277813577744384",
+        "numerator": "3009007096232783015805850292805373661352331559040473326922681061887"
+      },
+      "midpoint": "114.6317164497860082862514687123466584022685949512932577381559650366826",
+      "radius": "0.3427935307845473289489746093750000000000000000000000000000000000000000",
+      "upper": {
+        "denominator": "26328072917139296674479506920917608079723773850137277813577744384",
+        "numerator": "3027057282380821408390405421629337144277321313444131611607728427519"
+      }
+    },
+    "a": {
+      "arb": "[0.07735026918962576450914878050195745564760175127012687601860232648394762 +/- 6.19e-68]",
+      "lower": {
+        "denominator": "107839786668602559178668060348078522694548577690162289924414440996864",
+        "numerator": "8341436528168223798095664498152493053896981782032128225648141808385"
+      },
+      "midpoint": "0.07735026918962576450914878050195745564760175127012687601860232648394762",
+      "radius": "6.182048006171646901106275724940049522212759664785644888994272052487886e-68",
+      "upper": {
+        "denominator": "107839786668602559178668060348078522694548577690162289924414440996864",
+        "numerator": "8341436528168223798095664498152493053896981782032128225648141808399"
+      }
+    },
+    "analytic_beta_gap": {
+      "arb": "[1.530206608532355750079571304153000343321491458638689725355305633261949 +/- 0.0146]",
+      "lower": {
+        "denominator": "1684996666696914987166688442938726917102321526408785780068975640576",
+        "numerator": "2553869859102764088540231458905080219810828918347303797724018404529"
+      },
+      "midpoint": "1.530206608532355750079571304153000343321491458638689725355305633261949",
+      "radius": "0.01455384222208522260189056396484375000000000000000000000000000000000000",
+      "upper": {
+        "denominator": "1684996666696914987166688442938726917102321526408785780068975640576",
+        "numerator": "2602916210366456933375199412702851051230395391398684276858973613233"
+      }
+    },
+    "baseline_c1_beta": {
+      "arb": "[5.413807588984125437045747512672904917997363416990928983035608826806798 +/- 0.0252]",
+      "lower": {
+        "denominator": "1684996666696914987166688442938726917102321526408785780068975640576",
+        "numerator": "9079786338477620020429985058096477183702509619795986517997705463949"
+      },
+      "midpoint": "5.413807588984125437045747512672904917997363416990928983035608826806798",
+      "radius": "0.02519969560671597719192504882812500000000000000000000000000000000000000",
+      "upper": {
+        "denominator": "1684996666696914987166688442938726917102321526408785780068975640576",
+        "numerator": "9164709144675806649065354397652265058669941671921672822545108142221"
+      }
+    },
+    "d": {
+      "arb": "[0.4327337716244993596225498568171127545005025250013375170965446159243584 +/- 2.37e-3]",
+      "lower": {
+        "denominator": "2417851639229258349412352",
+        "numerator": "1040565629600869662413751"
+      },
+      "midpoint": "0.4327337716244993596225498568171127545005025250013375170965446159243584",
+      "radius": "0.002365914177062222734093666076660156250000000000000000000000000000000000",
+      "upper": {
+        "denominator": "2417851639229258349412352",
+        "numerator": "1052006488543440936457143"
+      }
+    },
+    "optimal_beta": {
+      "arb": "[3.883566650566555062186694903463043244094821115908189312904141843318939 +/- 0.0107]",
+      "lower": {
+        "denominator": "302231454903657293676544",
+        "numerator": "1170508107416160216124191"
+      },
+      "midpoint": "3.883566650566555062186694903463043244094821115908189312904141843318939",
+      "radius": "0.01068019740341696888208389282226562500000000000000000000000000000000000",
+      "upper": {
+        "denominator": "302231454903657293676544",
+        "numerator": "1176963890615946162834207"
+      }
+    },
+    "optimal_c": {
+      "arb": "[0.4227906633168458938598632812500000000000000000000000000000000000000000 +/- 1.16e-3]",
+      "lower": {
+        "denominator": "536870912",
+        "numerator": "226363501"
+      },
+      "midpoint": "0.4227906633168458938598632812500000000000000000000000000000000000000000",
+      "radius": "0.001155786216259002685546875000000000000000000000000000000000000000000000",
+      "upper": {
+        "denominator": "536870912",
+        "numerator": "227604517"
+      }
+    }
+  },
+  "runtime_seconds": 13.864951,
+  "schema": "independent-boundary-review-v1",
+  "shell_interval_audit": {
+    "all_valid": true,
+    "decimal_parseable": 8,
+    "errors": [],
+    "records": 8
+  },
+  "source_boundary_certificate_sha256": "13577c491d2c2810f30aea4c5d99f23235f7db517bf61e70db1a2fa98a99ed7b",
+  "source_boundary_dir": "results/boundary_certificate_20260912T223917Z",
+  "source_boundary_manifest_sha256": "e6ea8a3d4d4853e235f72d9f9e5f86ebb2077cb84d8a5c3e8d464c827e932ee8",
+  "source_shell_certificate_sha256": "513f888d7ee019578cd03a68d0910c682449d62082fac992b4a6b9ee75f3095e",
+  "source_shell_manifest_sha256": "cf16967e356cf352aec86166108385caa5f3bd761ddec043bd71fbf0e24c8ae5",
+  "status": "PASS",
+  "stored_boundary_intervals": {
+    "J": {
+      "lower": {
+        "denominator": "12259964326927110866866776217202473468949912977468817408",
+        "numerator": "1396985903197354352716829591249312422325627526882544785047"
+      },
+      "upper": {
+        "denominator": "12259964326927110866866776217202473468949912977468817408",
+        "numerator": "1413802127629138075300052198970620476698984836856789276311"
+      }
+    },
+    "a": {
+      "lower": {
+        "denominator": "25108406941546723055343157692830665664409421777856138051584",
+        "numerator": "1942142035851307166296910610551129340635841195944726519661"
+      },
+      "upper": {
+        "denominator": "25108406941546723055343157692830665664409421777856138051584",
+        "numerator": "1942142035851307166296910610551129340635841195944726519675"
+      }
+    },
+    "baseline_c1_beta": {
+      "lower": {
+        "denominator": "196159429230833773869868419475239575503198607639501078528",
+        "numerator": "1052108390254975750423930032627961157875712221320975079733"
+      },
+      "upper": {
+        "denominator": "196159429230833773869868419475239575503198607639501078528",
+        "numerator": "1071799345224583168535737127115721849284807904210871507253"
+      }
+    },
+    "d": {
+      "lower": {
+        "denominator": "3138550867693340381917894711603833208051177722232017256448",
+        "numerator": "1343317834278074078960733348573578370027100321568353951197"
+      },
+      "upper": {
+        "denominator": "3138550867693340381917894711603833208051177722232017256448",
+        "numerator": "1372949224650007876050794857350529727085460728987073912285"
+      }
+    },
+    "optimal_beta": {
+      "lower": {
+        "denominator": "1569275433846670190958947355801916604025588861116008628224",
+        "numerator": "6060923348966109502483430254824982859555902421906076849223"
+      },
+      "upper": {
+        "denominator": "1569275433846670190958947355801916604025588861116008628224",
+        "numerator": "6127607234664238645347973428537504996629656365199727907911"
+      }
+    },
+    "optimal_c": {
+      "lower": {
+        "denominator": "2147483648",
+        "numerator": "903021575"
+      },
+      "upper": {
+        "denominator": "536870912",
+        "numerator": "228231711"
+      }
+    }
+  }
+}

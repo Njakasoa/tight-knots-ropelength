@@ -6,3 +6,7 @@ __pycache__/
 *.pyc
 *.egg-info/
 build/
+
+# Retain the reviewed publication PDF and build/visual evidence.
+!publication/build/
+!publication/build/**

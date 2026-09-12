@@ -14,7 +14,9 @@
 \begin{abstract}
 We give explicit unit-thickness representatives of the full-twist links
 $T(M,M)$ with
-$\limsup_{M\to\infty}\Rop(T(M,M))/[M(M-1)]^{3/4}<10.614$.
+\[
+\limsup_{M\to\infty}\Rop(T(M,M))/[M(M-1)]^{3/4}<10.614.
+\]
 The construction combines shell-specific conservative capacities with blocks
 of equally populated toroidal helices. Alternating half-step phases allow
 radial spacing $\sqrt3$ within blocks; block boundaries retain spacing two.
@@ -56,8 +58,11 @@ lower bound, or best-known record across other torus families is claimed.
 \section{Finite construction and clearance}
 For $R>r>0$ and a phase $\phi$ put
 \begin{equation}\label{curve}
-F_{r,\phi}(t)=((R+r\cos t)\cos(t+\phi),
- (R+r\cos t)\sin(t+\phi),r\sin t),\quad t\in\mathbb R/(2\pi\mathbb Z).
+\begin{aligned}
+F_{r,\phi}(t)&=((R+r\cos t)\cos(t+\phi),\\
+ &\qquad (R+r\cos t)\sin(t+\phi),r\sin t),\quad
+ t\in\mathbb R/(2\pi\mathbb Z).
+\end{aligned}
 \end{equation}
 Write $h=R-r$ and $A(r,h)=\pi rh/\sqrt{r^2+h^2}$.
 
@@ -197,7 +202,10 @@ n_1&=n(1)=\sqrt2\pi,& J&=\int_0^1n'(x)e(x)\,dx,\\
 a&=\frac{g}{2\delta},\qquad d=\frac{3n_1}{4q_0}-\frac{J}{2l_0}.
 \end{align*}
 Let $L(T,b)$ be the exact total analytic length in Proposition \ref{finite},
-and $F(T,b)=L(T,b)/[M(T,b)(M(T,b)-1)]^{3/4}$.
+and define
+\[
+F(T,b)=L(T,b)/[M(T,b)(M(T,b)-1)]^{3/4}.
+\]
 
 \begin{theorem}\label{correction}
 As $b\to\infty$ and $b/T\to0$ through admissible integers,
@@ -305,7 +313,8 @@ A tensor midpoint rule with $N$ radial and $H$ angular cells has error
 E\le\frac{2\pi}{24}\left(\frac{600}{N^2}
  +60\left(\frac{2\pi}{H}\right)^2\right).
 \]
-Arb ball evaluation at every exact rational node, enclosing $\pi$ and all
+Arb ball evaluation at exact rational radial nodes and enclosed multiples of
+$\pi$ for angular nodes, enclosing all
 operations, with $N=512$, $H=1024$ and 192-bit precision gives an outward
 upper endpoint for $\alpha$ smaller than $10.613734<10.614$.
 The artifact stores exact rational endpoints; rounded diagnostic midpoints
@@ -345,8 +354,8 @@ The repository records generator formulas, geometry and topology proofs,
 independent adversarial reviews, exact endpoint data, immutable result
 manifests, software versions and unsuccessful controls. The local
 \texttt{publication/reproduce.py} checks bundled rational inequalities,
-reproduces the main integral certificate and creates the figure. Tests and
-new solver runs are explicit additional modes. No external service is needed
+reproduces the main integral certificate and creates the figure. Tests, boundary certification and finite block search are explicit additional
+modes. No external service is needed
 for the certificate once the pinned Python dependencies are installed.
 
 The physical interpretation is $M$ separate closed filaments of radius $r$:
@@ -380,15 +389,18 @@ Invent. Math. 150 (2002), 257--286. \href{https://arxiv.org/abs/math/0103224}{ar
 Proc. R. Soc. A 481 (2025), 20250319. \href{https://doi.org/10.1098/rspa.2025.0319}{doi:10.1098/rspa.2025.0319}; equation numbering here refers to
 \href{https://arxiv.org/html/2504.00861v1}{arXiv:2504.00861v1}.
 \bibitem{klotz26} A. R. Klotz, \emph{Tight Bounds for Tight Links: Ropelength of $T(Q,Q)$ torus links},
-J. Phys. A 59, 285201.
+J. Phys. A 59 (2026), 285201.
 \href{https://doi.org/10.1088/1751-8121/ae862e}{doi:10.1088/1751-8121/ae862e};
-\href{https://arxiv.org/abs/2603.02416}{arXiv:2603.02416v2}.
-\bibitem{ob12} K. W. Olsen and J. Bohr, New J. Phys. 14 (2012), 023063.
+\href{https://arxiv.org/abs/2603.02416v2}{arXiv:2603.02416v2}.
+\bibitem{ob12} K. W. Olsen and J. Bohr, \emph{Geometry of the toroidal N-helix: optimal-packing and zero-twist},
+New J. Phys. 14 (2012), 023063.
 \href{https://doi.org/10.1088/1367-2630/14/2/023063}{doi:10.1088/1367-2630/14/2/023063}.
-\bibitem{star06} E. L. Starostin, J. Phys.: Condens. Matter 18 (2006), S187--S204.
+\bibitem{star06} E. L. Starostin, \emph{On the perfect hexagonal packing of rods},
+J. Phys.: Condens. Matter 18 (2006), S187--S204.
 \href{https://doi.org/10.1088/0953-8984/18/14/S04}{doi:10.1088/0953-8984/18/14/S04}.
 \bibitem{atkinson19} D. W. Atkinson, C. D. Santangelo and G. M. Grason,
-\emph{Constant spacing in filament bundles} (2019).
+\emph{Constant spacing in filament bundles}, New J. Phys. 21 (2019), 062001.
+\href{https://doi.org/10.1088/1367-2630/ab1c2d}{doi:10.1088/1367-2630/ab1c2d}.
 \href{https://arxiv.org/abs/1902.06325}{arXiv:1902.06325}.
 \end{thebibliography}
 \end{document}

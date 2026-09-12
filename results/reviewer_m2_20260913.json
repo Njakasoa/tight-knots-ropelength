@@ -1,0 +1,327 @@
+{
+  "claim_boundary": "This evidence validates the grammar formulas, derivative implementation against an independent reference, construction-level homotopy hypotheses, failure-path rejection, and repository regressions. It does not certify polygonal reach/thickness, solver paths, a smooth ropelength bound, finite-M optimality, or a global topology/optimization claim.",
+  "contact_clusters": {
+    "claim_boundary": "two projection linking matrices are necessary consistency checks, not complete isotopy certificates; topology of free vertex solver paths remains numerical; no smooth upper bound or continuum phase claim",
+    "clusters": [
+      {
+        "cut_distance": 0.1,
+        "distance_matrix": [
+          [
+            0.0,
+            0.6641811643383609,
+            0.6455638605422149
+          ],
+          [
+            0.6641811643383609,
+            0.0,
+            0.18552816433178437
+          ],
+          [
+            0.6455638605422149,
+            0.18552816433178437,
+            0.0
+          ]
+        ],
+        "labels": [
+          3,
+          1,
+          2
+        ],
+        "method": "average linkage of Frobenius-normalized symmetric component-contact spectra",
+        "relative_tolerance": 0.0001,
+        "scope": "exploratory finite graph similarity; spectral equality is not graph isomorphism",
+        "seed_order": [
+          1729,
+          2718,
+          3141
+        ]
+      },
+      {
+        "cut_distance": 0.1,
+        "distance_matrix": [
+          [
+            0.0,
+            0.654985870854293,
+            0.6253915358526045
+          ],
+          [
+            0.654985870854293,
+            0.0,
+            0.1813571859669299
+          ],
+          [
+            0.6253915358526045,
+            0.1813571859669299,
+            0.0
+          ]
+        ],
+        "labels": [
+          3,
+          1,
+          2
+        ],
+        "method": "average linkage of Frobenius-normalized symmetric component-contact spectra",
+        "relative_tolerance": 0.001,
+        "scope": "exploratory finite graph similarity; spectral equality is not graph isomorphism",
+        "seed_order": [
+          1729,
+          2718,
+          3141
+        ]
+      }
+    ],
+    "records": [
+      {
+        "active_kink_counts": [
+          0,
+          0
+        ],
+        "components": 12,
+        "contact_counts": [
+          31,
+          35
+        ],
+        "geometry": "results/variable_pitch_20260912T224501767133Z/seed1729.rr/seed1729.final.vect",
+        "geometry_sha256": "6775a6b498a279a39a5f9a3b53cba3fc289722deb356c7fe948ac9b4d17b3f5a",
+        "projection_checks": [
+          {
+            "all_pair_abs_one": true,
+            "direction": [
+              1.0,
+              0.371,
+              0.813
+            ],
+            "generic": true
+          },
+          {
+            "all_pair_abs_one": true,
+            "direction": [
+              0.231,
+              1.0,
+              0.491
+            ],
+            "generic": true
+          }
+        ],
+        "relative_ropelength_difference": 4.852901717860552e-16,
+        "ropelength_independent_engine": 702.7970748091057,
+        "ropelength_plcurve": 702.797074809106,
+        "seed": 1729,
+        "thickness_polygonal": 0.49999878075348236,
+        "vertices": 576
+      },
+      {
+        "active_kink_counts": [
+          0,
+          0
+        ],
+        "components": 12,
+        "contact_counts": [
+          31,
+          72
+        ],
+        "geometry": "results/variable_pitch_20260912T224501767133Z/seed2718.rr/seed2718.final.vect",
+        "geometry_sha256": "c1ccf0924832ec83435394ce24c60df8d86caa0fdeb1117f58e9f6e44e34e736",
+        "projection_checks": [
+          {
+            "all_pair_abs_one": true,
+            "direction": [
+              1.0,
+              0.371,
+              0.813
+            ],
+            "generic": true
+          },
+          {
+            "all_pair_abs_one": true,
+            "direction": [
+              0.231,
+              1.0,
+              0.491
+            ],
+            "generic": true
+          }
+        ],
+        "relative_ropelength_difference": 0.0,
+        "ropelength_independent_engine": 716.108417224441,
+        "ropelength_plcurve": 716.108417224441,
+        "seed": 2718,
+        "thickness_polygonal": 0.4999994965810113,
+        "vertices": 576
+      },
+      {
+        "active_kink_counts": [
+          0,
+          0
+        ],
+        "components": 12,
+        "contact_counts": [
+          41,
+          56
+        ],
+        "geometry": "results/variable_pitch_20260912T224501767133Z/seed3141.rr/seed3141.final.vect",
+        "geometry_sha256": "245b621ee02215090507c1d60cd8fb957c079989492c6a1a5100f6263ad275fe",
+        "projection_checks": [
+          {
+            "all_pair_abs_one": true,
+            "direction": [
+              1.0,
+              0.371,
+              0.813
+            ],
+            "generic": true
+          },
+          {
+            "all_pair_abs_one": true,
+            "direction": [
+              0.231,
+              1.0,
+              0.491
+            ],
+            "generic": true
+          }
+        ],
+        "relative_ropelength_difference": 4.566474097275898e-16,
+        "ropelength_independent_engine": 746.8793338131612,
+        "ropelength_plcurve": 746.8793338131616,
+        "seed": 3141,
+        "thickness_polygonal": 0.49999993259097997,
+        "vertices": 576
+      }
+    ],
+    "source_comparison_sha256": "1940e21ee5c65ecb8861059da68247028d073aa78f36a5d38923cff60d5c0c8f",
+    "source_dir": "results/contact_clusters_20260912T224627301208Z"
+  },
+  "created_utc": "2026-09-12T22:54:40.455391+00:00",
+  "environment": {
+    "machine": "x86_64",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+  },
+  "focused_pytest": {
+    "command": [
+      "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/independent/test_discovery_grammar_independent.py",
+      "tests/test_vect_zero_colors.py"
+    ],
+    "counts": {
+      "passed": 17
+    },
+    "duration_seconds": 0.484,
+    "returncode": 0,
+    "stderr_file": "reviewer_m2_20260913.focused.stderr.txt",
+    "stdout_file": "reviewer_m2_20260913.focused.stdout.txt"
+  },
+  "full_pytest": {
+    "command": [
+      "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "counts": {
+      "passed": 65
+    },
+    "duration_seconds": 31.216,
+    "returncode": 0,
+    "stderr_file": "reviewer_m2_20260913.full.stderr.txt",
+    "stdout_file": "reviewer_m2_20260913.full.stdout.txt"
+  },
+  "independent_checks": {
+    "canonical_zero_colour_atlas": "3_1.vect parsed after consuming its zero per-component colour row and compared exactly to independently parsed 3_1.tsv",
+    "derivatives": "independent coordinate formula plus five-point finite differences for first and second derivatives",
+    "failure_paths": "invalid configurations, indices, nonfinite parameters, unsupported orders, samples, homotopy fractions, bundles, and scales",
+    "homotopies": [
+      "beta to zero",
+      "phase offsets to zero",
+      "positive diagonal scale to identity"
+    ],
+    "proper_doubling": "det(P)=+1 and sampled core separation lower bound checked"
+  },
+  "phase_search_context": {
+    "scientific_status": "Machine search of a conservative adjacent-shell lower bound. No full-bundle certificate, closure/isotopy proof, ropelength result, global optimum, or publication novelty claim.",
+    "source": "results/discovery_phase_20260913_v1/search.json",
+    "source_sha256": "6ee72a33e11e8fa600e70ed1c0d8e7f4ad0daf6f49d268313aa4768ca557b6eb"
+  },
+  "schema": "independent-m2-validation-v1",
+  "source_sha256": {
+    "data/reference/cantarella-atlas/MANIFEST.json": "a3dfe6346f5b8256ec803f7110257a0ec4f08db9ba89a0ab310f0d04a41ece17",
+    "data/reference/cantarella-atlas/knots/prime/3-10/3_1.tsv": "e649e6d41a9d0a76bf6be1a93c6eed483ac3c949b6677f3f59520d0e958e8c3c",
+    "data/reference/cantarella-atlas/knots/prime/3-10/3_1.vect": "892a10e01a90b3491c2c7f6c7a5e70f3b5f93293c06083240c13136fa11b1482",
+    "experiments/cluster_pitch_contacts.py": "15d5c16a09285d34117fe203de18776a3e08021cd825a987e3cdf418533d9681",
+    "experiments/search_variable_pitch.py": "7fae556e2fcfe5a9b0e0efdc9b1169db991bcdef9c8c0f5aa271e72b9110848e",
+    "proofs/VARIABLE_PITCH_TOPOLOGY.md": "0fbc7fa7e72688846a2a33fe23cabc56a2dffc3c30778565624f837a8df5aa94",
+    "results/contact_clusters_20260912T224627301208Z/comparison.json": "1940e21ee5c65ecb8861059da68247028d073aa78f36a5d38923cff60d5c0c8f",
+    "results/discovery_phase_20260913_v1/search.json": "6ee72a33e11e8fa600e70ed1c0d8e7f4ad0daf6f49d268313aa4768ca557b6eb",
+    "results/variable_pitch_20260912T224501767133Z/search.json": "7107b746b09fbe339644bbf9f1dd9e5e24dd2cdd76fba52337e795647dd07496",
+    "src/curves/vect.py": "438e3d85cee81bf99c4d6191a9eaf2554d2682295622c910debb368fb6b0358f",
+    "src/discovery/grammar.py": "df403a5d03fbc997b5e9a6676ef9b7f0d5297a71d41fb4fb416df209058a53ff",
+    "tests/independent/test_discovery_grammar_independent.py": "9f3855270390e2e3984098eceeca666690f8292c46af2430195be3d5b81e2049",
+    "tests/test_vect_zero_colors.py": "af45a614b7f8dd5887fd4b9a24f7afb1781699cd7f66f0705e583e9d862183ae"
+  },
+  "status": "PASS",
+  "variable_pitch_search": {
+    "claim_boundary": "numerical polygon experiments, not a certified smooth bound; isotopy of underlying analytic inputs follows grammar proof; polygon/solver path needs separate validation",
+    "records": [
+      {
+        "at48": 726.4025991096503,
+        "at96": 723.2656826849686,
+        "baseline_coarse": 947.821651832074,
+        "coarse_ropelength": 737.7847210647533,
+        "final": "seed1729.rr/seed1729.final.vect",
+        "final_ropelength": 702.797074809106,
+        "parameters": [
+          4.265612125766679,
+          1.0194656533822806,
+          -0.5634153534995889,
+          0.1584386268600128,
+          1.0250120867614307,
+          1.1104823323465856
+        ],
+        "ridgerunner_returncode": 0,
+        "seed": 1729
+      },
+      {
+        "at48": 730.5478409682653,
+        "at96": 729.2578725435278,
+        "baseline_coarse": 947.821651832074,
+        "coarse_ropelength": 735.9026627011491,
+        "final": "seed2718.rr/seed2718.final.vect",
+        "final_ropelength": 716.108417224441,
+        "parameters": [
+          4.38822420068516,
+          1.004920159965652,
+          -0.5463002929769936,
+          0.058835248817691796,
+          2.0190583913949447,
+          0.9484476659251901
+        ],
+        "ridgerunner_returncode": 0,
+        "seed": 2718
+      },
+      {
+        "at48": 755.8840206253448,
+        "at96": 751.7917783318431,
+        "baseline_coarse": 947.821651832074,
+        "coarse_ropelength": 772.2644641460231,
+        "final": "seed3141.rr/seed3141.final.vect",
+        "final_ropelength": 746.8793338131616,
+        "parameters": [
+          4.64434586743357,
+          0.9887003152369688,
+          0.6756324823369448,
+          0.011809150778695932,
+          1.1479279497793937,
+          1.0074468816301143
+        ],
+        "ridgerunner_returncode": 0,
+        "seed": 3141
+      }
+    ],
+    "source_dir": "results/variable_pitch_20260912T224501767133Z",
+    "source_search_sha256": "7107b746b09fbe339644bbf9f1dd9e5e24dd2cdd76fba52337e795647dd07496"
+  }
+}

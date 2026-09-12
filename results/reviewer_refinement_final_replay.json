@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+    "experiments/certify_refinement_topology.py",
+    "results/variable_pitch_20260912T224501767133Z",
+    "--verify",
+    "results/topology_path_20260912T230219109163Z"
+  ],
+  "returncode": 0,
+  "stdout": "1729 REPLAY_PASS\n2718 REPLAY_PASS\n3141 REPLAY_PASS\n/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/topology_path_20260912T230219109163Z 12.674969562000115\n",
+  "stderr": "",
+  "source_sha256_before": "0b16a0f951bcad2a0c00b012434181909c268cae399460a4856ef376e287c14a",
+  "source_sha256_after": "0b16a0f951bcad2a0c00b012434181909c268cae399460a4856ef376e287c14a",
+  "source_unchanged": true,
+  "optimized_mode_returncode": 1,
+  "optimized_mode_stderr": "Traceback (most recent call last):\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 9, in <module>\n    raise RuntimeError('proof checker requires assertions; optimized Python is unsupported')\nRuntimeError: proof checker requires assertions; optimized Python is unsupported\n",
+  "runtime_seconds": 12.818810523000138
+}

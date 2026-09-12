@@ -1,0 +1,74 @@
+{
+  "commands": [
+    {
+      "command": [
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+        "publication/checkers/check_endpoints.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+        "experiments/certify_shell_bound.py",
+        "--N",
+        "512",
+        "--M",
+        "1024",
+        "--output-dir",
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/publication_reproduction_20260912T230550622265Z/shell_certificate"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+        "publication/figures/make_figures.py",
+        "--output-dir",
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/publication_reproduction_20260912T230550622265Z/figures"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+        "experiments/certify_block_boundary.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+        "experiments/discover_block_sizes.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+        "experiments/certify_refinement_topology.py",
+        "results/variable_pitch_20260912T224501767133Z",
+        "--verify",
+        "results/topology_path_20260912T230219109163Z"
+      ],
+      "returncode": 0
+    }
+  ],
+  "success": true,
+  "utc": "20260912T230550622265Z",
+  "source_hashes": {
+    "publication/reproduce.py": "e08d90988f6aae935e3f223110d39556b454f142d1543cc4cdb4db979d519a9f",
+    "publication/main.tex": "272b07f846248a67f627efae4f822e989fca9554e50d1461f5c3dd43e5274b02",
+    "publication/checkers/check_endpoints.py": "b397a3cba77403704a4ae7e03bc91f4d8e314e8ad375b3ac3219126699a7029f",
+    "publication/figures/make_figures.py": "673e5fb88960af9844779be4dd9c25fe9a5cfc1d22309a275fca3a1f28ee72b3"
+  }
+}

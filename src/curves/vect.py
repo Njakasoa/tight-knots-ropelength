@@ -212,15 +212,14 @@ def read_vect(path: str | Path, *, require_closed: bool = True, closure_toleranc
     if require_closed and not all(closed_flags):
         raise VECTParseError("VECT input contains an open component while require_closed=True")
 
-    # VECT has one colour-count integer per component when n_colors > 0.
-    color_counts: list[int] = [0] * n_components
-    if n_colors:
-        if len(tokens) < cursor + n_components:
-            raise VECTParseError("missing per-component color counts")
-        color_counts = [_read_int(tokens[cursor + i], what="colors per component") for i in range(n_components)]
-        cursor += n_components
-        if any(value < 0 for value in color_counts) or sum(color_counts) != n_colors:
-            raise VECTParseError("per-component color counts do not match VECT color count")
+    # VECT always has one colour-count integer per component, including zero
+    # colour files. Skipping this row shifts every coordinate by one token.
+    if len(tokens) < cursor + n_components:
+        raise VECTParseError("missing per-component color counts")
+    color_counts = [_read_int(tokens[cursor + i], what="colors per component") for i in range(n_components)]
+    cursor += n_components
+    if any(value < 0 for value in color_counts) or sum(color_counts) != n_colors:
+        raise VECTParseError("per-component color counts do not match VECT color count")
 
     coordinates_needed = 3 * n_vertices
     if len(tokens) < cursor + coordinates_needed:

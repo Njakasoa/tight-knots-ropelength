@@ -1,0 +1,12 @@
+{
+  "evidence_sha256": "b8ad43091d6372dac0d624edcd9aa4c78bc97da89abfcd40e6d36efc4de29cb6",
+  "files": {
+    "reviewer_m2_20260913.focused.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reviewer_m2_20260913.focused.stdout.txt": "aeecf27adc1a434609d5d96624f01cadd7a36fb9bcec1af2f675f33ddd1a8c99",
+    "reviewer_m2_20260913.full.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reviewer_m2_20260913.full.stdout.txt": "39e886432c154b006da4a03fea6b7de75ae128fcd54f71e8fd24b48d7bbb0d7e",
+    "reviewer_m2_20260913.py": "c0177ca9c7edbf1b11c4b990b72778dcdc9a8ed8e8db6f84d0aed7a20a174d83"
+  },
+  "runner_sha256": "c0177ca9c7edbf1b11c4b990b72778dcdc9a8ed8e8db6f84d0aed7a20a174d83",
+  "schema": "independent-m2-validation-manifest-v1"
+}

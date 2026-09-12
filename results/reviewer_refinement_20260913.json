@@ -1,0 +1,433 @@
+{
+  "analytic_audits": [
+    {
+      "alignment_coefficients_dyadic": true,
+      "alignment_recomputed_binary64_bits_match": true,
+      "alignment_scale_positive": true,
+      "analytic_reference": "independent direct E(u,w) formula with exact Fraction VECT tokens and 192-bit Arb",
+      "angle_lower_margin_float": 0.13089969381129835,
+      "angle_upper_margin_float": 3.010692959601942,
+      "counts": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "double_tube_gap_lower_arb": "[0.14436585375198729224180714401105235109860784465994441764 +/- 5.36e-57]",
+      "final_parse": {
+        "color_channels": 4,
+        "colors": 576,
+        "components": 12,
+        "coordinate_tokens_exact": true,
+        "tokens": 4060,
+        "vertices": 576
+      },
+      "final_sha256": "6775a6b498a279a39a5f9a3b53cba3fc289722deb356c7fe948ac9b4d17b3f5a",
+      "initial_parse": {
+        "color_channels": 4,
+        "colors": 12,
+        "components": 12,
+        "coordinate_tokens_exact": true,
+        "tokens": 1804,
+        "vertices": 576
+      },
+      "initial_sha256": "342c6833ec356d3b83a543bc124cefd22b56f120f9c117d750a9fef9179363d6",
+      "maximum_error_component_k": [
+        5,
+        47
+      ],
+      "maximum_squared_vertex_error_upper_arb": "[3.69544080096298858183305912525038881242398877103657174654e-29 +/- 7.11e-87]",
+      "maximum_squared_vertex_error_upper_float": 3.6954408009629885e-29,
+      "maximum_transverse_error_upper_arb": "[0.0606231360073457580028134593196874355766421225919027911783 +/- 3.99e-60]",
+      "minimum_h_minus_eta_lower_arb": "[2.23584009561267179559474805609100287861163753757636081853 +/- 5.61e-57]",
+      "minimum_separation_minus_2_emax_lower_arb": "[0.859288074603027916254091896108964483838628596613069417643 +/- 4.48e-58]",
+      "seed": 1729
+    },
+    {
+      "alignment_coefficients_dyadic": true,
+      "alignment_recomputed_binary64_bits_match": true,
+      "alignment_scale_positive": true,
+      "analytic_reference": "independent direct E(u,w) formula with exact Fraction VECT tokens and 192-bit Arb",
+      "angle_lower_margin_float": 0.1308996938158305,
+      "angle_upper_margin_float": 3.010692959606474,
+      "counts": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "double_tube_gap_lower_arb": "[0.28270949000953021486792304838482383067622752807904276851 +/- 4.81e-57]",
+      "final_parse": {
+        "color_channels": 4,
+        "colors": 576,
+        "components": 12,
+        "coordinate_tokens_exact": true,
+        "tokens": 4060,
+        "vertices": 576
+      },
+      "final_sha256": "c1ccf0924832ec83435394ce24c60df8d86caa0fdeb1117f58e9f6e44e34e736",
+      "initial_parse": {
+        "color_channels": 4,
+        "colors": 12,
+        "components": 12,
+        "coordinate_tokens_exact": true,
+        "tokens": 1804,
+        "vertices": 576
+      },
+      "initial_sha256": "f86bd1bc3c1aaa13038fbaa4b6b75d8d8a8d2359eed8d80568baed151aac19c8",
+      "maximum_error_component_k": [
+        5,
+        47
+      ],
+      "maximum_squared_vertex_error_upper_arb": "[4.41371500309517098508316838387405770236217201822433801739e-29 +/- 3.91e-86]",
+      "maximum_squared_vertex_error_upper_float": 4.413715003095171e-29,
+      "maximum_transverse_error_upper_arb": "[0.0527573553378149776210715991610842785476894586167286157438 +/- 4.00e-59]",
+      "minimum_h_minus_eta_lower_arb": "[2.36041560523397854185283738918181344200858896606951341163 +/- 1.07e-57]",
+      "minimum_separation_minus_2_emax_lower_arb": "[0.889565129358717951409958102683872910094409901125917768512 +/- 5.80e-58]",
+      "seed": 2718
+    },
+    {
+      "alignment_coefficients_dyadic": true,
+      "alignment_recomputed_binary64_bits_match": true,
+      "alignment_scale_positive": true,
+      "analytic_reference": "independent direct E(u,w) formula with exact Fraction VECT tokens and 192-bit Arb",
+      "angle_lower_margin_float": 0.13089969382394165,
+      "angle_upper_margin_float": 3.0106929596145853,
+      "counts": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "double_tube_gap_lower_arb": "[0.54739944699689203900628780386804205876832391360300728064 +/- 6.23e-57]",
+      "final_parse": {
+        "color_channels": 4,
+        "colors": 576,
+        "components": 12,
+        "coordinate_tokens_exact": true,
+        "tokens": 4060,
+        "vertices": 576
+      },
+      "final_sha256": "245b621ee02215090507c1d60cd8fb957c079989492c6a1a5100f6263ad275fe",
+      "initial_parse": {
+        "color_channels": 4,
+        "colors": 12,
+        "components": 12,
+        "coordinate_tokens_exact": true,
+        "tokens": 1804,
+        "vertices": 576
+      },
+      "initial_sha256": "87bac12be0bfc7a85d56eb81bf3c9e905bc0881f7a7ace17b257fe37b52f57f4",
+      "maximum_error_component_k": [
+        5,
+        41
+      ],
+      "maximum_squared_vertex_error_upper_arb": "[4.63063811206332140913601345125684651094723274763478792112e-29 +/- 9.23e-87]",
+      "maximum_squared_vertex_error_upper_float": 4.6306381120633214e-29,
+      "maximum_transverse_error_upper_arb": "[0.0484732102183388843760716605492747689175348205422463596779 +/- 2.67e-59]",
+      "minimum_h_minus_eta_lower_arb": "[2.61701015534593138121046309837759533017728065501943863269 +/- 2.33e-57]",
+      "minimum_separation_minus_2_emax_lower_arb": "[0.891753894800291005427472272213060162487081542997538530644 +/- 3.14e-58]",
+      "seed": 3141
+    }
+  ],
+  "cache_audit": {
+    "cache_keys": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "endpoint_does_not_add_entry": true,
+    "endpoint_time_reuses_canonical_entry": true,
+    "equivalent_half_time_does_not_add_entry": true,
+    "equivalent_half_times_share_object": true,
+    "half_time_adds_one_entry": true,
+    "initial_cache_size": 2
+  },
+  "canonical_cli_replay_all_seeds": {
+    "accepted": true,
+    "command": [
+      "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+      "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py",
+      "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/variable_pitch_20260912T224501767133Z",
+      "--verify",
+      "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/topology_path_20260912T231158562188Z"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "1729 REPLAY_PASS\n2718 REPLAY_PASS\n3141 REPLAY_PASS\n/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/topology_path_20260912T231158562188Z 13.179173331999664\n"
+  },
+  "canonical_summary": {
+    "records": [
+      {
+        "seed": 1729,
+        "status": "PASS"
+      },
+      {
+        "seed": 2718,
+        "status": "PASS"
+      },
+      {
+        "seed": 3141,
+        "status": "PASS"
+      }
+    ],
+    "runtime_seconds": 15.353687242999513,
+    "script_sha256": "0b16a0f951bcad2a0c00b012434181909c268cae399460a4856ef376e287c14a",
+    "source_search": "results/variable_pitch_20260912T224501767133Z",
+    "source_search_sha256": "7107b746b09fbe339644bbf9f1dd9e5e24dd2cdd76fba52337e795647dd07496",
+    "status": "PASS"
+  },
+  "canonical_summary_sha256": "ea16a50d394007fbbb8cb70deba3ddc27e6caec3803017147c78986971c02346",
+  "date": "2026-09-13",
+  "precision_bits": 192,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "review": "independent refinement-topology implementation audit",
+  "reviewer_harness_sha256": "502803649dfbce1679c52dcc0e9ed29266cb9d055e075d29ce8b1c230f57c432",
+  "script_sha256": "0b16a0f951bcad2a0c00b012434181909c268cae399460a4856ef376e287c14a",
+  "search_sha256": "7107b746b09fbe339644bbf9f1dd9e5e24dd2cdd76fba52337e795647dd07496",
+  "tamper_audit": {
+    "normal_rejection_all_failed": true,
+    "normal_rejection_cases": {
+      "endpoint_num_out_of_range": {
+        "accepted": false,
+        "command": [
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/variable_pitch_20260912T224501767133Z",
+          "--seeds",
+          "1729",
+          "--verify",
+          "/tmp/refinement-topology-review-qvgaj_fr/bad-endpoint"
+        ],
+        "returncode": 1,
+        "stderr": "nots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 160, in run_record\n    cert=json.loads(verify.read_text());assert digest(initial)==cert['initial_sha256'] and digest(final)==cert['final_sha256'];alignment=cert['alignment'];witness=verify.with_suffix('.npz');assert digest(witness)==cert['witness_sha256'];z=np.load(witness,allow_pickle=False);check=PathCheck(a,b,counts,alignment);replay(check,z['pairs'],z['corners']);return {'seed':run['seed'],'status':'REPLAY_PASS'}\n                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 150, in replay\n    coverage(pairs,check.required,2);coverage(corners,[(k,) for k in range(check.n)],1)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 141, in coverage\n    key=tuple(int(x) for x in row[:key_columns]);num,depth=map(int,row[key_columns:key_columns+2]);assert 0<=depth<=14 and 0<=num<2**depth\n                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+        "stdout": ""
+      },
+      "missing_corner_row": {
+        "accepted": false,
+        "command": [
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/variable_pitch_20260912T224501767133Z",
+          "--seeds",
+          "1729",
+          "--verify",
+          "/tmp/refinement-topology-review-qvgaj_fr/missing-corner"
+        ],
+        "returncode": 1,
+        "stderr": "^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 160, in run_record\n    cert=json.loads(verify.read_text());assert digest(initial)==cert['initial_sha256'] and digest(final)==cert['final_sha256'];alignment=cert['alignment'];witness=verify.with_suffix('.npz');assert digest(witness)==cert['witness_sha256'];z=np.load(witness,allow_pickle=False);check=PathCheck(a,b,counts,alignment);replay(check,z['pairs'],z['corners']);return {'seed':run['seed'],'status':'REPLAY_PASS'}\n                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 150, in replay\n    coverage(pairs,check.required,2);coverage(corners,[(k,) for k in range(check.n)],1)\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 143, in coverage\n    assert set(intervals)==set(required), 'pair/corner coverage mismatch'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: pair/corner coverage mismatch\n",
+        "stdout": ""
+      },
+      "missing_npz": {
+        "accepted": false,
+        "command": [
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/variable_pitch_20260912T224501767133Z",
+          "--seeds",
+          "1729",
+          "--verify",
+          "/tmp/refinement-topology-review-qvgaj_fr/missing-witness"
+        ],
+        "returncode": 1,
+        "stderr": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 160, in run_record\n    cert=json.loads(verify.read_text());assert digest(initial)==cert['initial_sha256'] and digest(final)==cert['final_sha256'];alignment=cert['alignment'];witness=verify.with_suffix('.npz');assert digest(witness)==cert['witness_sha256'];z=np.load(witness,allow_pickle=False);check=PathCheck(a,b,counts,alignment);replay(check,z['pairs'],z['corners']);return {'seed':run['seed'],'status':'REPLAY_PASS'}\n                                                                                                                                                                                                     ^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 27, in digest\n    def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()\n                                           ^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/pathlib.py\", line 1021, in read_bytes\n    with self.open(mode='rb') as f:\n         ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/pathlib.py\", line 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/refinement-topology-review-qvgaj_fr/missing-witness/seed1729.npz'\n",
+        "stdout": ""
+      },
+      "missing_pair_row": {
+        "accepted": false,
+        "command": [
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/variable_pitch_20260912T224501767133Z",
+          "--seeds",
+          "1729",
+          "--verify",
+          "/tmp/refinement-topology-review-qvgaj_fr/missing-pair"
+        ],
+        "returncode": 1,
+        "stderr": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 160, in run_record\n    cert=json.loads(verify.read_text());assert digest(initial)==cert['initial_sha256'] and digest(final)==cert['final_sha256'];alignment=cert['alignment'];witness=verify.with_suffix('.npz');assert digest(witness)==cert['witness_sha256'];z=np.load(witness,allow_pickle=False);check=PathCheck(a,b,counts,alignment);replay(check,z['pairs'],z['corners']);return {'seed':run['seed'],'status':'REPLAY_PASS'}\n                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 150, in replay\n    coverage(pairs,check.required,2);coverage(corners,[(k,) for k in range(check.n)],1)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 143, in coverage\n    assert set(intervals)==set(required), 'pair/corner coverage mismatch'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: pair/corner coverage mismatch\n",
+        "stdout": ""
+      },
+      "missing_pair_under_python_O": {
+        "accepted": false,
+        "command": [
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+          "-O",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/variable_pitch_20260912T224501767133Z",
+          "--seeds",
+          "1729",
+          "--verify",
+          "/tmp/refinement-topology-review-qvgaj_fr/optimized-missing-pair"
+        ],
+        "returncode": 1,
+        "stderr": "Traceback (most recent call last):\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 9, in <module>\n    raise RuntimeError('proof checker requires assertions; optimized Python is unsupported')\nRuntimeError: proof checker requires assertions; optimized Python is unsupported\n",
+        "stdout": ""
+      },
+      "noninteger_edge_index": {
+        "accepted": false,
+        "command": [
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/variable_pitch_20260912T224501767133Z",
+          "--seeds",
+          "1729",
+          "--verify",
+          "/tmp/refinement-topology-review-qvgaj_fr/noninteger-index"
+        ],
+        "returncode": 1,
+        "stderr": "^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 160, in run_record\n    cert=json.loads(verify.read_text());assert digest(initial)==cert['initial_sha256'] and digest(final)==cert['final_sha256'];alignment=cert['alignment'];witness=verify.with_suffix('.npz');assert digest(witness)==cert['witness_sha256'];z=np.load(witness,allow_pickle=False);check=PathCheck(a,b,counts,alignment);replay(check,z['pairs'],z['corners']);return {'seed':run['seed'],'status':'REPLAY_PASS'}\n                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 150, in replay\n    coverage(pairs,check.required,2);coverage(corners,[(k,) for k in range(check.n)],1)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 140, in coverage\n    assert all(float(x).is_integer() for x in row[:key_columns+2]), \"noninteger witness index\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: noninteger witness index\n",
+        "stdout": ""
+      },
+      "zero_separating_axis": {
+        "accepted": false,
+        "command": [
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/.venv/bin/python",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py",
+          "/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/variable_pitch_20260912T224501767133Z",
+          "--seeds",
+          "1729",
+          "--verify",
+          "/tmp/refinement-topology-review-qvgaj_fr/zero-axis"
+        ],
+        "returncode": 1,
+        "stderr": "certify_refinement_topology.py\", line 178, in main\n    record=run_record(source,run,out,out/f'seed{run[\"seed\"]}.json' if args.verify else None);records.append(record);print(run['seed'],record['status'],flush=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 160, in run_record\n    cert=json.loads(verify.read_text());assert digest(initial)==cert['initial_sha256'] and digest(final)==cert['final_sha256'];alignment=cert['alignment'];witness=verify.with_suffix('.npz');assert digest(witness)==cert['witness_sha256'];z=np.load(witness,allow_pickle=False);check=PathCheck(a,b,counts,alignment);replay(check,z['pairs'],z['corners']);return {'seed':run['seed'],'status':'REPLAY_PASS'}\n                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/experiments/certify_refinement_topology.py\", line 152, in replay\n    i,j,num,depth=map(int,row[:4]);assert check.pair(i,j,num,depth,row[4:]),'pair witness failed'\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: pair witness failed\n",
+        "stdout": ""
+      }
+    },
+    "python_O_missing_pair_bypass_observed": false,
+    "trailing_token_parser_probe": {
+      "accepted": false,
+      "exception": "ValueError",
+      "message": "unexpected trailing VECT tokens or incomplete color rows"
+    },
+    "truncated_coordinate_parser_probe": {
+      "accepted": false,
+      "exception": "AssertionError"
+    }
+  },
+  "witness_audits": [
+    {
+      "axes_exact_binary64_dyadic": true,
+      "axes_finite": true,
+      "certificate_witness_sha256_matches": true,
+      "corner_keys": 576,
+      "corner_keys_exact": true,
+      "corners_shape": [
+        576,
+        6
+      ],
+      "gap_free_exact_dyadic_coverage": true,
+      "integer_index_columns": true,
+      "maximum_corner_depth": 0,
+      "maximum_pair_depth": 0,
+      "pair_keys": 165024,
+      "pair_keys_exact": true,
+      "pairs_shape": [
+        165024,
+        7
+      ],
+      "required_pairs": 165024,
+      "seed": 1729,
+      "time_depth_bounds": true,
+      "witness_sha256": "c1ff3b6f553649e0bb6205f2153fcb7f78611e40ca950f9fc63156a289b35055"
+    },
+    {
+      "axes_exact_binary64_dyadic": true,
+      "axes_finite": true,
+      "certificate_witness_sha256_matches": true,
+      "corner_keys": 576,
+      "corner_keys_exact": true,
+      "corners_shape": [
+        576,
+        6
+      ],
+      "gap_free_exact_dyadic_coverage": true,
+      "integer_index_columns": true,
+      "maximum_corner_depth": 0,
+      "maximum_pair_depth": 0,
+      "pair_keys": 165024,
+      "pair_keys_exact": true,
+      "pairs_shape": [
+        165024,
+        7
+      ],
+      "required_pairs": 165024,
+      "seed": 2718,
+      "time_depth_bounds": true,
+      "witness_sha256": "62458eeed8407dc3e925f8003980fc176f76b6303184b2695692849361272ab8"
+    },
+    {
+      "axes_exact_binary64_dyadic": true,
+      "axes_finite": true,
+      "certificate_witness_sha256_matches": true,
+      "corner_keys": 576,
+      "corner_keys_exact": true,
+      "corners_shape": [
+        576,
+        6
+      ],
+      "gap_free_exact_dyadic_coverage": true,
+      "integer_index_columns": true,
+      "maximum_corner_depth": 0,
+      "maximum_pair_depth": 0,
+      "pair_keys": 165024,
+      "pair_keys_exact": true,
+      "pairs_shape": [
+        165024,
+        7
+      ],
+      "required_pairs": 165024,
+      "seed": 3141,
+      "time_depth_bounds": true,
+      "witness_sha256": "51da94094e4edaca13f4591afc417336105a596d522bfa9580df65a44607f6da"
+    }
+  ],
+  "zero_colour_atlas": {
+    "counts": [
+      2400
+    ],
+    "header_colors": 0,
+    "header_components": 1,
+    "header_vertices": 2400,
+    "path": "data/reference/cantarella-atlas/knots/prime/3-10/3_1.vect",
+    "sha256": "892a10e01a90b3491c2c7f6c7a5e70f3b5f93293c06083240c13136fa11b1482",
+    "source_parser_counts": [
+      2400
+    ],
+    "source_parser_matches_independent_exact_tokens": true
+  }
+}

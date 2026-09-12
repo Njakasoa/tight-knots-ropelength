@@ -1,8 +1,8 @@
 """Reproduce local publication evidence without network access or overwrite.
 
 Default: verify pinned rational certificates, rerun the shell certificate, draw
-the figure. --full adds the complete test suite, boundary certificate and finite
-block search. Requires the lab repository and its pinned Python environment.
+the figure. --full adds the complete test suite, boundary certificate, finite
+block search and replay of the three endpoint topology certificates. Requires the lab repository and its pinned Python environment.
 """
 from pathlib import Path
 import argparse,datetime,hashlib,json,subprocess,sys
@@ -15,7 +15,7 @@ def main():
  if not args.check_only:
   commands.extend([[sys.executable,'experiments/certify_shell_bound.py','--N','512','--M','1024','--output-dir',str(out/'shell_certificate')],[sys.executable,'publication/figures/make_figures.py','--output-dir',str(out/'figures')]])
  if args.full:
-  commands.extend([[sys.executable,'-m','pytest','-q'],[sys.executable,'experiments/certify_block_boundary.py'],[sys.executable,'experiments/discover_block_sizes.py']])
+  commands.extend([[sys.executable,'-m','pytest','-q'],[sys.executable,'experiments/certify_block_boundary.py'],[sys.executable,'experiments/discover_block_sizes.py'],[sys.executable,'experiments/certify_refinement_topology.py','results/variable_pitch_20260912T224501767133Z','--verify','results/topology_path_20260912T231158562188Z']])
  records=[]
  for i,cmd in enumerate(commands):
   result=subprocess.run(cmd,cwd=ROOT,text=True,capture_output=True)

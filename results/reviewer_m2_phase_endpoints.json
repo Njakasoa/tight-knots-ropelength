@@ -1,0 +1,118 @@
+{
+  "manifest_errors": [],
+  "pairs": [
+    {
+      "file": "pair_T128_a1_2.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 1,
+      "raw_margin": -1.4180332463809009e-09
+    },
+    {
+      "file": "pair_T128_a1_4.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 1,
+      "raw_margin": -7.262488832537883e-09
+    },
+    {
+      "file": "pair_T128_a3_4.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 1,
+      "raw_margin": -6.954573805728614e-09
+    },
+    {
+      "file": "pair_T128_a9_10.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 1,
+      "raw_margin": -2.702726931147481e-11
+    },
+    {
+      "file": "pair_T32_a1_2.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 1,
+      "raw_margin": -5.261340696449679e-09
+    },
+    {
+      "file": "pair_T32_a1_4.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 1,
+      "raw_margin": -6.808888564080462e-09
+    },
+    {
+      "file": "pair_T32_a3_4.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 1,
+      "raw_margin": -5.758106880193736e-09
+    },
+    {
+      "file": "pair_T32_a9_10.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 1,
+      "raw_margin": -5.936707125897556e-09
+    },
+    {
+      "file": "pair_T512_a1_2.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 10,
+      "raw_margin": -6.088543003102131e-10
+    },
+    {
+      "file": "pair_T512_a1_4.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 10,
+      "raw_margin": -5.152324789037266e-09
+    },
+    {
+      "file": "pair_T512_a3_4.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 1,
+      "raw_margin": 1.7290968656880068e-10
+    },
+    {
+      "file": "pair_T512_a9_10.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 1,
+      "raw_margin": 6.463363177999781e-10
+    },
+    {
+      "file": "pair_T8_a1_2.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 10,
+      "raw_margin": -1.742045618868815e-09
+    },
+    {
+      "file": "pair_T8_a1_4.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 10,
+      "raw_margin": -8.473124424313028e-10
+    },
+    {
+      "file": "pair_T8_a3_4.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 1,
+      "raw_margin": -1.1321015236376297e-09
+    },
+    {
+      "file": "pair_T8_a9_10.json",
+      "certificate_status": "PASS",
+      "certified_d2_lower_gt4": true,
+      "padding_ticks": 1,
+      "raw_margin": -3.133671100385982e-11
+    }
+  ],
+  "scope": "exact stored selected endpoints and hashes, not a new Arb recalculation"
+}

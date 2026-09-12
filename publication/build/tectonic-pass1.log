@@ -1,0 +1,133 @@
+note: "version 2" Tectonic command-line interface activated
+note: generating format "latex"
+(texput (tectonic-format-latex.tex (xelatex.ini (latex.ltx (texsys.cfg)
+./texsys.aux found
+
+
+\@currdir set to: ./.
+
+
+Assuming \openin and \input 
+have the same search path.
+
+
+Defining UNIX/DOS style filename parser.
+
+catcodes, registers, parameters,
+LaTeX2e <2021-11-15> patch level 1
+(expl3.ltx (expl3-code.tex)) hacks, document commands, control, par, spacing,
+files, font encodings, lengths,
+====================================
+
+Local config file fonttext.cfg used
+
+====================================
+(fonttext.cfg (fonttext.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(omlenc.def) (omsenc.def) (ot1enc.def) (t1enc.def) (ts1enc.def) (tuenc.def)
+(tulmr.fd) (tulmss.fd) (tulmtt.fd) (ts1lmr.fd) (t1cmr.fd) (ot1cmr.fd)
+(ot1cmss.fd) (ot1cmtt.fd)))
+====================================
+
+Local config file fontmath.cfg used
+
+====================================
+(fontmath.cfg (fontmath.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(omlcmm.fd) (omscmsy.fd) (omxcmex.fd) (ucmr.fd)))
+====================================
+
+Local config file preload.cfg used
+
+=====================================
+(preload.cfg (preload.ltx)) page nos., x-ref, environments, center, verbatim,
+math definitions, boxes, title, sectioning, contents, floats, footnotes,
+index, bibliography, output,  Unicode character data, (load-unicode-data 
+load-unicode-data.tex v1.15 (2021-09-15)
+Reading Unicode data
+# UnicodeData-14.0.0.txt
+# Modified 2021-09-15 11:00:00 GMT [JAW]
+)
+===========================================
+Local configuration file hyphen.cfg used
+===========================================
+(hyphen.cfg (xebabel.def) (hyphen.tex) (dumyhyph.tex) (zerohyph.tex)
+(dehypht-x-2022-03-16.tex
+dehyph-exptl: using a TeX engine with native UTF-8 support.
+(dehypht-x-2022-03-16.pat
+German Hyphenation Patterns (Traditional Orthography) `dehypht-x' 2022-03-16 (W
+L))) (dehyphn-x-2022-03-16.tex
+dehyph-exptl: using a TeX engine with native UTF-8 support.
+(dehyphn-x-2022-03-16.pat
+German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2022-03-16
+ (WL))) (loadhyph-af.tex UTF-8 Afrikaans hyphenation patterns (hyph-af.tex)
+(hyph-quote-af.tex)) (loadhyph-grc.tex
+UTF-8 Hyphenation patterns for Ancient Greek (hyph-grc.tex)) (ibyhyph.tex
+Greek hyphenation patterns for Ibycus encoding, v3.0) (zerohyph.tex)
+(loadhyph-hy.tex UTF-8 Armenian hyphenation patterns (hyph-hy.tex))
+(loadhyph-eu.tex UTF-8 Basque hyphenation patterns (hyph-eu.tex))
+(loadhyph-be.tex UTF-8 Belarusian hyphenation patterns (hyph-be.tex)
+(hyph-quote-be.tex)) (loadhyph-bg.tex UTF-8 Bulgarian hyphenation patterns
+(hyph-bg.tex
+Bulgarian hyphenation patterns (options: --safe-morphology --standalone-tex, ve
+rsion 21 October 2017))) (loadhyph-ca.tex UTF-8 Catalan hyphenation patterns
+(hyph-ca.tex)) (loadhyph-zh-latn-pinyin.tex
+UTF-8 Pinyin Hyphenation Patterns (with tone markers) 2018-11-25 (WL)
+(hyph-zh-latn-pinyin.tex)) (loadhyph-cu.tex
+UTF-8 Church Slavonic hyphenation patterns (hyph-cu.tex)) (loadhyph-cop.tex
+UTF-8 Coptic hyphenation patterns (hyph-cop.tex)) (loadhyph-hr.tex
+UTF-8 Croatian hyphenation patterns (hyph-hr.tex)) (loadhyph-cs.tex
+UTF-8 Czech hyphenation patterns (hyph-cs.tex)) (loadhyph-da.tex
+UTF-8 Danish hyphenation patterns (hyph-da.tex)) (loadhyph-nl.tex
+UTF-8 Dutch hyphenation patterns (hyph-nl.tex)) (loadhyph-en-gb.tex
+ASCII Hyphenation patterns for British English (hyph-en-gb.tex))
+(loadhyph-en-us.tex ASCII Hyphenation patterns for American English
+(hyph-en-us.tex)) (loadhyph-eo.tex UTF-8 Esperanto hyphenation patterns
+(hyph-eo.tex)) (loadhyph-et.tex UTF-8 Estonian hyphenation patterns
+(hyph-et.tex)) (loadhyph-mul-ethi.tex UTF-8 Pan-Ethiopic hyphenation patterns
+(hyph-mul-ethi.tex)) (zerohyph.tex) (loadhyph-fi.tex
+UTF-8 Finnish hyphenation patterns (hyph-fi.tex)) (loadhyph-fi-x-school.tex
+UTF-8 Finnish hyphenation patterns for school (hyph-fi-x-school.tex))
+(loadhyph-fr.tex UTF-8 French hyphenation patterns (hyph-fr.tex)
+(hyph-quote-fr.tex)) (loadhyph-fur.tex UTF-8 Friulan hyphenation patterns
+(hyph-fur.tex) (hyph-quote-fur.tex)) (loadhyph-gl.tex
+UTF-8 Galician hyphenation patterns (hyph-gl.tex)) (loadhyph-ka.tex
+UTF-8 Georgian hyphenation patterns (hyph-ka.tex)) (loadhyph-de-1901.tex
+UTF-8 German hyphenation patterns (traditional orthography) (hyph-de-1901.tex
+German Hyphenation Patterns (Traditional Orthography) `dehypht-x' 2021-02-26 (W
+L))) (loadhyph-de-1996.tex
+UTF-8 German hyphenation patterns (reformed orthography) (hyph-de-1996.tex
+German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2021-02-26
+ (WL))) (loadhyph-de-ch-1901.tex
+UTF-8 Swiss-German hyphenation patterns (traditional orthography)
+(hyph-de-ch-1901.tex
+Swiss-German Hyphenation Patterns (Traditional Orthography) `dehyphts-x' 2021-0
+2-26 (WL))) (loadhyph-el-polyton.tex
+UTF-8 Hyphenation patterns for multi-accent (polytonic) Modern Greek
+(hyph-el-polyton.tex)) (loadhyph-el-monoton.tex
+UTF-8 Hyphenation patterns for uni-accent (monotonic) Modern Greek
+(hyph-el-monoton.tex)) (loadhyph-hu.tex UTF-8 Hungarian hyphenation patterns
+(hyph-hu.tex)) (loadhyph-is.tex UTF-8 Icelandic hyphenation patterns
+(hyph-is.tex)) (loadhyph-as.tex UTF-8 Assamese hyphenation patterns
+(hyph-as.tex)) (loadhyph-bn.tex UTF-8 Bengali hyphenation patterns (hyph-bn.tex
+)) (loadhyph-gu.tex UTF-8 Gujarati hyphenation patternsnote: downloading hyph-gu.tex
+warning: failure fetching "hyph-gu.tex" from network (1/3)
+caused by: error sending request for url (https://relay.fullyjustified.net/default_bundle_v33.tar)
+caused by: client error (Connect)
+caused by: dns error
+caused by: failed to lookup address information: Temporary failure in name resolution
+warning: failure fetching "hyph-gu.tex" from network (2/3)
+caused by: error sending request for url (https://relay.fullyjustified.net/default_bundle_v33.tar)
+caused by: client error (Connect)
+caused by: dns error
+caused by: failed to lookup address information: Temporary failure in name resolution
+warning: failure fetching "hyph-gu.tex" from network (3/3)
+caused by: error sending request for url (https://relay.fullyjustified.net/default_bundle_v33.tar)
+caused by: client error (Connect)
+caused by: dns error
+caused by: failed to lookup address information: Temporary failure in name resolution
+warning: open of input hyph-gu.tex failed
+caused by: failed to download "hyph-gu.tex"; please check your network connection.
+error: failed to open input file "hyph-gu.tex"

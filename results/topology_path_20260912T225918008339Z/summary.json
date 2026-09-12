@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "seed": 1729,
+      "status": "PASS"
+    }
+  ],
+  "runtime_seconds": 4.9333962440000505,
+  "source_search": "results/variable_pitch_20260912T224501767133Z",
+  "source_search_sha256": "7107b746b09fbe339644bbf9f1dd9e5e24dd2cdd76fba52337e795647dd07496",
+  "script_sha256": "a420a151a2b70a03b4986f7de299e9dbc2141b72cb5832d807a9262485b83fb9"
+}

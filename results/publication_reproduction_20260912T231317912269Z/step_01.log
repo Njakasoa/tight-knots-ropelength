@@ -1,0 +1,7 @@
+certificate=/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/publication_reproduction_20260912T231317912269Z/shell_certificate/certificate.json
+alpha_upper=11.4051989465951919555664062500000000000000000000000000000000
+optional_staggered_alpha2_upper=10.6137335587284980660462397939812552876213535857365715771795
+manifest=/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/publication_reproduction_20260912T231317912269Z/shell_certificate/manifest.json
+manifest_sha256=0593f0536e967052032e20e010f25ec2b8e51a446f7e67220f8f67adcefa0e78
+threshold_passed=True
+

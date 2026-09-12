@@ -1,6 +1,7 @@
 # Provisional target and three controlled generalizations
 
-This is preparation for M1 review; it does not start M2. Current source and
+Initial target selection was prepared before M1. M1 now passes and M2 searches
+have run; see M2_DISCOVERY.md. Current source and
 normalization details are in STATE_OF_THE_ART.md and references/RECENT_TORUS_AUDIT.md.
 
 | Target | Gap and structure | First decision |
@@ -41,9 +42,9 @@ preserves topology for a positive ambient scaling but changes the reach proof.
 
 Initial bounded parameter optimization on ordinary torus embeddings has run;
 see INITIAL_PARAMETER_SEARCH.md. The shell-family experiments reproduce the
-common-hole model and both new capacity rules with interval lengths. Contact
-comparison with the exact recent-paper geometry and a complete independent M1
-verdict are still required before M2.
+common-hole model and both new capacity rules with interval lengths. The exact recent-paper contact comparison and independent M1 review now pass;
+see M1_REVIEW.md. The current target retains a known lower coefficient near6.598
+and a certified constructive upper coefficient below10.614, without proving equality.
 
 Physical interpretation is made explicit in proofs/PHYSICAL_INTERPRETATION.md:
 T(M,M) hasM separate closed filaments, and the upper theorem bounds sufficient

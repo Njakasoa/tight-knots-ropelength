@@ -1,0 +1,25 @@
+Ridgerunner logfile.
+Ridgerunner 2.3.1
+Built Sep 13 2026, 00:43:43.
+Run began: Sun Sep 13 01:45:43 2026
+Initial filename: seed3141.vect.
+Command line: /home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/vendor/local-current/bin/ridgerunner seed3141.vect -a -s 300 --StopTime=1 --NoPNGOutput --NoOutputFiles --NoLsqrLog 
+Stopping criteria: Max # of steps 300, Min residual 0, Stop20 -1000, stopTime 60 (sec).
+Process ID: 720.
+------------------------------------------------
+Seeded from dev/random with seed -1536993344.
+Loaded 12 component, 576 vertex plCurve from seed3141.vect.
+Saved copy of seed3141.vect to ./seed3141.rr/seed3141.vect.
+Curve has thickness 0.490363. Scaling to thickness 0.501.
+Scaled curve has thickness 0.501.
+Rerez'd, autoscaled, eq'd file written to ./seed3141.rr/seed3141.atstart.vect.
+ridgerunner: Starting run. Will stop if 
+               step number >= 300 
+               residual < 0 
+               ropelength decrease over last 20 steps < -1000.
+
+ridgerunner: run complete. Terminated because 
+ridgerunner: reached maximum number of steps (300).
+--------------------------------------------------
+Run ended: Sun Sep 13 01:46:02 2026
+.

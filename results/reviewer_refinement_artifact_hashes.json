@@ -1,0 +1,29 @@
+[
+  {
+    "seed": 1729,
+    "pairs": 165024,
+    "corners": 576,
+    "maximum_depth": 0,
+    "all_hashes_match": true,
+    "certificate_sha256": "f97671cec3892732e349a56f9c3da4a967c24af1da28d3e51f5026fe150174c8",
+    "witness_sha256": "c1ff3b6f553649e0bb6205f2153fcb7f78611e40ca950f9fc63156a289b35055"
+  },
+  {
+    "seed": 2718,
+    "pairs": 165024,
+    "corners": 576,
+    "maximum_depth": 0,
+    "all_hashes_match": true,
+    "certificate_sha256": "49023a479293e390ba19bc1619f917d9246a4dc7790308a43fc306137346ab05",
+    "witness_sha256": "62458eeed8407dc3e925f8003980fc176f76b6303184b2695692849361272ab8"
+  },
+  {
+    "seed": 3141,
+    "pairs": 165024,
+    "corners": 576,
+    "maximum_depth": 0,
+    "all_hashes_match": true,
+    "certificate_sha256": "3e8f08eecfefa557d1006c2150b0155b813f4f77a8f1f367c57689d83258fb84",
+    "witness_sha256": "51da94094e4edaca13f4591afc417336105a596d522bfa9580df65a44607f6da"
+  }
+]

@@ -2,7 +2,8 @@
 
 Status: inferred after M2 exhaustive block-size search; exact theorem passed
 independent adversarial review in ADVERSARIAL_REVIEW_003.md. The filename is
-retained for provenance. A separate Arb coefficient certificate is under review.
+retained for provenance. A separate Arb coefficient certificate passed independent review in
+BOUNDARY_CERTIFICATE_REVIEW.md.
 This optimizes the first correction for this explicit construction, not the
 ropelength infimum or all possible block schedules.
 
@@ -138,7 +139,9 @@ This additional inequality was independently derived by the Astra reviewer.
 The exhaustive search in results/discovery_blocks_20260912T221841Z searches
 allb=1..T at T=8..1024 with48-node quadrature and96-node winner checks. It
 finds b=(1,2,2,4,5,7,9,13). No preferred block size or exponent is in the
-search objective. These are floating candidate values, not certified floors.
+search objective. These were floating candidate values. A subsequent independent Arb audit
+certified all 1,024 population floors for the selected T=1024,b=13 construction,
+confirming M=4,976,348; its finite length remains a numerical diagnostic.
 
 Separate scratch quadratures predict J≈114.63135637, d≈0.4327360619,
 c*≈0.4227848052, beta_opt≈3.8835903551, versus beta_c=1≈5.4138303824.

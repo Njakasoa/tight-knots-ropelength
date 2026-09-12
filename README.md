@@ -7,8 +7,9 @@ The full programme is [RESEARCH_MISSION.md](RESEARCH_MISSION.md).
 
 M1 passed the independent [review](benchmarks/M1_REVIEW.md):27 tests, including
 12 independent tests, with actual solver runs and audited proof/certificate paths.
-M2 has started with automated phase and finite block-size searches; it is not
-yet declared complete.
+M2 also passed for the bounded shell-discovery grammar. The expanded suite has
+65 passing tests, with separate independent endpoint-isotopy certificates for
+the three free-vertex refinements. See [reviewed results](RESULTS.md).
 
 A mathematical result has passed separate adversarial proof and implementation
 reviews: the explicit staggered shell family satisfies
@@ -22,7 +23,11 @@ See [Theorem002](proofs/THEOREM_002.md),
 [certificate review](proofs/CERTIFICATE_IMPLEMENTATION_REVIEW.md).
 The coefficient is an asymptotic constructive upper bound. It is not a finite-M
 bound with the same coefficient, a matching lower bound, or an exact optimum.
-Publication novelty is still under audit.
+Publication novelty remains POSSIBLY NOVEL after bounded primary-source audits.
+The [local manuscript PDF](publication/build/main.pdf) and its
+[validation](publication/VALIDATION.md) are available; no external submission
+has occurred. The independently reviewed first block correction selects
+c*=sqrt(a/d)≈0.422785 within its specified asymptotic grammar.
 
 The actual maintained Ridgerunner2.3.1 and tsnnls2.5.1 builds passed4/4 and11/11
 upstream tests. Two archived trefoil refinements and a pinned author atlas give
@@ -34,6 +39,7 @@ Reproduce in the project-local scientific environment:
 
 ```bash
 .venv/bin/python -m pytest -q
+.venv/bin/python publication/reproduce.py --full
 .venv/bin/python experiments/run_controls.py
 .venv/bin/python experiments/run_ridgerunner_controls.py
 .venv/bin/python experiments/inspect_recent_link.py

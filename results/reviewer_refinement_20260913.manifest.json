@@ -1,0 +1,30 @@
+{
+  "canonical_directory": "results/topology_path_20260912T231158562188Z",
+  "canonical_replay_command": ".venv/bin/python experiments/certify_refinement_topology.py results/variable_pitch_20260912T224501767133Z --verify results/topology_path_20260912T231158562188Z",
+  "canonical_replay_result": "1729 REPLAY_PASS; 2718 REPLAY_PASS; 3141 REPLAY_PASS",
+  "date": "2026-09-13",
+  "files": {
+    "data/reference/cantarella-atlas/knots/prime/3-10/3_1.vect": "892a10e01a90b3491c2c7f6c7a5e70f3b5f93293c06083240c13136fa11b1482",
+    "experiments/certify_refinement_topology.py": "0b16a0f951bcad2a0c00b012434181909c268cae399460a4856ef376e287c14a",
+    "proofs/REFINEMENT_TOPOLOGY_CERTIFICATE.md": "1707d17ec39c3e7199cb72439ae1bbcbdf1a1e9b40b8e18fcedee1b3a52fb193",
+    "proofs/REFINEMENT_TOPOLOGY_IMPLEMENTATION_REVIEW.md": "f59e1d9c1562536968b247e675be8e80ef8e1b2a0b5ce3a2ef548749c74cbf40",
+    "results/reviewer_refinement_20260913.json": "29a70ca17819aeeed52a93a543d66ac0610d84c8a89253b30672e05670a5293b",
+    "results/reviewer_refinement_20260913.py": "502803649dfbce1679c52dcc0e9ed29266cb9d055e075d29ce8b1c230f57c432",
+    "results/reviewer_refinement_20260913.pytest.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/reviewer_refinement_20260913.pytest.stdout.txt": "a1adf208f0bd785a6e690e21b1fb19848ca1b88a48a06fa43a3a4a76ee11a75e",
+    "results/topology_path_20260912T231158562188Z/seed1729.json": "20a6e12ff88ee087ffc437ee31ea34d1d6063ca1eaade2ea5b3316f5660c721a",
+    "results/topology_path_20260912T231158562188Z/seed1729.npz": "c1ff3b6f553649e0bb6205f2153fcb7f78611e40ca950f9fc63156a289b35055",
+    "results/topology_path_20260912T231158562188Z/seed2718.json": "5d0ee61c73523652624b02307f20bc12e9759474306dc6d58c76c4f13daafdc1",
+    "results/topology_path_20260912T231158562188Z/seed2718.npz": "62458eeed8407dc3e925f8003980fc176f76b6303184b2695692849361272ab8",
+    "results/topology_path_20260912T231158562188Z/seed3141.json": "880b9aaa896e6f36314b9ffd7d9dcf537ec376a14acc4292e2075346d140c98c",
+    "results/topology_path_20260912T231158562188Z/seed3141.npz": "51da94094e4edaca13f4591afc417336105a596d522bfa9580df65a44607f6da",
+    "results/topology_path_20260912T231158562188Z/summary.json": "ea16a50d394007fbbb8cb70deba3ddc27e6caec3803017147c78986971c02346",
+    "results/variable_pitch_20260912T224501767133Z/search.json": "7107b746b09fbe339644bbf9f1dd9e5e24dd2cdd76fba52337e795647dd07496"
+  },
+  "generated_utc": "2026-09-12T23:16:50.887851+00:00",
+  "independent_command": ".venv/bin/python results/reviewer_refinement_20260913.py",
+  "pytest_command": ".venv/bin/python -m pytest -q",
+  "pytest_result": "65 passed, 1 warning in 30.76s",
+  "review": "independent refinement-topology implementation audit",
+  "status": "PASS"
+}

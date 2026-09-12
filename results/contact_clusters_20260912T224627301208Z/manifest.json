@@ -1,0 +1,12 @@
+{
+  "script_sha256": "15d5c16a09285d34117fe203de18776a3e08021cd825a987e3cdf418533d9681",
+  "files": {
+    "seed2718_contacts_tol0.001.json": "1dd49f75599e477316e6de1b26abb651b5548129ab641df3326e49cc5d106395",
+    "seed1729_contacts_tol0.0001.json": "48b78e9d6fe70240d33fb1274bea2bdee4e63e6f66e0abe223705badc9bcb4fa",
+    "seed1729_contacts_tol0.001.json": "99fa1bc5a917c5e05f6d55349cd0b0eb3398e218b2102d1cc304cb14ed1b651f",
+    "seed2718_contacts_tol0.0001.json": "bebb550c0780098c845b7eb5f094041355537275c93c54d591f78ed297004eca",
+    "seed3141_contacts_tol0.001.json": "51b8c6700658d6aecbf771c38473e1faefc4a2b4b87b65b21dd27c923079da11",
+    "seed3141_contacts_tol0.0001.json": "618be718cf2210f19122bd5056b05a1fed20e8e2b7567ce567a5975478e5c94f",
+    "comparison.json": "1940e21ee5c65ecb8861059da68247028d073aa78f36a5d38923cff60d5c0c8f"
+  }
+}
