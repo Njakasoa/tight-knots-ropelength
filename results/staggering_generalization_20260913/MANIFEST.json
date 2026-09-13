@@ -1,0 +1,24 @@
+{
+  "base_commit": "71018e24ff9824afb992669c1d872ef11582b955",
+  "scope": "Generalized-staggering follow-up; original publication artifacts unchanged",
+  "files": {
+    "NEXT.md": "7f54a67e901758a197d9bc52373d83fc734a5b6d5a87f1a1539ef8bf8c0f91a4",
+    "NOVELTY_LOG.md": "4d30e3c16190992902935394596d2554d0cb3ad6f46ee0eb5785043e353744dc",
+    "README.md": "7adf61e476443514aed93ef005ef5a0cefe2e1e6337e044c00d57e4e7df2e0ac",
+    "RESEARCH_LOG.md": "2fb2a349f82820892b67e4d60e3a2b593d8a0922974aafd445b0d9202f11a545",
+    "RESULTS.md": "b26bff5076866dac1d37c8182d4c7dd2da69c00a3613a9b0c009c8aac389bf12",
+    "experiments/generalize_staggering.py": "abc2d126e3baefd14c3e7ab0f0bcd2e6ff08c8718b9ed6c21f1ad4430a51cb24",
+    "experiments/plot_staggering_generalization.py": "1d60dcf316c5a113fdd785304fbcd21dceeb72c89422c3e2ea45de4e8293068d",
+    "experiments/replay_staggering_generalization.py": "ff71e00fc8d502e88a7dc5510c7ca60af67bfb45f94ea48518006986a2caad74",
+    "proofs/STAGGERING_GENERALIZATION.md": "22298eb1c7a91760873e2615172b9288b534b08e811ee1aa12cd213b3a6538ca",
+    "proofs/STAGGERING_GENERALIZATION_VALIDATION.md": "f1093734a341b9d733419b86b48835b3f99802d51a569d32ca146a8638067423",
+    "results/staggering_generalization_20260913/investigation.json": "22ca24b9f46c934715f5716738d8f926c6d04ba80ffb6f2fdc24f15ab2341373",
+    "results/staggering_generalization_20260913/periodic_patterns.pdf": "c73fd185e1d211f3f50e55c96f0890692be5996eaeed618ae1c591f3ea87ea3f",
+    "results/staggering_generalization_20260913/periodic_patterns.png": "081e15c51d141f442bc675cb339721c302970f0d0c58f5eaa354d5abd150f42c",
+    "results/staggering_generalization_20260913/replay.json": "89538e206819c5cca0d682fdc48fa3aa4210c1c7d7df713fab470a7c4c51f629",
+    "results/staggering_generalization_20260913/reproduction.log": "dc66feb2920fa8238ac0c11f2d008b82bbee1437bf5b5f0b608cdca999b6d05c",
+    "results/staggering_generalization_20260913/tests.log": "893c2c3b6dc91e1603ab02ba7919d5c3c47e8455cea5c618dafac691b86369ae",
+    "src/discovery/periodic_staggering.py": "a1aae436ecb489398918e26bf3dcf74a3977297701d4a0b69610e2f3505d4981",
+    "tests/test_periodic_staggering.py": "3d1d19802610602ca4b5f89337dd26ccc59643eb216357a8000305524e06c408"
+  }
+}

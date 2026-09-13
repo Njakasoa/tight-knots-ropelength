@@ -7,6 +7,11 @@ submitted or communicated externally.
 
 Useful next questions, not conclusions of the present results:
 
+Update 2026-09-13: `proofs/STAGGERING_GENERALIZATION.md` now answers the
+fixed-period question within the saturated row test for all p, and certifies
+five same-M nonuniform-radius improvements. The broader optimization tasks
+below remain open; the new finite examples are not optimized over block sizes.
+
 1. Compare constructions at equal component countM, including deletion costs,
    before claiming a finite-size or all-M subleading improvement.
 2. Optimize nonuniform block schedules and determine whether a true finite-T

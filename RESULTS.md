@@ -5,6 +5,27 @@ mathematical results and a local publication candidate. The broader research
 programme remains a source of follow-up questions; global optimality and
 publication priority have not been established.
 
+## Follow-up: periods and nonuniform radii (2026-09-13)
+
+The [generalization note](proofs/STAGGERING_GENERALIZATION.md) derives the exact
+minimum mean sufficient gap for every closed period p in the saturated
+equal-population row model: sqrt(3) for even p and
+sqrt(3)+(2-sqrt(3))/p for odd p. Even equality repeats period two. Odd periods
+benefit from nonuniform gaps but remain worse than alternation. An explicit
+finite separation criterion also covers unequal populations and arbitrary
+phase sets, with no new claim of global geometric optimality.
+
+At fixed M, R, phases and populations, five nonuniform-radius constructions
+have strictly shorter certified lengths than their baseline shell geometries.
+For M=356 and 1,114 the reductions are approximately 0.76707% and 0.37470%.
+All shell pairs and both full lengths are checked using exact inputs and Arb;
+the inherited self-reach and topology arguments remain those of Theorem 001.
+The new study includes 21 periodic finite examples and 31 additional tests;
+the full suite now passes 96 tests. See the [machine-readable evidence](results/staggering_generalization_20260913/investigation.json).
+This follow-up has not yet had an independent mathematical referee review.
+It establishes no improvement to the leading coefficient alpha2 and is not
+included in the earlier compiled publication candidate.
+
 ## Constructive torus-link upper bound
 
 In the convention thickness=rope radius, with total component length,

@@ -44,3 +44,13 @@ The M2 phase search rediscovershalfphase staggering and the numerical variable-
 pitch/refinement/contact experiments are not new-theorem claims. The local
 publication candidate states these distinctions and has received internal
 adversarial review, not external peer review.
+
+## 2026-09-13 — generalized staggering follow-up
+
+The exact all-period optimization within the sufficient row test and the
+fixed-M nonuniform finite examples are recorded in
+proofs/STAGGERING_GENERALIZATION.md. No priority claim is made. Periodic
+packing, triangular packing and toroidal shells have substantial prior art;
+the planar density context was checked against Chang–Wang (arXiv:1009.4322)
+and Connelly–Dickinson (arXiv:1201.5965). The new derivations have not had an
+independent mathematical referee report. No improvement to alpha2 is asserted.

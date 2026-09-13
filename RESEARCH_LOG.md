@@ -135,3 +135,17 @@ coordinates, not rounded parsed floats, enter the proof inequalities. The
 math review passes; independent replay/tamper review is recorded separately.
 
 Final independent refinement review PASS: all three analytic reconstructions, full witness replays, complete coverage and eight tamper/input/runtime rejection cases. The hardened checker rejects Python -O and malformed trailing VECT data. The final full publication reproduction passes all seven commands; the PDF compiles cleanly and all seven pages were visually inspected after fixing the abstract clipping. Main M1–M4 deliverables are complete within the explicitly documented scope; follow-up research remains in NEXT.md.
+
+## 2026-09-13 — generalizing staggering
+
+Derived an arbitrary-phase finite separation construction and an exact
+all-period mean-gap optimum for the saturated equal-population row test.
+Even optimal motifs repeat period two; odd p has mean gap
+sqrt(3)+(2-sqrt(3))/p and benefits from a single larger defect gap.
+Certified 21 finite periodic examples and five nonuniform-radius constructions
+at unchanged M,R,populations,phases. The latter reduce baseline lengths by
+approximately 0.76707%, 0.37470%, 0.20308%, 0.12839%, and 0.06950%.
+The 26 exact-input certificates replay, code hashes match, and the full suite
+passes 96 tests. Proof and scope audit: STAGGERING_GENERALIZATION.md and
+STAGGERING_GENERALIZATION_VALIDATION.md. This is a root-derived follow-up,
+not an independently refereed result or a new asymptotic coefficient.

@@ -8,8 +8,16 @@ The full programme is [RESEARCH_MISSION.md](RESEARCH_MISSION.md).
 M1 passed the independent [review](benchmarks/M1_REVIEW.md):27 tests, including
 12 independent tests, with actual solver runs and audited proof/certificate paths.
 M2 also passed for the bounded shell-discovery grammar. The expanded suite has
-65 passing tests, with separate independent endpoint-isotopy certificates for
+65 passing tests at the original delivery, with separate independent endpoint-isotopy certificates for
 the three free-vertex refinements. See [reviewed results](RESULTS.md).
+
+Follow-up: [generalized staggering](proofs/STAGGERING_GENERALIZATION.md) proves
+an exact all-period optimum within the existing sufficient row model and gives
+certified finite improvements from nonuniform radii at fixed component counts.
+Period 3 and higher are feasible; repeating period 2 remains best in that row
+model. Five nonuniform examples reduce constructed lengths by about 0.07–0.77%.
+The current suite passes 96 tests. The new derivations have not yet received
+an independent mathematical referee report and do not improve the leading bound.
 
 A mathematical result has passed separate adversarial proof and implementation
 reviews: the explicit staggered shell family satisfies

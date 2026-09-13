@@ -1,0 +1,6 @@
+T=9 M=356 gain(%)=[0.767069939989596605300903 +/- 3.35e-5]
+T=16 M=1114 gain(%)=[0.374701691325753927230835 +/- 3.57e-5]
+T=36 M=5678 gain(%)=[0.203084122389554977416992 +/- 3.63e-5]
+T=64 M=18162 gain(%)=[0.128386741038411855697632 +/- 3.63e-5]
+T=128 M=73986 gain(%)=[0.0695043061859905719757080 +/- 3.60e-5]
+/home/njakasoa/.openclaw/workspace/projects/github/tight-knots-ropelength/tight-knots-lab/results/staggering_generalization_20260913/investigation.json
